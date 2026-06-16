@@ -11,3 +11,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-14,Ivory Coast,Ecuador,1,0,home_win,0.156,0.286,0.559,away_win,False,Ecuador,True,0.156
 2026-06-14,Netherlands,Japan,2,2,draw,0.388,0.314,0.299,home_win,False,Netherlands,True,0.314
 2026-06-14,Sweden,Tunisia,5,1,home_win,0.465,0.216,0.32,home_win,True,Sweden,False,0.465
+2026-06-15,Belgium,Egypt,1,1,draw,0.547,0.235,0.218,home_win,False,Belgium,True,0.235
+2026-06-15,Iran,New Zealand,2,2,draw,0.547,0.314,0.14,home_win,False,Iran,True,0.314
+2026-06-15,Spain,Cape Verde,0,0,draw,0.862,0.118,0.02,home_win,False,Spain,True,0.118
+2026-06-15,Saudi Arabia,Uruguay,1,1,draw,0.154,0.242,0.604,away_win,False,Uruguay,True,0.242
