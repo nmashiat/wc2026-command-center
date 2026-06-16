@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code (keep settings out of the repo by default)
+.vscode/
+
+# Keep data + generated outputs OUT of git if you prefer a lean repo;
+# comment these two lines if you want them committed.
+# data/results.csv
+# outputs/*.db

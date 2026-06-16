@@ -1,0 +1,13 @@
+date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,favorite,upset,p_actual
+2026-06-11,South Korea,Czechia,2,1,home_win,0.463,0.287,0.25,home_win,True,South Korea,False,0.463
+2026-06-11,Mexico,South Africa,2,0,home_win,0.819,0.135,0.045,home_win,True,Mexico,False,0.819
+2026-06-12,Canada,Bosnia & Herzegovina,1,1,draw,0.759,0.171,0.069,home_win,False,Canada,True,0.171
+2026-06-12,United States,Paraguay,4,1,home_win,0.39,0.25,0.36,home_win,True,Paraguay,True,0.39
+2026-06-13,Qatar,Switzerland,1,1,draw,0.074,0.188,0.738,away_win,False,Switzerland,True,0.188
+2026-06-13,Brazil,Morocco,1,1,draw,0.432,0.269,0.299,home_win,False,Brazil,True,0.269
+2026-06-13,Haiti,Scotland,0,1,away_win,0.205,0.255,0.54,away_win,True,Scotland,False,0.54
+2026-06-13,Australia,Türkiye,2,0,home_win,0.317,0.279,0.404,away_win,False,Türkiye,True,0.317
+2026-06-14,Germany,Curaçao,7,1,home_win,0.829,0.124,0.047,home_win,True,Germany,False,0.829
+2026-06-14,Ivory Coast,Ecuador,1,0,home_win,0.156,0.286,0.559,away_win,False,Ecuador,True,0.156
+2026-06-14,Netherlands,Japan,2,2,draw,0.388,0.314,0.299,home_win,False,Netherlands,True,0.314
+2026-06-14,Sweden,Tunisia,5,1,home_win,0.465,0.216,0.32,home_win,True,Sweden,False,0.465

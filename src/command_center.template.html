@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FIFA World Cup 2026 — Analytics Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#080A10;--bg2:#0F141B;--surface:#151B24;--surface2:#1B232E;--line:#232C38;--line2:#2E3947;
+    --text:#E8EDF4;--muted:#8A97A8;--dim:#5C6878;--turf:#34D399;--turf-d:#0E3B2E;
+    --gold:#F4C04E;--gold-d:#3A2E10;--coral:#F2658B;--coral-d:#3A1622;--blue:#5AA9FF;--blue-d:#10283F;
+    --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;--disp:'Space Grotesk',system-ui,sans-serif;
+    --body:'Inter',system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);-webkit-font-smoothing:antialiased}
+  body{background:
+    radial-gradient(1100px 620px at 86% -12%,rgba(236,72,153,.16),transparent 60%),
+    radial-gradient(960px 560px at 8% -8%,rgba(139,92,246,.15),transparent 58%),
+    radial-gradient(900px 560px at 98% 55%,rgba(56,189,248,.11),transparent 55%),
+    radial-gradient(900px 600px at 2% 72%,rgba(52,211,153,.11),transparent 55%),
+    radial-gradient(760px 520px at 50% 118%,rgba(244,192,78,.09),transparent 60%),
+    var(--bg);background-attachment:fixed;line-height:1.5}
+  body::before{content:"";position:fixed;inset:0 0 auto 0;height:4px;z-index:60;
+    background:linear-gradient(90deg,#ec4899,#8b5cf6,#5AA9FF,#34D399,#F4C04E,#F2658B)}
+  .wrap{max-width:1160px;margin:0 auto;padding:24px 18px 70px}
+  a{color:var(--blue);text-decoration:none}
+
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--turf);display:flex;align-items:center;justify-content:center;gap:9px}
+  .eyebrow::before{content:"";width:24px;height:1px;background:var(--turf);opacity:.7}
+  h1{font-family:var(--disp);font-weight:700;letter-spacing:-.02em;line-height:1.0;margin:12px 0 6px;font-size:clamp(28px,5.4vw,48px);text-align:center}
+  h1 .y{background:linear-gradient(92deg,#ec4899,#8b5cf6,#5AA9FF,#34D399);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .lead{color:var(--muted);font-size:14.5px;margin:0 auto;text-align:center}
+  .stack{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin:16px 0 4px}
+  .chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line2);background:var(--surface);border-radius:6px;padding:5px 9px}
+
+  .tabs{display:flex;gap:4px;margin:22px 0 0;border-bottom:1px solid var(--line)}
+  .tab{font-family:var(--disp);font-weight:500;font-size:14px;color:var(--muted);background:transparent;border:0;border-bottom:2px solid transparent;padding:12px 16px;cursor:pointer;transition:.15s;display:flex;align-items:center;gap:8px}
+  .tab:hover{color:var(--text)}
+  .tab[aria-selected="true"]{color:var(--text);border-bottom-color:var(--turf)}
+  .tab .n{font-family:var(--mono);font-size:10px;color:var(--dim)}
+  .panel{display:none;padding-top:24px}
+  .panel.on{display:block;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+  .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:11px}
+  @media(max-width:780px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .kpi .l{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+  .kpi .v{font-family:var(--disp);font-weight:700;font-size:clamp(22px,3.4vw,30px);margin-top:6px;letter-spacing:-.01em}
+  .kpi .v.turf{color:var(--turf)} .kpi .v.gold{color:var(--gold)} .kpi .v.coral{color:var(--coral)} .kpi .v.blue{color:var(--blue)}
+
+  .secrow{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:30px 0 14px}
+  .secrow h2{font-family:var(--disp);font-weight:600;font-size:18px;margin:0}
+  .secrow .sub{font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+  .groups{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media(max-width:880px){.groups{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.groups{grid-template-columns:1fr}}
+  .gcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 12px 6px}
+  .gcard h3{font-family:var(--disp);font-weight:600;font-size:12px;color:var(--muted);letter-spacing:.05em;margin:0 0 8px;display:flex;justify-content:space-between}
+  .gtab{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:11px}
+  .gtab th{color:var(--dim);font-weight:500;text-align:right;padding:2px 4px;font-size:9.5px;letter-spacing:.04em}
+  .gtab th:first-child{text-align:left}
+  .gtab td{padding:5px 4px;text-align:right;border-top:1px solid var(--line)}
+  .gtab td.t{text-align:left;font-family:var(--body);font-size:12px;color:var(--text);white-space:nowrap}
+  .gtab .pts{color:var(--turf);font-weight:700}
+  .qual{box-shadow:inset 3px 0 0 var(--turf)}
+
+  .bars{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .brow{display:grid;grid-template-columns:120px 1fr 46px;align-items:center;gap:10px;margin-bottom:7px}
+  .brow .nm{font-size:12.5px;display:flex;gap:7px;align-items:center;white-space:nowrap;overflow:hidden}
+  .brow .track{height:18px;background:var(--surface2);border-radius:5px;overflow:hidden}
+  .brow .fill{height:100%;border-radius:5px}
+  .brow .val{font-family:var(--mono);font-size:11px;color:var(--muted);text-align:right}
+
+  .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+  table.data{border-collapse:collapse;width:100%;min-width:640px}
+  table.data th{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500;text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg2)}
+  table.data td{padding:10px 12px;border-bottom:1px solid var(--line);font-size:13px}
+  table.data tr:hover{background:rgba(255,255,255,.018)}
+  .wdl{display:flex;height:16px;border-radius:4px;overflow:hidden;min-width:160px;font-family:var(--mono)}
+  .wdl span{display:flex;align-items:center;justify-content:center;font-size:9px;color:#06121d}
+  .wdl .h{background:var(--blue)} .wdl .d{background:var(--dim)} .wdl .a{background:var(--coral)}
+  .risk{font-family:var(--mono);font-size:12px;font-weight:700}
+  .pill{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;padding:2px 7px;border-radius:5px;border:1px solid var(--line2);color:var(--muted)}
+
+  .upset{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:18px}
+  .upset h3{font-family:var(--disp);font-size:14px;margin:0 0 12px;color:var(--gold);display:flex;align-items:center;gap:8px}
+  .uitem{display:grid;grid-template-columns:1fr 64px 120px;align-items:center;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:13px}
+  .uitem .m{font-weight:500} .uitem .m .vs{color:var(--dim);font-weight:400}
+  .uitem .rk{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--coral);text-align:right}
+  .uitem .meter{height:7px;background:var(--surface2);border-radius:99px;overflow:hidden}
+  .uitem .meter i{display:block;height:100%;background:var(--coral);border-radius:99px}
+
+  .sent{display:grid;gap:7px}
+  .srow{display:grid;grid-template-columns:120px 1fr 1fr 52px;align-items:center;gap:8px;font-size:12.5px}
+  .srow .nm{display:flex;gap:7px;align-items:center;white-space:nowrap;overflow:hidden}
+  .srow .negbar,.srow .posbar{height:16px;display:flex}
+  .srow .negbar{justify-content:flex-end}
+  .srow .negbar i{background:var(--coral);border-radius:4px 0 0 4px}
+  .srow .posbar i{background:var(--turf);border-radius:0 4px 4px 0}
+  .srow .mid{font-family:var(--mono);font-size:11px;text-align:right}
+  .srow .mid.p{color:var(--turf)} .srow .mid.n{color:var(--coral)}
+  .axis{display:grid;grid-template-columns:120px 1fr 1fr 52px;gap:8px;font-family:var(--mono);font-size:9.5px;color:var(--dim);margin-bottom:6px}
+  .axis .c{text-align:center}
+
+  .note{color:var(--muted);font-size:12.5px;margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+  .note b{color:var(--text)} .note code{font-family:var(--mono);background:var(--surface2);border:1px solid var(--line);border-radius:5px;padding:1px 6px;color:var(--turf);font-size:11.5px}
+  .flag{font-size:15px;line-height:1}
+  .foot{margin-top:30px;border-top:1px solid var(--line);padding-top:16px;color:var(--dim);font-family:var(--mono);font-size:11px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>World Cup <span class="y">2026</span> AI Analytics Command Center</h1>
+  <p class="lead">BI dashboards, match prediction, upset-risk modeling, and NLP fan sentiment analysis powered by Python, SQL, and scikit-learn.</p>
+  <div class="stack" id="stack"></div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-p="overview">Overview <span class="n">BI</span></button>
+    <button class="tab" role="tab" aria-selected="false" data-p="predict">Predictions <span class="n">ML</span></button>
+    <button class="tab" role="tab" aria-selected="false" data-p="sentiment">Sentiment <span class="n">NLP</span></button>
+  </div>
+
+  <section class="panel on" id="overview"></section>
+  <section class="panel" id="predict"></section>
+  <section class="panel" id="sentiment"></section>
+
+  <div class="foot" style="justify-content:center">
+    <span>Built by Mashiat Nabila · Python · SQL · scikit-learn · NLP · SQLite</span>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+
+const FLAG = {"Mexico":"🇲🇽","South Africa":"🇿🇦","South Korea":"🇰🇷","Czechia":"🇨🇿","Canada":"🇨🇦","Bosnia & Herzegovina":"🇧🇦","Qatar":"🇶🇦","Switzerland":"🇨🇭","Brazil":"🇧🇷","Morocco":"🇲🇦","Haiti":"🇭🇹","Scotland":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","United States":"🇺🇸","Paraguay":"🇵🇾","Australia":"🇦🇺","Türkiye":"🇹🇷","Germany":"🇩🇪","Curaçao":"🇨🇼","Ivory Coast":"🇨🇮","Ecuador":"🇪🇨","Netherlands":"🇳🇱","Japan":"🇯🇵","Sweden":"🇸🇪","Tunisia":"🇹🇳","Belgium":"🇧🇪","Egypt":"🇪🇬","Iran":"🇮🇷","New Zealand":"🇳🇿","Spain":"🇪🇸","Cape Verde":"🇨🇻","Saudi Arabia":"🇸🇦","Uruguay":"🇺🇾","France":"🇫🇷","Senegal":"🇸🇳","Iraq":"🇮🇶","Norway":"🇳🇴","Argentina":"🇦🇷","Algeria":"🇩🇿","Austria":"🇦🇹","Jordan":"🇯🇴","Portugal":"🇵🇹","DR Congo":"🇨🇩","Uzbekistan":"🇺🇿","Colombia":"🇨🇴","England":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croatia":"🇭🇷","Ghana":"🇬🇭","Panama":"🇵🇦"};
+const flag = t => FLAG[t] || "🏳️";
+const pct = x => (x*100).toFixed(0)+"%";
+
+const STACK = ["Python","pandas","NumPy","SQL / SQLite","scikit-learn","feature engineering","classification","NLP · sentiment","data visualization","GitHub"];
+document.getElementById("stack").innerHTML = STACK.map(s=>`<span class="chip">${s}</span>`).join("");
+
+// ---------- tabs ----------
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected", x===t));
+  document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("on", p.id===t.dataset.p));
+}));
+
+// ---------- OVERVIEW (BI) ----------
+(function(){
+  const s = DATA.summary, total = s.home_wins+s.draws+s.away_wins || 1;
+  const kpis = [
+    ["Matches played", s.matches_played, "turf"],
+    ["Goals scored", s.total_goals, "gold"],
+    ["Goals / match", (+s.avg_goals_per_match).toFixed(2), ""],
+    ["Home win rate", pct(s.home_wins/total), "blue"],
+    ["Clean sheets", s.clean_sheets, "coral"],
+  ];
+  let h = `<div class="kpis">${kpis.map(k=>`<div class="kpi"><div class="l">${k[0]}</div><div class="v ${k[2]}">${k[1]}</div></div>`).join("")}</div>`;
+
+  // group standings
+  const groups = {};
+  DATA.teams.forEach(t=>{(groups[t.grp]=groups[t.grp]||[]).push(t);});
+  const order = Object.keys(groups).sort();
+  h += `<div class="secrow"><h2>Group standings &amp; team strength</h2><span class="sub">top 2 + best 3rds advance · Pts then GD · Elo shown</span></div>`;
+  h += `<div class="groups">`;
+  for(const g of order){
+    const rows = groups[g].slice().sort((a,b)=> b.points-a.points || b.gd_wc-a.gd_wc || b.elo-a.elo);
+    h += `<div class="gcard"><h3>Group ${g}<span style="font-family:var(--mono);font-size:9px;color:var(--dim)">P W D L · Pts</span></h3>
+      <table class="gtab"><tr><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th><th>Elo</th></tr>
+      ${rows.map((t,i)=>`<tr class="${i<2?'qual':''}">
+        <td class="t">${flag(t.team)} ${t.team}</td>
+        <td>${t.played}</td><td>${t.won}</td><td>${t.drawn}</td><td>${t.lost}</td>
+        <td>${t.gd_wc>0?'+':''}${t.gd_wc}</td><td class="pts">${t.points}</td>
+        <td style="color:var(--dim)">${Math.round(t.elo)}</td></tr>`).join("")}
+      </table></div>`;
+  }
+  h += `</div>`;
+
+  // top 12 by Elo
+  const top = DATA.teams.slice().sort((a,b)=>b.elo-a.elo).slice(0,12);
+  const mx = top[0].elo, mn = Math.min(...top.map(t=>t.elo))-40;
+  h += `<div class="secrow"><h2>Strength index</h2><span class="sub">Elo computed chronologically from 49k results</span></div>`;
+  h += `<div class="bars">${top.map(t=>{
+    const w = 100*(t.elo-mn)/(mx-mn);
+    return `<div class="brow"><div class="nm">${flag(t.team)} ${t.team}</div>
+      <div class="track"><div class="fill" style="width:${w}%;background:linear-gradient(90deg,rgba(52,211,153,.25),var(--turf))"></div></div>
+      <div class="val">${Math.round(t.elo)}</div></div>`;}).join("")}</div>`;
+
+  // biggest wins
+  if(DATA.biggest_wins.length){
+    h += `<div class="secrow"><h2>Most dominant results so far</h2><span class="sub">by goal margin</span></div>`;
+    h += `<div class="scroll"><table class="data"><tr><th>Date</th><th>Match</th><th>Score</th><th>Margin</th></tr>`;
+    h += DATA.biggest_wins.slice(0,6).map(w=>`<tr><td style="font-family:var(--mono);color:var(--muted)">${w.date}</td>
+      <td>${flag(w.home_team)} ${w.home_team} v ${w.away_team} ${flag(w.away_team)}</td>
+      <td style="font-family:var(--mono)">${w.home_score}–${w.away_score}</td>
+      <td style="font-family:var(--mono);color:var(--turf)">+${w.margin}</td></tr>`).join("");
+    h += `</table></div>`;
+  }
+  document.getElementById("overview").innerHTML = h;
+})();
+
+// ---------- PREDICTIONS (ML) ----------
+(function(){
+  const fx = DATA.fixtures;
+  const res = DATA.results || [];
+  const sc = DATA.scorecard || {graded:0};
+  const wordOf = {home_win:"home win", away_win:"away win", draw:"draw"};
+  let h = "";
+
+  // live scorecard
+  if(sc.graded>0){
+    h += `<div class="secrow"><h2><span style="color:var(--turf)">●</span> Model scorecard — live</h2>
+      <span class="sub">graded vs actual results · pre-tournament model</span></div>`;
+    h += `<div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+      <div class="kpi"><div class="l">Matches graded</div><div class="v">${sc.graded}</div></div>
+      <div class="kpi"><div class="l">Correct picks</div><div class="v turf">${sc.correct} <span style="font-size:14px;color:var(--muted)">/ ${sc.graded} · ${pct(sc.accuracy)}</span></div></div>
+      <div class="kpi"><div class="l">Upsets so far</div><div class="v coral">${sc.upsets}</div></div>
+      <div class="kpi"><div class="l">Live log-loss</div><div class="v">${sc.log_loss}</div></div></div>`;
+
+    // results so far (most recent first)
+    h += `<div class="secrow"><h2>Results so far — pick vs actual</h2><span class="sub">${res.length} World Cup matches played</span></div>`;
+    h += `<div class="scroll"><table class="data"><tr><th>Date</th><th>Result</th><th>Model picked</th><th>Prob of actual</th><th>Hit</th></tr>`;
+    h += res.slice().reverse().slice(0,16).map(r=>{
+      const hit = r.correct
+        ? `<span style="color:var(--turf);font-weight:700">✓</span>`
+        : `<span style="color:var(--coral);font-weight:700">✗</span>`;
+      const ups = r.upset ? ` <span class="pill" style="color:var(--coral);border-color:var(--coral-d)">upset</span>` : "";
+      return `<tr>
+        <td style="font-family:var(--mono);color:var(--muted);white-space:nowrap">${r.date}</td>
+        <td style="white-space:nowrap">${flag(r.home)} ${r.home} <b style="font-family:var(--mono)">${r.home_score}–${r.away_score}</b> ${r.away} ${flag(r.away)}${ups}</td>
+        <td style="white-space:nowrap;color:var(--muted)">${wordOf[r.pick]}</td>
+        <td style="font-family:var(--mono);color:var(--dim)">${pct(r.p_actual)}</td>
+        <td>${hit}</td></tr>`;}).join("");
+    h += `</table></div>`;
+  }
+
+  // upset watch: clear favorites (gap>=100) by upset risk
+  const watch = fx.filter(f=>f.elo_gap>=100).sort((a,b)=>b.upset_risk-a.upset_risk).slice(0,6);
+  const mxr = Math.max(...watch.map(w=>w.upset_risk), 0.01);
+  h += `<div class="secrow"><h2>Looking ahead</h2><span class="sub">predictions for unplayed fixtures</span></div>`;
+  h += `<div class="upset"><h3>⚠ Upset watch — clear favorites most at risk</h3>
+    ${watch.map(w=>{const opp = w.favorite===w.home?w.away:w.home;
+      return `<div class="uitem">
+        <div class="m">${flag(w.favorite)} ${w.favorite} <span class="vs">favoured vs</span> ${opp} ${flag(opp)}</div>
+        <div class="rk">${pct(w.upset_risk)}</div>
+        <div class="meter"><i style="width:${100*w.upset_risk/mxr}%"></i></div></div>`;}).join("")}
+    <div class="note">Upset risk = probability the higher-Elo side fails to win (draw or loss), from the blend model.</div></div>`;
+
+  // upcoming fixtures table (chronological, first 22)
+  h += `<div class="secrow"><h2>Upcoming fixtures — win / draw / loss</h2><span class="sub">blend model · ${fx.length} fixtures left</span></div>`;
+  h += `<div class="scroll"><table class="data"><tr><th>Date</th><th>Fixture</th><th>Home / Draw / Away</th><th>Favorite</th><th>Upset risk</th></tr>`;
+  h += fx.slice(0,22).map(f=>{
+    const ph=Math.round(f.p_home*100), pdd=Math.round(f.p_draw*100), pa=100-ph-pdd;
+    const rcol = f.upset_risk>=0.5?'var(--coral)':f.upset_risk>=0.4?'var(--gold)':'var(--turf)';
+    return `<tr>
+      <td style="font-family:var(--mono);color:var(--muted);white-space:nowrap">${f.date}</td>
+      <td style="white-space:nowrap">${flag(f.home)} ${f.home} <span style="color:var(--dim)">v</span> ${f.away} ${flag(f.away)}</td>
+      <td><div class="wdl"><span class="h" style="width:${ph}%">${ph>11?ph:''}</span><span class="d" style="width:${pdd}%">${pdd>11?pdd:''}</span><span class="a" style="width:${pa}%">${pa>11?pa:''}</span></div></td>
+      <td style="white-space:nowrap">${flag(f.favorite)} ${f.favorite} <span class="pill">${f.gap_class}</span></td>
+      <td class="risk" style="color:${rcol}">${pct(f.upset_risk)}</td></tr>`;}).join("");
+  h += `</table></div>`;
+  h += `<div class="note"><b>Model.</b> Blend of gradient boosting + logistic regression on Elo, recent form, rolling goals, rest days, venue and match context. The scorecard grades a <b>pre-tournament</b> model (trained only on matches before June 11) against real results — no leakage. Offline time-split test (train ≤2017, test 2018–25): <b>60% accuracy</b>, <b>0.87 log-loss</b> vs 48% / 1.05 baseline. <span style="color:var(--dim)">Legend: <span style="color:var(--blue)">home</span> / <span style="color:var(--dim)">draw</span> / <span style="color:var(--coral)">away</span>.</span></div>`;
+  document.getElementById("predict").innerHTML = h;
+})();
+
+// ---------- SENTIMENT (NLP) ----------
+(function(){
+  const se = DATA.sentiment.slice().sort((a,b)=>b.mean_sentiment-a.mean_sentiment);
+  const top = se[0], bot = se[se.length-1];
+  let h = `<div class="kpis" style="grid-template-columns:repeat(3,1fr)">
+    <div class="kpi"><div class="l">Most positive fanbase</div><div class="v turf" style="font-size:20px">${flag(top.team)} ${top.team}</div></div>
+    <div class="kpi"><div class="l">Most negative fanbase</div><div class="v coral" style="font-size:20px">${flag(bot.team)} ${bot.team}</div></div>
+    <div class="kpi"><div class="l">Comments analyzed</div><div class="v">${DATA.meta.fan_comments.toLocaleString()}</div></div></div>`;
+
+  h += `<div class="secrow"><h2>Illustrative fan sentiment by team</h2><span class="sub">% negative ◄ neutral ► % positive</span></div>`;
+  h += `<div class="bars"><div class="axis"><div></div><div class="c">negative</div><div class="c">positive</div><div></div></div><div class="sent">`;
+  h += se.map(t=>`<div class="srow" title="${(t.sample_positive||'').replace(/"/g,'&quot;')}">
+      <div class="nm">${flag(t.team)} ${t.team}</div>
+      <div class="negbar"><i style="width:${t.pct_negative}%"></i></div>
+      <div class="posbar"><i style="width:${t.pct_positive}%"></i></div>
+      <div class="mid ${t.mean_sentiment>=0?'p':'n'}">${t.mean_sentiment>=0?'+':''}${t.mean_sentiment.toFixed(2)}</div>
+    </div>`).join("");
+  h += `</div></div>`;
+  h += `<div class="note" style="margin-top:24px;text-align:center"><b>NLP Fan Sentiment Analysis</b> — Illustrative fan-comment corpus scored from −1 negative to +1 positive and aggregated by team.</div>`;
+  document.getElementById("sentiment").innerHTML = h;
+})();
+</script>
+</body>
+</html>
