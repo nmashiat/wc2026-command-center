@@ -15,3 +15,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-15,Iran,New Zealand,2,2,draw,0.547,0.314,0.14,home_win,False,Iran,True,0.314
 2026-06-15,Spain,Cape Verde,0,0,draw,0.862,0.118,0.02,home_win,False,Spain,True,0.118
 2026-06-15,Saudi Arabia,Uruguay,1,1,draw,0.154,0.242,0.604,away_win,False,Uruguay,True,0.242
+2026-06-16,Argentina,Algeria,3,0,home_win,0.704,0.195,0.101,home_win,True,Argentina,False,0.704
+2026-06-16,Austria,Jordan,3,1,home_win,0.529,0.255,0.216,home_win,True,Austria,False,0.529
+2026-06-16,France,Senegal,3,1,home_win,0.593,0.249,0.158,home_win,True,France,False,0.593
+2026-06-16,Iraq,Norway,1,4,away_win,0.125,0.203,0.672,away_win,True,Norway,False,0.672
