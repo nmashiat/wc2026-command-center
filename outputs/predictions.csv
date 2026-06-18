@@ -1,8 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-17,Portugal,DR Congo,0.7,0.193,0.107,home_win,Portugal,0.7,298,clear favorite,0.3
-2026-06-17,Uzbekistan,Colombia,0.161,0.228,0.611,away_win,Colombia,0.611,232,clear favorite,0.389
-2026-06-17,England,Croatia,0.569,0.249,0.182,home_win,England,0.569,122,clear favorite,0.431
-2026-06-17,Ghana,Panama,0.166,0.238,0.596,away_win,Panama,0.596,229,clear favorite,0.404
 2026-06-18,Czechia,South Africa,0.486,0.275,0.239,home_win,Czechia,0.486,128,clear favorite,0.514
 2026-06-18,Mexico,South Korea,0.625,0.214,0.161,home_win,Mexico,0.625,88,lean,0.375
 2026-06-18,Switzerland,Bosnia & Herzegovina,0.698,0.201,0.101,home_win,Switzerland,0.698,249,clear favorite,0.302
@@ -23,10 +19,10 @@ date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_g
 2026-06-22,Argentina,Austria,0.669,0.212,0.119,home_win,Argentina,0.669,279,clear favorite,0.331
 2026-06-22,Norway,Senegal,0.554,0.244,0.201,home_win,Norway,0.554,122,clear favorite,0.446
 2026-06-22,France,Iraq,0.779,0.172,0.049,home_win,France,0.779,426,clear favorite,0.221
-2026-06-23,Portugal,Uzbekistan,0.634,0.218,0.148,home_win,Portugal,0.634,231,clear favorite,0.366
-2026-06-23,Colombia,DR Congo,0.689,0.205,0.106,home_win,Colombia,0.689,298,clear favorite,0.311
-2026-06-23,England,Ghana,0.838,0.126,0.036,home_win,England,0.838,470,clear favorite,0.162
-2026-06-23,Panama,Croatia,0.249,0.266,0.485,away_win,Croatia,0.485,120,clear favorite,0.515
+2026-06-23,Portugal,Uzbekistan,0.628,0.226,0.146,home_win,Portugal,0.628,229,clear favorite,0.372
+2026-06-23,Colombia,DR Congo,0.684,0.205,0.111,home_win,Colombia,0.684,296,clear favorite,0.316
+2026-06-23,England,Ghana,0.832,0.129,0.039,home_win,England,0.832,453,clear favorite,0.168
+2026-06-23,Panama,Croatia,0.241,0.246,0.512,away_win,Croatia,0.512,138,clear favorite,0.488
 2026-06-24,Scotland,Brazil,0.153,0.232,0.615,away_win,Brazil,0.615,178,clear favorite,0.385
 2026-06-24,Mexico,Czechia,0.734,0.186,0.081,home_win,Mexico,0.734,206,clear favorite,0.266
 2026-06-24,South Africa,South Korea,0.153,0.23,0.617,away_win,South Korea,0.617,246,clear favorite,0.383
@@ -45,9 +41,9 @@ date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_g
 2026-06-26,Egypt,Iran,0.296,0.312,0.392,away_win,Iran,0.392,63,lean,0.608
 2026-06-26,New Zealand,Belgium,0.138,0.22,0.642,away_win,Belgium,0.642,196,clear favorite,0.358
 2026-06-26,Senegal,Iraq,0.559,0.256,0.185,home_win,Senegal,0.559,167,clear favorite,0.441
-2026-06-27,DR Congo,Uzbekistan,0.32,0.297,0.383,away_win,Uzbekistan,0.383,66,lean,0.617
-2026-06-27,Colombia,Portugal,0.305,0.333,0.363,away_win,Colombia,0.305,1,coin flip,0.695
-2026-06-27,Panama,England,0.106,0.232,0.662,away_win,England,0.662,242,clear favorite,0.338
+2026-06-27,DR Congo,Uzbekistan,0.358,0.31,0.332,home_win,Uzbekistan,0.332,27,coin flip,0.668
+2026-06-27,Colombia,Portugal,0.372,0.301,0.326,home_win,Colombia,0.372,40,lean,0.628
+2026-06-27,Panama,England,0.093,0.195,0.713,away_win,England,0.713,319,clear favorite,0.287
 2026-06-27,Algeria,Austria,0.254,0.313,0.432,away_win,Austria,0.432,53,lean,0.568
 2026-06-27,Jordan,Argentina,0.053,0.151,0.796,away_win,Argentina,0.796,455,clear favorite,0.204
-2026-06-27,Croatia,Ghana,0.738,0.182,0.08,home_win,Croatia,0.738,349,clear favorite,0.262
+2026-06-27,Croatia,Ghana,0.656,0.21,0.134,home_win,Croatia,0.656,272,clear favorite,0.344
