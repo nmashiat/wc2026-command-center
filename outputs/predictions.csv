@@ -1,8 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-18,Czechia,South Africa,0.486,0.275,0.239,home_win,Czechia,0.486,128,clear favorite,0.514
-2026-06-18,Mexico,South Korea,0.625,0.214,0.161,home_win,Mexico,0.625,88,lean,0.375
-2026-06-18,Switzerland,Bosnia & Herzegovina,0.698,0.201,0.101,home_win,Switzerland,0.698,249,clear favorite,0.302
-2026-06-18,Canada,Qatar,0.76,0.184,0.056,home_win,Canada,0.76,278,clear favorite,0.24
 2026-06-19,Türkiye,Paraguay,0.419,0.269,0.313,home_win,Türkiye,0.419,60,lean,0.581
 2026-06-19,United States,Australia,0.416,0.269,0.315,home_win,Australia,0.315,50,lean,0.685
 2026-06-19,Scotland,Morocco,0.246,0.288,0.466,away_win,Morocco,0.466,123,clear favorite,0.534
@@ -24,10 +20,10 @@ date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_g
 2026-06-23,England,Ghana,0.832,0.129,0.039,home_win,England,0.832,453,clear favorite,0.168
 2026-06-23,Panama,Croatia,0.241,0.246,0.512,away_win,Croatia,0.512,138,clear favorite,0.488
 2026-06-24,Scotland,Brazil,0.153,0.232,0.615,away_win,Brazil,0.615,178,clear favorite,0.385
-2026-06-24,Mexico,Czechia,0.734,0.186,0.081,home_win,Mexico,0.734,206,clear favorite,0.266
-2026-06-24,South Africa,South Korea,0.153,0.23,0.617,away_win,South Korea,0.617,246,clear favorite,0.383
-2026-06-24,Canada,Switzerland,0.402,0.308,0.29,home_win,Switzerland,0.29,45,lean,0.71
-2026-06-24,Bosnia & Herzegovina,Qatar,0.427,0.284,0.289,home_win,Bosnia & Herzegovina,0.427,75,lean,0.573
+2026-06-24,Mexico,Czechia,0.752,0.178,0.069,home_win,Mexico,0.752,234,clear favorite,0.248
+2026-06-24,South Africa,South Korea,0.159,0.25,0.591,away_win,South Korea,0.591,218,clear favorite,0.409
+2026-06-24,Canada,Switzerland,0.4,0.317,0.283,home_win,Switzerland,0.283,50,lean,0.717
+2026-06-24,Bosnia & Herzegovina,Qatar,0.416,0.276,0.308,home_win,Bosnia & Herzegovina,0.416,70,lean,0.584
 2026-06-24,Morocco,Haiti,0.723,0.198,0.079,home_win,Morocco,0.723,315,clear favorite,0.277
 2026-06-25,Tunisia,Netherlands,0.112,0.195,0.692,away_win,Netherlands,0.692,329,clear favorite,0.308
 2026-06-25,Japan,Sweden,0.57,0.269,0.161,home_win,Japan,0.57,172,clear favorite,0.43

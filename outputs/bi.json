@@ -1,108 +1,108 @@
 {
   "summary": {
-    "matches_played": 24.0,
-    "total_goals": 75.0,
-    "avg_goals_per_match": 3.13,
-    "home_wins": 12.0,
-    "draws": 9.0,
+    "matches_played": 28.0,
+    "total_goals": 89.0,
+    "avg_goals_per_match": 3.18,
+    "home_wins": 15.0,
+    "draws": 10.0,
     "away_wins": 3.0,
-    "clean_sheets": 7.0
+    "clean_sheets": 9.0
   },
   "standings": [
     {
       "grp": "A",
       "team": "Mexico",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "gf": 2,
+      "gf": 3,
       "ga": 0,
-      "gd": 2,
-      "points": 3
+      "gd": 3,
+      "points": 6
     },
     {
       "grp": "A",
       "team": "South Korea",
-      "played": 1,
+      "played": 2,
       "won": 1,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "gf": 2,
-      "ga": 1,
-      "gd": 1,
+      "ga": 2,
+      "gd": 0,
       "points": 3
     },
     {
       "grp": "A",
       "team": "Czechia",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "gf": 1,
-      "ga": 2,
+      "gf": 2,
+      "ga": 3,
       "gd": -1,
-      "points": 0
+      "points": 1
     },
     {
       "grp": "A",
       "team": "South Africa",
-      "played": 1,
-      "won": 0,
-      "drawn": 0,
-      "lost": 1,
-      "gf": 0,
-      "ga": 2,
-      "gd": -2,
-      "points": 0
-    },
-    {
-      "grp": "B",
-      "team": "Bosnia & Herzegovina",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 1,
-      "lost": 0,
+      "lost": 1,
       "gf": 1,
-      "ga": 1,
-      "gd": 0,
+      "ga": 3,
+      "gd": -2,
       "points": 1
     },
     {
       "grp": "B",
       "team": "Canada",
-      "played": 1,
-      "won": 0,
+      "played": 2,
+      "won": 1,
       "drawn": 1,
       "lost": 0,
-      "gf": 1,
+      "gf": 7,
       "ga": 1,
-      "gd": 0,
+      "gd": 6,
+      "points": 4
+    },
+    {
+      "grp": "B",
+      "team": "Switzerland",
+      "played": 2,
+      "won": 1,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 5,
+      "ga": 2,
+      "gd": 3,
+      "points": 4
+    },
+    {
+      "grp": "B",
+      "team": "Bosnia & Herzegovina",
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "gf": 2,
+      "ga": 5,
+      "gd": -3,
       "points": 1
     },
     {
       "grp": "B",
       "team": "Qatar",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 1,
-      "lost": 0,
+      "lost": 1,
       "gf": 1,
-      "ga": 1,
-      "gd": 0,
-      "points": 1
-    },
-    {
-      "grp": "B",
-      "team": "Switzerland",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 1,
-      "ga": 1,
-      "gd": 0,
+      "ga": 7,
+      "gd": -6,
       "points": 1
     },
     {
@@ -621,6 +621,11 @@
       "date": "2026-06-17",
       "matches": 4,
       "goals": 13
+    },
+    {
+      "date": "2026-06-18",
+      "matches": 4,
+      "goals": 14
     }
   ],
   "biggest_wins": [
@@ -630,6 +635,14 @@
       "away_team": "Cura\u00e7ao",
       "home_score": 7,
       "away_score": 1,
+      "margin": 6
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "home_score": 6,
+      "away_score": 0,
       "margin": 6
     },
     {
@@ -654,6 +667,14 @@
       "away_team": "Norway",
       "home_score": 1,
       "away_score": 4,
+      "margin": 3
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Switzerland",
+      "away_team": "Bosnia & Herzegovina",
+      "home_score": 4,
+      "away_score": 1,
       "margin": 3
     },
     {
@@ -686,22 +707,6 @@
       "away_team": "Jordan",
       "home_score": 3,
       "away_score": 1,
-      "margin": 2
-    },
-    {
-      "date": "2026-06-17",
-      "home_team": "Uzbekistan",
-      "away_team": "Colombia",
-      "home_score": 1,
-      "away_score": 3,
-      "margin": 2
-    },
-    {
-      "date": "2026-06-11",
-      "home_team": "Mexico",
-      "away_team": "South Africa",
-      "home_score": 2,
-      "away_score": 0,
       "margin": 2
     }
   ],
@@ -834,6 +839,20 @@
     },
     {
       "elo_rank": 10,
+      "team": "Mexico",
+      "grp": "A",
+      "confederation": "CONCACAF",
+      "elo": 2011.0,
+      "form_pts": 2.6,
+      "l10": "8-2-0",
+      "gf10": 18,
+      "ga10": 2,
+      "gd10": 16,
+      "avg_gf": 1.8,
+      "avg_ga": 0.2
+    },
+    {
+      "elo_rank": 11,
       "team": "Norway",
       "grp": "I",
       "confederation": "UEFA",
@@ -847,7 +866,7 @@
       "avg_ga": 0.9
     },
     {
-      "elo_rank": 11,
+      "elo_rank": 12,
       "team": "Morocco",
       "grp": "C",
       "confederation": "CAF",
@@ -861,7 +880,7 @@
       "avg_ga": 0.4
     },
     {
-      "elo_rank": 12,
+      "elo_rank": 13,
       "team": "Japan",
       "grp": "F",
       "confederation": "AFC",
@@ -873,20 +892,6 @@
       "gd10": 7,
       "avg_gf": 1.5,
       "avg_ga": 0.8
-    },
-    {
-      "elo_rank": 13,
-      "team": "Mexico",
-      "grp": "A",
-      "confederation": "CONCACAF",
-      "elo": 1993.0,
-      "form_pts": 2.3,
-      "l10": "7-2-1",
-      "gf10": 18,
-      "ga10": 4,
-      "gd10": 14,
-      "avg_gf": 1.8,
-      "avg_ga": 0.4
     },
     {
       "elo_rank": 14,
@@ -918,6 +923,20 @@
     },
     {
       "elo_rank": 16,
+      "team": "Switzerland",
+      "grp": "B",
+      "confederation": "UEFA",
+      "elo": 1948.0,
+      "form_pts": 1.7,
+      "l10": "4-5-1",
+      "gf10": 20,
+      "ga10": 10,
+      "gd10": 10,
+      "avg_gf": 2.0,
+      "avg_ga": 1.0
+    },
+    {
+      "elo_rank": 17,
       "team": "Uruguay",
       "grp": "H",
       "confederation": "CONMEBOL",
@@ -931,7 +950,7 @@
       "avg_ga": 0.8
     },
     {
-      "elo_rank": 17,
+      "elo_rank": 18,
       "team": "Croatia",
       "grp": "L",
       "confederation": "UEFA",
@@ -945,7 +964,7 @@
       "avg_ga": 1.4
     },
     {
-      "elo_rank": 18,
+      "elo_rank": 19,
       "team": "Belgium",
       "grp": "G",
       "confederation": "UEFA",
@@ -957,20 +976,6 @@
       "gd10": 25,
       "avg_gf": 3.2,
       "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 19,
-      "team": "Switzerland",
-      "grp": "B",
-      "confederation": "UEFA",
-      "elo": 1928.0,
-      "form_pts": 1.7,
-      "l10": "4-5-1",
-      "gf10": 19,
-      "ga10": 9,
-      "gd10": 10,
-      "avg_gf": 1.9,
-      "avg_ga": 0.9
     },
     {
       "elo_rank": 20,
@@ -1002,20 +1007,6 @@
     },
     {
       "elo_rank": 22,
-      "team": "South Korea",
-      "grp": "A",
-      "confederation": "AFC",
-      "elo": 1906.0,
-      "form_pts": 1.9,
-      "l10": "6-1-3",
-      "gf10": 15,
-      "ga10": 13,
-      "gd10": 2,
-      "avg_gf": 1.5,
-      "avg_ga": 1.3
-    },
-    {
-      "elo_rank": 23,
       "team": "United States",
       "grp": "D",
       "confederation": "CONCACAF",
@@ -1029,7 +1020,35 @@
       "avg_ga": 1.6
     },
     {
+      "elo_rank": 23,
+      "team": "Canada",
+      "grp": "B",
+      "confederation": "CONCACAF",
+      "elo": 1898.0,
+      "form_pts": 1.5,
+      "l10": "3-6-1",
+      "gf10": 14,
+      "ga10": 5,
+      "gd10": 9,
+      "avg_gf": 1.4,
+      "avg_ga": 0.5
+    },
+    {
       "elo_rank": 24,
+      "team": "South Korea",
+      "grp": "A",
+      "confederation": "AFC",
+      "elo": 1888.0,
+      "form_pts": 1.8,
+      "l10": "6-0-4",
+      "gf10": 13,
+      "ga10": 12,
+      "gd10": 1,
+      "avg_gf": 1.3,
+      "avg_ga": 1.2
+    },
+    {
+      "elo_rank": 25,
       "team": "Senegal",
       "grp": "I",
       "confederation": "CAF",
@@ -1041,20 +1060,6 @@
       "gd10": 5,
       "avg_gf": 1.6,
       "avg_ga": 1.1
-    },
-    {
-      "elo_rank": 25,
-      "team": "Canada",
-      "grp": "B",
-      "confederation": "CONCACAF",
-      "elo": 1883.0,
-      "form_pts": 1.5,
-      "l10": "3-6-1",
-      "gf10": 9,
-      "ga10": 5,
-      "gd10": 4,
-      "avg_gf": 0.9,
-      "avg_ga": 0.5
     },
     {
       "elo_rank": 26,
@@ -1184,20 +1189,6 @@
     },
     {
       "elo_rank": 35,
-      "team": "Czechia",
-      "grp": "A",
-      "confederation": "UEFA",
-      "elo": 1787.0,
-      "form_pts": 1.6,
-      "l10": "4-4-2",
-      "gf10": 21,
-      "ga10": 11,
-      "gd10": 10,
-      "avg_gf": 2.1,
-      "avg_ga": 1.1
-    },
-    {
-      "elo_rank": 36,
       "team": "DR Congo",
       "grp": "K",
       "confederation": "CAF",
@@ -1209,6 +1200,20 @@
       "gd10": 5,
       "avg_gf": 1.1,
       "avg_ga": 0.6
+    },
+    {
+      "elo_rank": 36,
+      "team": "Czechia",
+      "grp": "A",
+      "confederation": "UEFA",
+      "elo": 1777.0,
+      "form_pts": 1.6,
+      "l10": "4-4-2",
+      "gf10": 21,
+      "ga10": 11,
+      "gd10": 10,
+      "avg_gf": 2.1,
+      "avg_ga": 1.1
     },
     {
       "elo_rank": 37,
@@ -1296,20 +1301,6 @@
     },
     {
       "elo_rank": 43,
-      "team": "Bosnia & Herzegovina",
-      "grp": "B",
-      "confederation": "UEFA",
-      "elo": 1680.0,
-      "form_pts": 1.3,
-      "l10": "2-7-1",
-      "gf10": 15,
-      "ga10": 11,
-      "gd10": 4,
-      "avg_gf": 1.5,
-      "avg_ga": 1.1
-    },
-    {
-      "elo_rank": 44,
       "team": "Cape Verde",
       "grp": "H",
       "confederation": "CAF",
@@ -1320,6 +1311,20 @@
       "ga10": 12,
       "gd10": 2,
       "avg_gf": 1.4,
+      "avg_ga": 1.2
+    },
+    {
+      "elo_rank": 44,
+      "team": "South Africa",
+      "grp": "A",
+      "confederation": "CAF",
+      "elo": 1670.0,
+      "form_pts": 1.2,
+      "l10": "3-3-4",
+      "gf10": 10,
+      "ga10": 12,
+      "gd10": -2,
+      "avg_gf": 1.0,
       "avg_ga": 1.2
     },
     {
@@ -1338,34 +1343,20 @@
     },
     {
       "elo_rank": 46,
-      "team": "South Africa",
-      "grp": "A",
-      "confederation": "CAF",
+      "team": "Bosnia & Herzegovina",
+      "grp": "B",
+      "confederation": "UEFA",
       "elo": 1659.0,
-      "form_pts": 1.4,
-      "l10": "4-2-4",
-      "gf10": 12,
-      "ga10": 12,
-      "gd10": 0,
-      "avg_gf": 1.2,
-      "avg_ga": 1.2
+      "form_pts": 1.3,
+      "l10": "2-7-1",
+      "gf10": 15,
+      "ga10": 13,
+      "gd10": 2,
+      "avg_gf": 1.5,
+      "avg_ga": 1.3
     },
     {
       "elo_rank": 47,
-      "team": "Qatar",
-      "grp": "B",
-      "confederation": "AFC",
-      "elo": 1604.0,
-      "form_pts": 0.7,
-      "l10": "1-4-5",
-      "gf10": 6,
-      "ga10": 14,
-      "gd10": -8,
-      "avg_gf": 0.6,
-      "avg_ga": 1.4
-    },
-    {
-      "elo_rank": 48,
       "team": "Cura\u00e7ao",
       "grp": "E",
       "confederation": "CONCACAF",
@@ -1377,6 +1368,20 @@
       "gd10": -1,
       "avg_gf": 2.0,
       "avg_ga": 2.1
+    },
+    {
+      "elo_rank": 48,
+      "team": "Qatar",
+      "grp": "B",
+      "confederation": "AFC",
+      "elo": 1589.0,
+      "form_pts": 0.7,
+      "l10": "1-4-5",
+      "gf10": 5,
+      "ga10": 16,
+      "gd10": -11,
+      "avg_gf": 0.5,
+      "avg_ga": 1.6
     }
   ]
 }

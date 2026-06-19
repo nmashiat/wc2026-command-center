@@ -1,12 +1,12 @@
 grp,team,played,won,drawn,lost,gf,ga,gd,points
-A,Mexico,1,1,0,0,2,0,2,3
-A,South Korea,1,1,0,0,2,1,1,3
-A,Czechia,1,0,0,1,1,2,-1,0
-A,South Africa,1,0,0,1,0,2,-2,0
-B,Bosnia & Herzegovina,1,0,1,0,1,1,0,1
-B,Canada,1,0,1,0,1,1,0,1
-B,Qatar,1,0,1,0,1,1,0,1
-B,Switzerland,1,0,1,0,1,1,0,1
+A,Mexico,2,2,0,0,3,0,3,6
+A,South Korea,2,1,0,1,2,2,0,3
+A,Czechia,2,0,1,1,2,3,-1,1
+A,South Africa,2,0,1,1,1,3,-2,1
+B,Canada,2,1,1,0,7,1,6,4
+B,Switzerland,2,1,1,0,5,2,3,4
+B,Bosnia & Herzegovina,2,0,1,1,2,5,-3,1
+B,Qatar,2,0,1,1,1,7,-6,1
 C,Scotland,1,1,0,0,1,0,1,3
 C,Brazil,1,0,1,0,1,1,0,1
 C,Morocco,1,0,1,0,1,1,0,1
