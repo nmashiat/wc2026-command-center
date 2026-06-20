@@ -27,3 +27,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-18,Mexico,South Korea,1,0,home_win,0.625,0.214,0.161,home_win,True,Mexico,False,0.625
 2026-06-18,Switzerland,Bosnia & Herzegovina,4,1,home_win,0.698,0.201,0.101,home_win,True,Switzerland,False,0.698
 2026-06-18,Canada,Qatar,6,0,home_win,0.76,0.184,0.056,home_win,True,Canada,False,0.76
+2026-06-19,Türkiye,Paraguay,0,1,away_win,0.419,0.269,0.313,home_win,False,Türkiye,True,0.313
+2026-06-19,United States,Australia,2,0,home_win,0.416,0.269,0.315,home_win,True,Australia,True,0.416
+2026-06-19,Scotland,Morocco,0,1,away_win,0.246,0.288,0.466,away_win,True,Morocco,False,0.466
+2026-06-19,Brazil,Haiti,3,0,home_win,0.787,0.147,0.067,home_win,True,Brazil,False,0.787

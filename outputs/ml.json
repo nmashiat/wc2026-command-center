@@ -447,65 +447,73 @@
       "favorite": "Canada",
       "upset": false,
       "p_actual": 0.76
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-06-19",
       "home": "T\u00fcrkiye",
       "away": "Paraguay",
+      "home_score": 0,
+      "away_score": 1,
+      "actual": "away_win",
       "p_home": 0.419,
       "p_draw": 0.269,
       "p_away": 0.313,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": false,
       "favorite": "T\u00fcrkiye",
-      "favorite_win_prob": 0.419,
-      "elo_gap": 60,
-      "gap_class": "lean",
-      "upset_risk": 0.581
+      "upset": true,
+      "p_actual": 0.313
     },
     {
       "date": "2026-06-19",
       "home": "United States",
       "away": "Australia",
+      "home_score": 2,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.416,
       "p_draw": 0.269,
       "p_away": 0.315,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Australia",
-      "favorite_win_prob": 0.315,
-      "elo_gap": 50,
-      "gap_class": "lean",
-      "upset_risk": 0.685
+      "upset": true,
+      "p_actual": 0.416
     },
     {
       "date": "2026-06-19",
       "home": "Scotland",
       "away": "Morocco",
+      "home_score": 0,
+      "away_score": 1,
+      "actual": "away_win",
       "p_home": 0.246,
       "p_draw": 0.288,
       "p_away": 0.466,
-      "most_likely": "away_win",
+      "pick": "away_win",
+      "correct": true,
       "favorite": "Morocco",
-      "favorite_win_prob": 0.466,
-      "elo_gap": 123,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.534
+      "upset": false,
+      "p_actual": 0.466
     },
     {
       "date": "2026-06-19",
       "home": "Brazil",
       "away": "Haiti",
+      "home_score": 3,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.787,
       "p_draw": 0.147,
       "p_away": 0.067,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Brazil",
-      "favorite_win_prob": 0.787,
-      "elo_gap": 369,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.213
-    },
+      "upset": false,
+      "p_actual": 0.787
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-06-20",
       "home": "Germany",
@@ -734,15 +742,15 @@
       "date": "2026-06-24",
       "home": "Scotland",
       "away": "Brazil",
-      "p_home": 0.153,
-      "p_draw": 0.232,
-      "p_away": 0.615,
+      "p_home": 0.148,
+      "p_draw": 0.261,
+      "p_away": 0.591,
       "most_likely": "away_win",
       "favorite": "Brazil",
-      "favorite_win_prob": 0.615,
-      "elo_gap": 178,
+      "favorite_win_prob": 0.591,
+      "elo_gap": 209,
       "gap_class": "clear favorite",
-      "upset_risk": 0.385
+      "upset_risk": 0.409
     },
     {
       "date": "2026-06-24",
@@ -804,15 +812,15 @@
       "date": "2026-06-24",
       "home": "Morocco",
       "away": "Haiti",
-      "p_home": 0.723,
-      "p_draw": 0.198,
-      "p_away": 0.079,
+      "p_home": 0.761,
+      "p_draw": 0.178,
+      "p_away": 0.061,
       "most_likely": "home_win",
       "favorite": "Morocco",
-      "favorite_win_prob": 0.723,
-      "elo_gap": 315,
+      "favorite_win_prob": 0.761,
+      "elo_gap": 346,
       "gap_class": "clear favorite",
-      "upset_risk": 0.277
+      "upset_risk": 0.239
     },
     {
       "date": "2026-06-25",
@@ -860,29 +868,29 @@
       "date": "2026-06-25",
       "home": "United States",
       "away": "T\u00fcrkiye",
-      "p_home": 0.473,
-      "p_draw": 0.272,
-      "p_away": 0.255,
+      "p_home": 0.555,
+      "p_draw": 0.234,
+      "p_away": 0.211,
       "most_likely": "home_win",
-      "favorite": "T\u00fcrkiye",
-      "favorite_win_prob": 0.255,
-      "elo_gap": 14,
-      "gap_class": "coin flip",
-      "upset_risk": 0.745
+      "favorite": "United States",
+      "favorite_win_prob": 0.555,
+      "elo_gap": 64,
+      "gap_class": "lean",
+      "upset_risk": 0.445
     },
     {
       "date": "2026-06-25",
       "home": "Paraguay",
       "away": "Australia",
-      "p_home": 0.257,
-      "p_draw": 0.28,
-      "p_away": 0.463,
+      "p_home": 0.323,
+      "p_draw": 0.294,
+      "p_away": 0.383,
       "most_likely": "away_win",
       "favorite": "Australia",
-      "favorite_win_prob": 0.463,
-      "elo_gap": 96,
-      "gap_class": "lean",
-      "upset_risk": 0.537
+      "favorite_win_prob": 0.383,
+      "elo_gap": 18,
+      "gap_class": "coin flip",
+      "upset_risk": 0.617
     },
     {
       "date": "2026-06-25",
@@ -1068,10 +1076,10 @@
     }
   ],
   "scorecard": {
-    "graded": 28,
-    "correct": 15,
-    "accuracy": 0.536,
-    "log_loss": 0.977,
-    "upsets": 14
+    "graded": 32,
+    "correct": 18,
+    "accuracy": 0.562,
+    "log_loss": 0.95,
+    "upsets": 16
   }
 }

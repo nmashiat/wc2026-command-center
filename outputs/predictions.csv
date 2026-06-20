@@ -1,8 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-19,Türkiye,Paraguay,0.419,0.269,0.313,home_win,Türkiye,0.419,60,lean,0.581
-2026-06-19,United States,Australia,0.416,0.269,0.315,home_win,Australia,0.315,50,lean,0.685
-2026-06-19,Scotland,Morocco,0.246,0.288,0.466,away_win,Morocco,0.466,123,clear favorite,0.534
-2026-06-19,Brazil,Haiti,0.787,0.147,0.067,home_win,Brazil,0.787,369,clear favorite,0.213
 2026-06-20,Germany,Ivory Coast,0.614,0.222,0.164,home_win,Germany,0.614,160,clear favorite,0.386
 2026-06-20,Ecuador,Curaçao,0.788,0.16,0.052,home_win,Ecuador,0.788,378,clear favorite,0.212
 2026-06-20,Netherlands,Sweden,0.602,0.251,0.147,home_win,Netherlands,0.602,185,clear favorite,0.398
@@ -19,17 +15,17 @@ date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_g
 2026-06-23,Colombia,DR Congo,0.684,0.205,0.111,home_win,Colombia,0.684,296,clear favorite,0.316
 2026-06-23,England,Ghana,0.832,0.129,0.039,home_win,England,0.832,453,clear favorite,0.168
 2026-06-23,Panama,Croatia,0.241,0.246,0.512,away_win,Croatia,0.512,138,clear favorite,0.488
-2026-06-24,Scotland,Brazil,0.153,0.232,0.615,away_win,Brazil,0.615,178,clear favorite,0.385
+2026-06-24,Scotland,Brazil,0.148,0.261,0.591,away_win,Brazil,0.591,209,clear favorite,0.409
 2026-06-24,Mexico,Czechia,0.752,0.178,0.069,home_win,Mexico,0.752,234,clear favorite,0.248
 2026-06-24,South Africa,South Korea,0.159,0.25,0.591,away_win,South Korea,0.591,218,clear favorite,0.409
 2026-06-24,Canada,Switzerland,0.4,0.317,0.283,home_win,Switzerland,0.283,50,lean,0.717
 2026-06-24,Bosnia & Herzegovina,Qatar,0.416,0.276,0.308,home_win,Bosnia & Herzegovina,0.416,70,lean,0.584
-2026-06-24,Morocco,Haiti,0.723,0.198,0.079,home_win,Morocco,0.723,315,clear favorite,0.277
+2026-06-24,Morocco,Haiti,0.761,0.178,0.061,home_win,Morocco,0.761,346,clear favorite,0.239
 2026-06-25,Tunisia,Netherlands,0.112,0.195,0.692,away_win,Netherlands,0.692,329,clear favorite,0.308
 2026-06-25,Japan,Sweden,0.57,0.269,0.161,home_win,Japan,0.57,172,clear favorite,0.43
 2026-06-25,Ecuador,Germany,0.306,0.327,0.367,away_win,Germany,0.367,47,lean,0.633
-2026-06-25,United States,Türkiye,0.473,0.272,0.255,home_win,Türkiye,0.255,14,coin flip,0.745
-2026-06-25,Paraguay,Australia,0.257,0.28,0.463,away_win,Australia,0.463,96,lean,0.537
+2026-06-25,United States,Türkiye,0.555,0.234,0.211,home_win,United States,0.555,64,lean,0.445
+2026-06-25,Paraguay,Australia,0.323,0.294,0.383,away_win,Australia,0.383,18,coin flip,0.617
 2026-06-25,Curaçao,Ivory Coast,0.123,0.199,0.678,away_win,Ivory Coast,0.678,265,clear favorite,0.322
 2026-06-26,Uruguay,Spain,0.144,0.239,0.617,away_win,Spain,0.617,243,clear favorite,0.383
 2026-06-26,Cape Verde,Saudi Arabia,0.277,0.3,0.423,away_win,Saudi Arabia,0.423,43,lean,0.577
