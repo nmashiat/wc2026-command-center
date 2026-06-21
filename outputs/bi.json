@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 32.0,
-    "total_goals": 96.0,
-    "avg_goals_per_match": 3.0,
-    "home_wins": 17.0,
-    "draws": 10.0,
-    "away_wins": 5.0,
-    "clean_sheets": 13.0
+    "matches_played": 36.0,
+    "total_goals": 109.0,
+    "avg_goals_per_match": 3.03,
+    "home_wins": 19.0,
+    "draws": 11.0,
+    "away_wins": 6.0,
+    "clean_sheets": 15.0
   },
   "standings": [
     {
@@ -204,97 +204,97 @@
     {
       "grp": "E",
       "team": "Germany",
-      "played": 1,
-      "won": 1,
+      "played": 2,
+      "won": 2,
       "drawn": 0,
       "lost": 0,
-      "gf": 7,
-      "ga": 1,
-      "gd": 6,
-      "points": 3
+      "gf": 9,
+      "ga": 2,
+      "gd": 7,
+      "points": 6
     },
     {
       "grp": "E",
       "team": "Ivory Coast",
-      "played": 1,
+      "played": 2,
       "won": 1,
       "drawn": 0,
-      "lost": 0,
-      "gf": 1,
-      "ga": 0,
-      "gd": 1,
+      "lost": 1,
+      "gf": 2,
+      "ga": 2,
+      "gd": 0,
       "points": 3
     },
     {
       "grp": "E",
       "team": "Ecuador",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
       "gf": 0,
       "ga": 1,
       "gd": -1,
-      "points": 0
+      "points": 1
     },
     {
       "grp": "E",
       "team": "Cura\u00e7ao",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
       "gf": 1,
       "ga": 7,
       "gd": -6,
-      "points": 0
-    },
-    {
-      "grp": "F",
-      "team": "Sweden",
-      "played": 1,
-      "won": 1,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 5,
-      "ga": 1,
-      "gd": 4,
-      "points": 3
-    },
-    {
-      "grp": "F",
-      "team": "Japan",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 2,
-      "ga": 2,
-      "gd": 0,
       "points": 1
     },
     {
       "grp": "F",
       "team": "Netherlands",
-      "played": 1,
-      "won": 0,
+      "played": 2,
+      "won": 1,
       "drawn": 1,
       "lost": 0,
-      "gf": 2,
+      "gf": 7,
+      "ga": 3,
+      "gd": 4,
+      "points": 4
+    },
+    {
+      "grp": "F",
+      "team": "Japan",
+      "played": 2,
+      "won": 1,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 6,
       "ga": 2,
+      "gd": 4,
+      "points": 4
+    },
+    {
+      "grp": "F",
+      "team": "Sweden",
+      "played": 2,
+      "won": 1,
+      "drawn": 0,
+      "lost": 1,
+      "gf": 6,
+      "ga": 6,
       "gd": 0,
-      "points": 1
+      "points": 3
     },
     {
       "grp": "F",
       "team": "Tunisia",
-      "played": 1,
+      "played": 2,
       "won": 0,
       "drawn": 0,
-      "lost": 1,
+      "lost": 2,
       "gf": 1,
-      "ga": 5,
-      "gd": -4,
+      "ga": 9,
+      "gd": -8,
       "points": 0
     },
     {
@@ -631,6 +631,11 @@
       "date": "2026-06-19",
       "matches": 4,
       "goals": 7
+    },
+    {
+      "date": "2026-06-20",
+      "matches": 4,
+      "goals": 13
     }
   ],
   "biggest_wins": [
@@ -656,6 +661,22 @@
       "away_team": "Tunisia",
       "home_score": 5,
       "away_score": 1,
+      "margin": 4
+    },
+    {
+      "date": "2026-06-20",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "home_score": 5,
+      "away_score": 1,
+      "margin": 4
+    },
+    {
+      "date": "2026-06-20",
+      "home_team": "Tunisia",
+      "away_team": "Japan",
+      "home_score": 0,
+      "away_score": 4,
       "margin": 4
     },
     {
@@ -697,22 +718,6 @@
       "home_score": 3,
       "away_score": 0,
       "margin": 3
-    },
-    {
-      "date": "2026-06-17",
-      "home_team": "England",
-      "away_team": "Croatia",
-      "home_score": 4,
-      "away_score": 2,
-      "margin": 2
-    },
-    {
-      "date": "2026-06-16",
-      "home_team": "France",
-      "away_team": "Senegal",
-      "home_score": 3,
-      "away_score": 1,
-      "margin": 2
     }
   ],
   "team_kpis": [
@@ -802,6 +807,34 @@
     },
     {
       "elo_rank": 7,
+      "team": "Netherlands",
+      "grp": "F",
+      "confederation": "UEFA",
+      "elo": 2041.0,
+      "form_pts": 2.1,
+      "l10": "6-3-1",
+      "gf10": 25,
+      "ga10": 8,
+      "gd10": 17,
+      "avg_gf": 2.5,
+      "avg_ga": 0.8
+    },
+    {
+      "elo_rank": 8,
+      "team": "Germany",
+      "grp": "E",
+      "confederation": "UEFA",
+      "elo": 2038.0,
+      "form_pts": 3.0,
+      "l10": "10-0-0",
+      "gf10": 34,
+      "ga10": 7,
+      "gd10": 27,
+      "avg_gf": 3.4,
+      "avg_ga": 0.7
+    },
+    {
+      "elo_rank": 9,
       "team": "Portugal",
       "grp": "K",
       "confederation": "UEFA",
@@ -815,21 +848,7 @@
       "avg_ga": 1.0
     },
     {
-      "elo_rank": 8,
-      "team": "Germany",
-      "grp": "E",
-      "confederation": "UEFA",
-      "elo": 2021.0,
-      "form_pts": 3.0,
-      "l10": "10-0-0",
-      "gf10": 35,
-      "ga10": 7,
-      "gd10": 28,
-      "avg_gf": 3.5,
-      "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 9,
+      "elo_rank": 10,
       "team": "Morocco",
       "grp": "C",
       "confederation": "CAF",
@@ -843,21 +862,21 @@
       "avg_ga": 0.4
     },
     {
-      "elo_rank": 10,
-      "team": "Netherlands",
+      "elo_rank": 11,
+      "team": "Japan",
       "grp": "F",
-      "confederation": "UEFA",
-      "elo": 2012.0,
-      "form_pts": 2.1,
-      "l10": "6-3-1",
-      "gf10": 23,
-      "ga10": 9,
-      "gd10": 14,
-      "avg_gf": 2.3,
-      "avg_ga": 0.9
+      "confederation": "AFC",
+      "elo": 2015.0,
+      "form_pts": 2.3,
+      "l10": "7-2-1",
+      "gf10": 19,
+      "ga10": 8,
+      "gd10": 11,
+      "avg_gf": 1.9,
+      "avg_ga": 0.8
     },
     {
-      "elo_rank": 11,
+      "elo_rank": 12,
       "team": "Mexico",
       "grp": "A",
       "confederation": "CONCACAF",
@@ -871,7 +890,7 @@
       "avg_ga": 0.2
     },
     {
-      "elo_rank": 12,
+      "elo_rank": 13,
       "team": "Norway",
       "grp": "I",
       "confederation": "UEFA",
@@ -885,31 +904,17 @@
       "avg_ga": 0.9
     },
     {
-      "elo_rank": 13,
-      "team": "Japan",
-      "grp": "F",
-      "confederation": "AFC",
-      "elo": 1999.0,
-      "form_pts": 2.1,
-      "l10": "6-3-1",
-      "gf10": 15,
-      "ga10": 8,
-      "gd10": 7,
-      "avg_gf": 1.5,
-      "avg_ga": 0.8
-    },
-    {
       "elo_rank": 14,
       "team": "Ecuador",
       "grp": "E",
       "confederation": "CONMEBOL",
-      "elo": 1974.0,
-      "form_pts": 1.7,
-      "l10": "4-5-1",
-      "gf10": 12,
+      "elo": 1950.0,
+      "form_pts": 1.5,
+      "l10": "3-6-1",
+      "gf10": 11,
       "ga10": 6,
-      "gd10": 6,
-      "avg_gf": 1.2,
+      "gd10": 5,
+      "avg_gf": 1.1,
       "avg_ga": 0.6
     },
     {
@@ -1110,20 +1115,6 @@
     },
     {
       "elo_rank": 29,
-      "team": "Ivory Coast",
-      "grp": "E",
-      "confederation": "CAF",
-      "elo": 1861.0,
-      "form_pts": 2.5,
-      "l10": "8-1-1",
-      "gf10": 20,
-      "ga10": 7,
-      "gd10": 13,
-      "avg_gf": 2.0,
-      "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 30,
       "team": "Scotland",
       "grp": "C",
       "confederation": "UEFA",
@@ -1137,21 +1128,21 @@
       "avg_ga": 1.1
     },
     {
-      "elo_rank": 31,
-      "team": "Sweden",
-      "grp": "F",
-      "confederation": "UEFA",
-      "elo": 1827.0,
-      "form_pts": 1.1,
-      "l10": "3-2-5",
-      "gf10": 16,
-      "ga10": 19,
-      "gd10": -3,
-      "avg_gf": 1.6,
-      "avg_ga": 1.9
+      "elo_rank": 30,
+      "team": "Ivory Coast",
+      "grp": "E",
+      "confederation": "CAF",
+      "elo": 1844.0,
+      "form_pts": 2.2,
+      "l10": "7-1-2",
+      "gf10": 19,
+      "ga10": 9,
+      "gd10": 10,
+      "avg_gf": 1.9,
+      "avg_ga": 0.9
     },
     {
-      "elo_rank": 32,
+      "elo_rank": 31,
       "team": "Egypt",
       "grp": "G",
       "confederation": "CAF",
@@ -1165,7 +1156,7 @@
       "avg_ga": 0.7
     },
     {
-      "elo_rank": 33,
+      "elo_rank": 32,
       "team": "Uzbekistan",
       "grp": "K",
       "confederation": "AFC",
@@ -1179,7 +1170,7 @@
       "avg_ga": 1.2
     },
     {
-      "elo_rank": 34,
+      "elo_rank": 33,
       "team": "Panama",
       "grp": "L",
       "confederation": "CONCACAF",
@@ -1191,6 +1182,20 @@
       "gd10": 1,
       "avg_gf": 1.7,
       "avg_ga": 1.6
+    },
+    {
+      "elo_rank": 34,
+      "team": "Sweden",
+      "grp": "F",
+      "confederation": "UEFA",
+      "elo": 1799.0,
+      "form_pts": 1.1,
+      "l10": "3-2-5",
+      "gf10": 17,
+      "ga10": 22,
+      "gd10": -5,
+      "avg_gf": 1.7,
+      "avg_ga": 2.2
     },
     {
       "elo_rank": 35,
@@ -1278,20 +1283,6 @@
     },
     {
       "elo_rank": 41,
-      "team": "Tunisia",
-      "grp": "F",
-      "confederation": "CAF",
-      "elo": 1683.0,
-      "form_pts": 1.2,
-      "l10": "3-3-4",
-      "gf10": 12,
-      "ga10": 17,
-      "gd10": -5,
-      "avg_gf": 1.2,
-      "avg_ga": 1.7
-    },
-    {
-      "elo_rank": 42,
       "team": "Cape Verde",
       "grp": "H",
       "confederation": "CAF",
@@ -1305,7 +1296,7 @@
       "avg_ga": 1.2
     },
     {
-      "elo_rank": 43,
+      "elo_rank": 42,
       "team": "Haiti",
       "grp": "C",
       "confederation": "CONCACAF",
@@ -1319,7 +1310,7 @@
       "avg_ga": 1.1
     },
     {
-      "elo_rank": 44,
+      "elo_rank": 43,
       "team": "South Africa",
       "grp": "A",
       "confederation": "CAF",
@@ -1333,7 +1324,7 @@
       "avg_ga": 1.2
     },
     {
-      "elo_rank": 45,
+      "elo_rank": 44,
       "team": "Ghana",
       "grp": "L",
       "confederation": "CAF",
@@ -1345,6 +1336,20 @@
       "gd10": -2,
       "avg_gf": 1.1,
       "avg_ga": 1.3
+    },
+    {
+      "elo_rank": 45,
+      "team": "Tunisia",
+      "grp": "F",
+      "confederation": "CAF",
+      "elo": 1667.0,
+      "form_pts": 0.9,
+      "l10": "2-3-5",
+      "gf10": 9,
+      "ga10": 21,
+      "gd10": -12,
+      "avg_gf": 0.9,
+      "avg_ga": 2.1
     },
     {
       "elo_rank": 46,
@@ -1365,14 +1370,14 @@
       "team": "Cura\u00e7ao",
       "grp": "E",
       "confederation": "CONCACAF",
-      "elo": 1596.0,
-      "form_pts": 1.4,
-      "l10": "4-2-4",
-      "gf10": 20,
-      "ga10": 21,
-      "gd10": -1,
-      "avg_gf": 2.0,
-      "avg_ga": 2.1
+      "elo": 1620.0,
+      "form_pts": 1.2,
+      "l10": "3-3-4",
+      "gf10": 17,
+      "ga10": 19,
+      "gd10": -2,
+      "avg_gf": 1.7,
+      "avg_ga": 1.9
     },
     {
       "elo_rank": 48,

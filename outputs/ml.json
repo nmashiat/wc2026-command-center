@@ -511,65 +511,73 @@
       "favorite": "Brazil",
       "upset": false,
       "p_actual": 0.787
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-06-20",
       "home": "Germany",
       "away": "Ivory Coast",
+      "home_score": 2,
+      "away_score": 1,
+      "actual": "home_win",
       "p_home": 0.614,
       "p_draw": 0.222,
       "p_away": 0.164,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Germany",
-      "favorite_win_prob": 0.614,
-      "elo_gap": 160,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.386
+      "upset": false,
+      "p_actual": 0.614
     },
     {
       "date": "2026-06-20",
       "home": "Ecuador",
       "away": "Cura\u00e7ao",
+      "home_score": 0,
+      "away_score": 0,
+      "actual": "draw",
       "p_home": 0.788,
       "p_draw": 0.16,
       "p_away": 0.052,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": false,
       "favorite": "Ecuador",
-      "favorite_win_prob": 0.788,
-      "elo_gap": 378,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.212
+      "upset": true,
+      "p_actual": 0.16
     },
     {
       "date": "2026-06-20",
       "home": "Netherlands",
       "away": "Sweden",
+      "home_score": 5,
+      "away_score": 1,
+      "actual": "home_win",
       "p_home": 0.602,
       "p_draw": 0.251,
       "p_away": 0.147,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Netherlands",
-      "favorite_win_prob": 0.602,
-      "elo_gap": 185,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.398
+      "upset": false,
+      "p_actual": 0.602
     },
     {
       "date": "2026-06-20",
       "home": "Tunisia",
       "away": "Japan",
+      "home_score": 0,
+      "away_score": 4,
+      "actual": "away_win",
       "p_home": 0.104,
       "p_draw": 0.227,
       "p_away": 0.669,
-      "most_likely": "away_win",
+      "pick": "away_win",
+      "correct": true,
       "favorite": "Japan",
-      "favorite_win_prob": 0.669,
-      "elo_gap": 316,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.331
-    },
+      "upset": false,
+      "p_actual": 0.669
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-06-21",
       "home": "Belgium",
@@ -826,43 +834,43 @@
       "date": "2026-06-25",
       "home": "Tunisia",
       "away": "Netherlands",
-      "p_home": 0.112,
-      "p_draw": 0.195,
-      "p_away": 0.692,
+      "p_home": 0.069,
+      "p_draw": 0.173,
+      "p_away": 0.758,
       "most_likely": "away_win",
       "favorite": "Netherlands",
-      "favorite_win_prob": 0.692,
-      "elo_gap": 329,
+      "favorite_win_prob": 0.758,
+      "elo_gap": 374,
       "gap_class": "clear favorite",
-      "upset_risk": 0.308
+      "upset_risk": 0.242
     },
     {
       "date": "2026-06-25",
       "home": "Japan",
       "away": "Sweden",
-      "p_home": 0.57,
-      "p_draw": 0.269,
-      "p_away": 0.161,
+      "p_home": 0.64,
+      "p_draw": 0.232,
+      "p_away": 0.127,
       "most_likely": "home_win",
       "favorite": "Japan",
-      "favorite_win_prob": 0.57,
-      "elo_gap": 172,
+      "favorite_win_prob": 0.64,
+      "elo_gap": 216,
       "gap_class": "clear favorite",
-      "upset_risk": 0.43
+      "upset_risk": 0.36
     },
     {
       "date": "2026-06-25",
       "home": "Ecuador",
       "away": "Germany",
-      "p_home": 0.306,
-      "p_draw": 0.327,
-      "p_away": 0.367,
+      "p_home": 0.252,
+      "p_draw": 0.308,
+      "p_away": 0.44,
       "most_likely": "away_win",
       "favorite": "Germany",
-      "favorite_win_prob": 0.367,
-      "elo_gap": 47,
+      "favorite_win_prob": 0.44,
+      "elo_gap": 88,
       "gap_class": "lean",
-      "upset_risk": 0.633
+      "upset_risk": 0.56
     },
     {
       "date": "2026-06-25",
@@ -896,15 +904,15 @@
       "date": "2026-06-25",
       "home": "Cura\u00e7ao",
       "away": "Ivory Coast",
-      "p_home": 0.123,
-      "p_draw": 0.199,
-      "p_away": 0.678,
+      "p_home": 0.15,
+      "p_draw": 0.23,
+      "p_away": 0.62,
       "most_likely": "away_win",
       "favorite": "Ivory Coast",
-      "favorite_win_prob": 0.678,
-      "elo_gap": 265,
+      "favorite_win_prob": 0.62,
+      "elo_gap": 224,
       "gap_class": "clear favorite",
-      "upset_risk": 0.322
+      "upset_risk": 0.38
     },
     {
       "date": "2026-06-26",
@@ -1076,10 +1084,10 @@
     }
   ],
   "scorecard": {
-    "graded": 32,
-    "correct": 18,
-    "accuracy": 0.562,
-    "log_loss": 0.95,
-    "upsets": 16
+    "graded": 36,
+    "correct": 21,
+    "accuracy": 0.583,
+    "log_loss": 0.934,
+    "upsets": 17
   }
 }
