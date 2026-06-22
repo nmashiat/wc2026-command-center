@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 36.0,
-    "total_goals": 109.0,
-    "avg_goals_per_match": 3.03,
-    "home_wins": 19.0,
-    "draws": 11.0,
-    "away_wins": 6.0,
-    "clean_sheets": 15.0
+    "matches_played": 40.0,
+    "total_goals": 121.0,
+    "avg_goals_per_match": 3.02,
+    "home_wins": 20.0,
+    "draws": 13.0,
+    "away_wins": 7.0,
+    "clean_sheets": 17.0
   },
   "standings": [
     {
@@ -299,98 +299,98 @@
     },
     {
       "grp": "G",
-      "team": "Iran",
-      "played": 1,
-      "won": 0,
+      "team": "Egypt",
+      "played": 2,
+      "won": 1,
       "drawn": 1,
       "lost": 0,
-      "gf": 2,
+      "gf": 4,
       "ga": 2,
-      "gd": 0,
-      "points": 1
+      "gd": 2,
+      "points": 4
     },
     {
       "grp": "G",
-      "team": "New Zealand",
-      "played": 1,
+      "team": "Iran",
+      "played": 2,
       "won": 0,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
       "gf": 2,
       "ga": 2,
       "gd": 0,
-      "points": 1
+      "points": 2
     },
     {
       "grp": "G",
       "team": "Belgium",
-      "played": 1,
+      "played": 2,
       "won": 0,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
       "gf": 1,
       "ga": 1,
       "gd": 0,
-      "points": 1
+      "points": 2
     },
     {
       "grp": "G",
-      "team": "Egypt",
-      "played": 1,
+      "team": "New Zealand",
+      "played": 2,
       "won": 0,
       "drawn": 1,
-      "lost": 0,
-      "gf": 1,
-      "ga": 1,
-      "gd": 0,
-      "points": 1
-    },
-    {
-      "grp": "H",
-      "team": "Saudi Arabia",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 1,
-      "ga": 1,
-      "gd": 0,
-      "points": 1
-    },
-    {
-      "grp": "H",
-      "team": "Uruguay",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 1,
-      "ga": 1,
-      "gd": 0,
-      "points": 1
-    },
-    {
-      "grp": "H",
-      "team": "Cape Verde",
-      "played": 1,
-      "won": 0,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
+      "lost": 1,
+      "gf": 3,
+      "ga": 5,
+      "gd": -2,
       "points": 1
     },
     {
       "grp": "H",
       "team": "Spain",
-      "played": 1,
-      "won": 0,
+      "played": 2,
+      "won": 1,
       "drawn": 1,
       "lost": 0,
-      "gf": 0,
+      "gf": 4,
       "ga": 0,
+      "gd": 4,
+      "points": 4
+    },
+    {
+      "grp": "H",
+      "team": "Uruguay",
+      "played": 2,
+      "won": 0,
+      "drawn": 2,
+      "lost": 0,
+      "gf": 3,
+      "ga": 3,
       "gd": 0,
+      "points": 2
+    },
+    {
+      "grp": "H",
+      "team": "Cape Verde",
+      "played": 2,
+      "won": 0,
+      "drawn": 2,
+      "lost": 0,
+      "gf": 2,
+      "ga": 2,
+      "gd": 0,
+      "points": 2
+    },
+    {
+      "grp": "H",
+      "team": "Saudi Arabia",
+      "played": 2,
+      "won": 0,
+      "drawn": 1,
+      "lost": 1,
+      "gf": 1,
+      "ga": 5,
+      "gd": -4,
       "points": 1
     },
     {
@@ -636,6 +636,11 @@
       "date": "2026-06-20",
       "matches": 4,
       "goals": 13
+    },
+    {
+      "date": "2026-06-21",
+      "matches": 4,
+      "goals": 12
     }
   ],
   "biggest_wins": [
@@ -680,6 +685,14 @@
       "margin": 4
     },
     {
+      "date": "2026-06-21",
+      "home_team": "Spain",
+      "away_team": "Saudi Arabia",
+      "home_score": 4,
+      "away_score": 0,
+      "margin": 4
+    },
+    {
       "date": "2026-06-12",
       "home_team": "United States",
       "away_team": "Paraguay",
@@ -710,19 +723,25 @@
       "home_score": 3,
       "away_score": 0,
       "margin": 3
-    },
-    {
-      "date": "2026-06-19",
-      "home_team": "Brazil",
-      "away_team": "Haiti",
-      "home_score": 3,
-      "away_score": 0,
-      "margin": 3
     }
   ],
   "team_kpis": [
     {
       "elo_rank": 1,
+      "team": "Spain",
+      "grp": "H",
+      "confederation": "UEFA",
+      "elo": 2198.0,
+      "form_pts": 2.2,
+      "l10": "6-4-0",
+      "gf10": 23,
+      "ga10": 4,
+      "gd10": 19,
+      "avg_gf": 2.3,
+      "avg_ga": 0.4
+    },
+    {
+      "elo_rank": 2,
       "team": "Argentina",
       "grp": "J",
       "confederation": "CONMEBOL",
@@ -734,20 +753,6 @@
       "gd10": 25,
       "avg_gf": 2.7,
       "avg_ga": 0.2
-    },
-    {
-      "elo_rank": 2,
-      "team": "Spain",
-      "grp": "H",
-      "confederation": "UEFA",
-      "elo": 2191.0,
-      "form_pts": 2.2,
-      "l10": "6-4-0",
-      "gf10": 25,
-      "ga10": 4,
-      "gd10": 21,
-      "avg_gf": 2.5,
-      "avg_ga": 0.4
     },
     {
       "elo_rank": 3,
@@ -947,20 +952,6 @@
     },
     {
       "elo_rank": 17,
-      "team": "Uruguay",
-      "grp": "H",
-      "confederation": "CONMEBOL",
-      "elo": 1948.0,
-      "form_pts": 1.7,
-      "l10": "4-5-1",
-      "gf10": 11,
-      "ga10": 8,
-      "gd10": 3,
-      "avg_gf": 1.1,
-      "avg_ga": 0.8
-    },
-    {
-      "elo_rank": 18,
       "team": "Croatia",
       "grp": "L",
       "confederation": "UEFA",
@@ -974,17 +965,31 @@
       "avg_ga": 1.4
     },
     {
+      "elo_rank": 18,
+      "team": "Uruguay",
+      "grp": "H",
+      "confederation": "CONMEBOL",
+      "elo": 1928.0,
+      "form_pts": 1.5,
+      "l10": "3-6-1",
+      "gf10": 11,
+      "ga10": 10,
+      "gd10": 1,
+      "avg_gf": 1.1,
+      "avg_ga": 1.0
+    },
+    {
       "elo_rank": 19,
       "team": "Belgium",
       "grp": "G",
       "confederation": "UEFA",
-      "elo": 1931.0,
-      "form_pts": 2.2,
-      "l10": "6-4-0",
-      "gf10": 32,
+      "elo": 1927.0,
+      "form_pts": 2.0,
+      "l10": "5-5-0",
+      "gf10": 26,
       "ga10": 7,
-      "gd10": 25,
-      "avg_gf": 3.2,
+      "gd10": 19,
+      "avg_gf": 2.6,
       "avg_ga": 0.7
     },
     {
@@ -1073,6 +1078,20 @@
     },
     {
       "elo_rank": 26,
+      "team": "Iran",
+      "grp": "G",
+      "confederation": "AFC",
+      "elo": 1885.0,
+      "form_pts": 1.6,
+      "l10": "4-4-2",
+      "gf10": 16,
+      "ga10": 7,
+      "gd10": 9,
+      "avg_gf": 1.6,
+      "avg_ga": 0.7
+    },
+    {
+      "elo_rank": 27,
       "team": "T\u00fcrkiye",
       "grp": "D",
       "confederation": "UEFA",
@@ -1084,20 +1103,6 @@
       "gd10": 14,
       "avg_gf": 2.2,
       "avg_ga": 0.8
-    },
-    {
-      "elo_rank": 27,
-      "team": "Iran",
-      "grp": "G",
-      "confederation": "AFC",
-      "elo": 1881.0,
-      "form_pts": 1.8,
-      "l10": "5-3-2",
-      "gf10": 19,
-      "ga10": 7,
-      "gd10": 12,
-      "avg_gf": 1.9,
-      "avg_ga": 0.7
     },
     {
       "elo_rank": 28,
@@ -1129,6 +1134,20 @@
     },
     {
       "elo_rank": 30,
+      "team": "Egypt",
+      "grp": "G",
+      "confederation": "CAF",
+      "elo": 1852.0,
+      "form_pts": 1.8,
+      "l10": "5-3-2",
+      "gf10": 16,
+      "ga10": 8,
+      "gd10": 8,
+      "avg_gf": 1.6,
+      "avg_ga": 0.8
+    },
+    {
+      "elo_rank": 31,
       "team": "Ivory Coast",
       "grp": "E",
       "confederation": "CAF",
@@ -1140,20 +1159,6 @@
       "gd10": 10,
       "avg_gf": 1.9,
       "avg_ga": 0.9
-    },
-    {
-      "elo_rank": 31,
-      "team": "Egypt",
-      "grp": "G",
-      "confederation": "CAF",
-      "elo": 1818.0,
-      "form_pts": 1.6,
-      "l10": "4-4-2",
-      "gf10": 13,
-      "ga10": 7,
-      "gd10": 6,
-      "avg_gf": 1.3,
-      "avg_ga": 0.7
     },
     {
       "elo_rank": 32,
@@ -1241,34 +1246,6 @@
     },
     {
       "elo_rank": 38,
-      "team": "New Zealand",
-      "grp": "G",
-      "confederation": "OFC",
-      "elo": 1734.0,
-      "form_pts": 0.5,
-      "l10": "1-2-7",
-      "gf10": 9,
-      "ga10": 19,
-      "gd10": -10,
-      "avg_gf": 0.9,
-      "avg_ga": 1.9
-    },
-    {
-      "elo_rank": 39,
-      "team": "Saudi Arabia",
-      "grp": "H",
-      "confederation": "AFC",
-      "elo": 1719.0,
-      "form_pts": 1.1,
-      "l10": "3-2-5",
-      "gf10": 11,
-      "ga10": 13,
-      "gd10": -2,
-      "avg_gf": 1.1,
-      "avg_ga": 1.3
-    },
-    {
-      "elo_rank": 40,
       "team": "Iraq",
       "grp": "I",
       "confederation": "AFC",
@@ -1282,18 +1259,46 @@
       "avg_ga": 1.3
     },
     {
+      "elo_rank": 39,
+      "team": "Saudi Arabia",
+      "grp": "H",
+      "confederation": "AFC",
+      "elo": 1712.0,
+      "form_pts": 0.8,
+      "l10": "2-2-6",
+      "gf10": 8,
+      "ga10": 16,
+      "gd10": -8,
+      "avg_gf": 0.8,
+      "avg_ga": 1.6
+    },
+    {
+      "elo_rank": 40,
+      "team": "New Zealand",
+      "grp": "G",
+      "confederation": "OFC",
+      "elo": 1700.0,
+      "form_pts": 0.5,
+      "l10": "1-2-7",
+      "gf10": 9,
+      "ga10": 19,
+      "gd10": -10,
+      "avg_gf": 0.9,
+      "avg_ga": 1.9
+    },
+    {
       "elo_rank": 41,
       "team": "Cape Verde",
       "grp": "H",
       "confederation": "CAF",
-      "elo": 1676.0,
-      "form_pts": 1.4,
-      "l10": "3-5-2",
-      "gf10": 14,
-      "ga10": 12,
-      "gd10": 2,
-      "avg_gf": 1.4,
-      "avg_ga": 1.2
+      "elo": 1695.0,
+      "form_pts": 1.2,
+      "l10": "2-6-2",
+      "gf10": 15,
+      "ga10": 14,
+      "gd10": 1,
+      "avg_gf": 1.5,
+      "avg_ga": 1.4
     },
     {
       "elo_rank": 42,
