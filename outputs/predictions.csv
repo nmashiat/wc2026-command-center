@@ -1,8 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-22,Jordan,Algeria,0.237,0.271,0.491,away_win,Algeria,0.491,122,clear favorite,0.509
-2026-06-22,Argentina,Austria,0.669,0.212,0.119,home_win,Argentina,0.669,279,clear favorite,0.331
-2026-06-22,Norway,Senegal,0.554,0.244,0.201,home_win,Norway,0.554,122,clear favorite,0.446
-2026-06-22,France,Iraq,0.779,0.172,0.049,home_win,France,0.779,426,clear favorite,0.221
 2026-06-23,Portugal,Uzbekistan,0.628,0.226,0.146,home_win,Portugal,0.628,229,clear favorite,0.372
 2026-06-23,Colombia,DR Congo,0.684,0.205,0.111,home_win,Colombia,0.684,296,clear favorite,0.316
 2026-06-23,England,Ghana,0.832,0.129,0.039,home_win,England,0.832,453,clear favorite,0.168
@@ -21,13 +17,13 @@ date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_g
 2026-06-25,Curaçao,Ivory Coast,0.15,0.23,0.62,away_win,Ivory Coast,0.62,224,clear favorite,0.38
 2026-06-26,Uruguay,Spain,0.131,0.229,0.64,away_win,Spain,0.64,270,clear favorite,0.36
 2026-06-26,Cape Verde,Saudi Arabia,0.302,0.297,0.401,away_win,Saudi Arabia,0.401,17,coin flip,0.599
-2026-06-26,Norway,France,0.236,0.279,0.485,away_win,France,0.485,137,clear favorite,0.515
+2026-06-26,Norway,France,0.222,0.251,0.527,away_win,France,0.527,125,clear favorite,0.473
 2026-06-26,Egypt,Iran,0.323,0.316,0.361,away_win,Iran,0.361,33,coin flip,0.639
 2026-06-26,New Zealand,Belgium,0.121,0.208,0.67,away_win,Belgium,0.67,227,clear favorite,0.33
-2026-06-26,Senegal,Iraq,0.559,0.256,0.185,home_win,Senegal,0.559,167,clear favorite,0.441
+2026-06-26,Senegal,Iraq,0.563,0.244,0.193,home_win,Senegal,0.563,155,clear favorite,0.437
 2026-06-27,DR Congo,Uzbekistan,0.358,0.31,0.332,home_win,Uzbekistan,0.332,27,coin flip,0.668
 2026-06-27,Colombia,Portugal,0.372,0.301,0.326,home_win,Colombia,0.372,40,lean,0.628
 2026-06-27,Panama,England,0.093,0.195,0.713,away_win,England,0.713,319,clear favorite,0.287
-2026-06-27,Algeria,Austria,0.254,0.313,0.432,away_win,Austria,0.432,53,lean,0.568
-2026-06-27,Jordan,Argentina,0.053,0.151,0.796,away_win,Argentina,0.796,455,clear favorite,0.204
+2026-06-27,Algeria,Austria,0.29,0.33,0.381,away_win,Austria,0.381,18,coin flip,0.619
+2026-06-27,Jordan,Argentina,0.052,0.137,0.812,away_win,Argentina,0.812,490,clear favorite,0.188
 2026-06-27,Croatia,Ghana,0.656,0.21,0.134,home_win,Croatia,0.656,272,clear favorite,0.344

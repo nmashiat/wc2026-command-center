@@ -39,3 +39,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-21,New Zealand,Egypt,1,3,away_win,0.228,0.275,0.497,away_win,True,Egypt,False,0.497
 2026-06-21,Spain,Saudi Arabia,4,0,home_win,0.79,0.173,0.037,home_win,True,Spain,False,0.79
 2026-06-21,Uruguay,Cape Verde,2,2,draw,0.71,0.207,0.083,home_win,False,Uruguay,True,0.207
+2026-06-22,Jordan,Algeria,1,2,away_win,0.237,0.271,0.491,away_win,True,Algeria,False,0.491
+2026-06-22,Argentina,Austria,2,0,home_win,0.669,0.212,0.119,home_win,True,Argentina,False,0.669
+2026-06-22,Norway,Senegal,3,2,home_win,0.554,0.244,0.201,home_win,True,Norway,False,0.554
+2026-06-22,France,Iraq,3,0,home_win,0.779,0.172,0.049,home_win,True,France,False,0.779
