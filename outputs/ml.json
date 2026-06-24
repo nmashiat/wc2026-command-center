@@ -703,65 +703,73 @@
       "favorite": "France",
       "upset": false,
       "p_actual": 0.779
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-06-23",
       "home": "Portugal",
       "away": "Uzbekistan",
+      "home_score": 5,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.628,
       "p_draw": 0.226,
       "p_away": 0.146,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Portugal",
-      "favorite_win_prob": 0.628,
-      "elo_gap": 229,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.372
+      "upset": false,
+      "p_actual": 0.628
     },
     {
       "date": "2026-06-23",
       "home": "Colombia",
       "away": "DR Congo",
+      "home_score": 1,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.684,
       "p_draw": 0.205,
       "p_away": 0.111,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Colombia",
-      "favorite_win_prob": 0.684,
-      "elo_gap": 296,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.316
+      "upset": false,
+      "p_actual": 0.684
     },
     {
       "date": "2026-06-23",
       "home": "England",
       "away": "Ghana",
+      "home_score": 0,
+      "away_score": 0,
+      "actual": "draw",
       "p_home": 0.832,
       "p_draw": 0.129,
       "p_away": 0.039,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": false,
       "favorite": "England",
-      "favorite_win_prob": 0.832,
-      "elo_gap": 453,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.168
+      "upset": true,
+      "p_actual": 0.129
     },
     {
       "date": "2026-06-23",
       "home": "Panama",
       "away": "Croatia",
+      "home_score": 0,
+      "away_score": 1,
+      "actual": "away_win",
       "p_home": 0.241,
       "p_draw": 0.246,
       "p_away": 0.512,
-      "most_likely": "away_win",
+      "pick": "away_win",
+      "correct": true,
       "favorite": "Croatia",
-      "favorite_win_prob": 0.512,
-      "elo_gap": 138,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.488
-    },
+      "upset": false,
+      "p_actual": 0.512
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-06-24",
       "home": "Scotland",
@@ -1018,43 +1026,43 @@
       "date": "2026-06-27",
       "home": "DR Congo",
       "away": "Uzbekistan",
-      "p_home": 0.358,
-      "p_draw": 0.31,
-      "p_away": 0.332,
+      "p_home": 0.403,
+      "p_draw": 0.262,
+      "p_away": 0.335,
       "most_likely": "home_win",
       "favorite": "Uzbekistan",
-      "favorite_win_prob": 0.332,
-      "elo_gap": 27,
+      "favorite_win_prob": 0.335,
+      "elo_gap": 11,
       "gap_class": "coin flip",
-      "upset_risk": 0.668
+      "upset_risk": 0.665
     },
     {
       "date": "2026-06-27",
       "home": "Colombia",
       "away": "Portugal",
-      "p_home": 0.372,
-      "p_draw": 0.301,
-      "p_away": 0.326,
+      "p_home": 0.352,
+      "p_draw": 0.335,
+      "p_away": 0.313,
       "most_likely": "home_win",
       "favorite": "Colombia",
-      "favorite_win_prob": 0.372,
-      "elo_gap": 40,
-      "gap_class": "lean",
-      "upset_risk": 0.628
+      "favorite_win_prob": 0.352,
+      "elo_gap": 24,
+      "gap_class": "coin flip",
+      "upset_risk": 0.648
     },
     {
       "date": "2026-06-27",
       "home": "Panama",
       "away": "England",
-      "p_home": 0.093,
-      "p_draw": 0.195,
-      "p_away": 0.713,
+      "p_home": 0.106,
+      "p_draw": 0.21,
+      "p_away": 0.684,
       "most_likely": "away_win",
       "favorite": "England",
-      "favorite_win_prob": 0.713,
-      "elo_gap": 319,
+      "favorite_win_prob": 0.684,
+      "elo_gap": 312,
       "gap_class": "clear favorite",
-      "upset_risk": 0.287
+      "upset_risk": 0.316
     },
     {
       "date": "2026-06-27",
@@ -1088,22 +1096,22 @@
       "date": "2026-06-27",
       "home": "Croatia",
       "away": "Ghana",
-      "p_home": 0.656,
-      "p_draw": 0.21,
-      "p_away": 0.134,
+      "p_home": 0.66,
+      "p_draw": 0.214,
+      "p_away": 0.126,
       "most_likely": "home_win",
       "favorite": "Croatia",
-      "favorite_win_prob": 0.656,
-      "elo_gap": 272,
+      "favorite_win_prob": 0.66,
+      "elo_gap": 264,
       "gap_class": "clear favorite",
-      "upset_risk": 0.344
+      "upset_risk": 0.34
     }
   ],
   "scorecard": {
-    "graded": 44,
-    "correct": 27,
-    "accuracy": 0.614,
+    "graded": 48,
+    "correct": 30,
+    "accuracy": 0.625,
     "log_loss": 0.895,
-    "upsets": 19
+    "upsets": 20
   }
 }

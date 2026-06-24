@@ -1,8 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-23,Portugal,Uzbekistan,0.628,0.226,0.146,home_win,Portugal,0.628,229,clear favorite,0.372
-2026-06-23,Colombia,DR Congo,0.684,0.205,0.111,home_win,Colombia,0.684,296,clear favorite,0.316
-2026-06-23,England,Ghana,0.832,0.129,0.039,home_win,England,0.832,453,clear favorite,0.168
-2026-06-23,Panama,Croatia,0.241,0.246,0.512,away_win,Croatia,0.512,138,clear favorite,0.488
 2026-06-24,Scotland,Brazil,0.148,0.261,0.591,away_win,Brazil,0.591,209,clear favorite,0.409
 2026-06-24,Mexico,Czechia,0.752,0.178,0.069,home_win,Mexico,0.752,234,clear favorite,0.248
 2026-06-24,South Africa,South Korea,0.159,0.25,0.591,away_win,South Korea,0.591,218,clear favorite,0.409
@@ -21,9 +17,9 @@ date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_g
 2026-06-26,Egypt,Iran,0.323,0.316,0.361,away_win,Iran,0.361,33,coin flip,0.639
 2026-06-26,New Zealand,Belgium,0.121,0.208,0.67,away_win,Belgium,0.67,227,clear favorite,0.33
 2026-06-26,Senegal,Iraq,0.563,0.244,0.193,home_win,Senegal,0.563,155,clear favorite,0.437
-2026-06-27,DR Congo,Uzbekistan,0.358,0.31,0.332,home_win,Uzbekistan,0.332,27,coin flip,0.668
-2026-06-27,Colombia,Portugal,0.372,0.301,0.326,home_win,Colombia,0.372,40,lean,0.628
-2026-06-27,Panama,England,0.093,0.195,0.713,away_win,England,0.713,319,clear favorite,0.287
+2026-06-27,DR Congo,Uzbekistan,0.403,0.262,0.335,home_win,Uzbekistan,0.335,11,coin flip,0.665
+2026-06-27,Colombia,Portugal,0.352,0.335,0.313,home_win,Colombia,0.352,24,coin flip,0.648
+2026-06-27,Panama,England,0.106,0.21,0.684,away_win,England,0.684,312,clear favorite,0.316
 2026-06-27,Algeria,Austria,0.29,0.33,0.381,away_win,Austria,0.381,18,coin flip,0.619
 2026-06-27,Jordan,Argentina,0.052,0.137,0.812,away_win,Argentina,0.812,490,clear favorite,0.188
-2026-06-27,Croatia,Ghana,0.656,0.21,0.134,home_win,Croatia,0.656,272,clear favorite,0.344
+2026-06-27,Croatia,Ghana,0.66,0.214,0.126,home_win,Croatia,0.66,264,clear favorite,0.34
