@@ -767,93 +767,105 @@
       "favorite": "Croatia",
       "upset": false,
       "p_actual": 0.512
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-06-24",
       "home": "Scotland",
       "away": "Brazil",
+      "home_score": 0,
+      "away_score": 3,
+      "actual": "away_win",
       "p_home": 0.148,
       "p_draw": 0.261,
       "p_away": 0.591,
-      "most_likely": "away_win",
+      "pick": "away_win",
+      "correct": true,
       "favorite": "Brazil",
-      "favorite_win_prob": 0.591,
-      "elo_gap": 209,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.409
+      "upset": false,
+      "p_actual": 0.591
     },
     {
       "date": "2026-06-24",
       "home": "Mexico",
       "away": "Czechia",
+      "home_score": 3,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.752,
       "p_draw": 0.178,
       "p_away": 0.069,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Mexico",
-      "favorite_win_prob": 0.752,
-      "elo_gap": 234,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.248
+      "upset": false,
+      "p_actual": 0.752
     },
     {
       "date": "2026-06-24",
       "home": "South Africa",
       "away": "South Korea",
+      "home_score": 1,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.159,
       "p_draw": 0.25,
       "p_away": 0.591,
-      "most_likely": "away_win",
+      "pick": "away_win",
+      "correct": false,
       "favorite": "South Korea",
-      "favorite_win_prob": 0.591,
-      "elo_gap": 218,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.409
+      "upset": true,
+      "p_actual": 0.159
     },
     {
       "date": "2026-06-24",
       "home": "Canada",
       "away": "Switzerland",
+      "home_score": 1,
+      "away_score": 2,
+      "actual": "away_win",
       "p_home": 0.4,
       "p_draw": 0.317,
       "p_away": 0.283,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": false,
       "favorite": "Switzerland",
-      "favorite_win_prob": 0.283,
-      "elo_gap": 50,
-      "gap_class": "lean",
-      "upset_risk": 0.717
+      "upset": false,
+      "p_actual": 0.283
     },
     {
       "date": "2026-06-24",
       "home": "Bosnia & Herzegovina",
       "away": "Qatar",
+      "home_score": 3,
+      "away_score": 1,
+      "actual": "home_win",
       "p_home": 0.416,
       "p_draw": 0.276,
       "p_away": 0.308,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Bosnia & Herzegovina",
-      "favorite_win_prob": 0.416,
-      "elo_gap": 70,
-      "gap_class": "lean",
-      "upset_risk": 0.584
+      "upset": false,
+      "p_actual": 0.416
     },
     {
       "date": "2026-06-24",
       "home": "Morocco",
       "away": "Haiti",
+      "home_score": 4,
+      "away_score": 2,
+      "actual": "home_win",
       "p_home": 0.761,
       "p_draw": 0.178,
       "p_away": 0.061,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Morocco",
-      "favorite_win_prob": 0.761,
-      "elo_gap": 346,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.239
-    },
+      "upset": false,
+      "p_actual": 0.761
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-06-25",
       "home": "Tunisia",
@@ -1108,10 +1120,10 @@
     }
   ],
   "scorecard": {
-    "graded": 48,
-    "correct": 30,
-    "accuracy": 0.625,
-    "log_loss": 0.895,
-    "upsets": 20
+    "graded": 54,
+    "correct": 34,
+    "accuracy": 0.63,
+    "log_loss": 0.889,
+    "upsets": 21
   }
 }

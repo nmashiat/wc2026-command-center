@@ -1,10 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-24,Scotland,Brazil,0.148,0.261,0.591,away_win,Brazil,0.591,209,clear favorite,0.409
-2026-06-24,Mexico,Czechia,0.752,0.178,0.069,home_win,Mexico,0.752,234,clear favorite,0.248
-2026-06-24,South Africa,South Korea,0.159,0.25,0.591,away_win,South Korea,0.591,218,clear favorite,0.409
-2026-06-24,Canada,Switzerland,0.4,0.317,0.283,home_win,Switzerland,0.283,50,lean,0.717
-2026-06-24,Bosnia & Herzegovina,Qatar,0.416,0.276,0.308,home_win,Bosnia & Herzegovina,0.416,70,lean,0.584
-2026-06-24,Morocco,Haiti,0.761,0.178,0.061,home_win,Morocco,0.761,346,clear favorite,0.239
 2026-06-25,Tunisia,Netherlands,0.069,0.173,0.758,away_win,Netherlands,0.758,374,clear favorite,0.242
 2026-06-25,Japan,Sweden,0.64,0.232,0.127,home_win,Japan,0.64,216,clear favorite,0.36
 2026-06-25,Ecuador,Germany,0.252,0.308,0.44,away_win,Germany,0.44,88,lean,0.56
