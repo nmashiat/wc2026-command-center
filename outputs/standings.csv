@@ -11,18 +11,18 @@ C,Brazil,3,2,1,0,7,1,6,7
 C,Morocco,3,2,1,0,6,3,3,7
 C,Scotland,3,1,0,2,1,4,-3,3
 C,Haiti,3,0,0,3,2,8,-6,0
-D,United States,2,2,0,0,6,1,5,6
-D,Australia,2,1,0,1,2,2,0,3
-D,Paraguay,2,1,0,1,2,4,-2,3
-D,Türkiye,2,0,0,2,0,3,-3,0
-E,Germany,2,2,0,0,9,2,7,6
-E,Ivory Coast,2,1,0,1,2,2,0,3
-E,Ecuador,2,0,1,1,0,1,-1,1
-E,Curaçao,2,0,1,1,1,7,-6,1
-F,Netherlands,2,1,1,0,7,3,4,4
-F,Japan,2,1,1,0,6,2,4,4
-F,Sweden,2,1,0,1,6,6,0,3
-F,Tunisia,2,0,0,2,1,9,-8,0
+D,United States,3,2,0,1,8,4,4,6
+D,Australia,3,1,1,1,2,2,0,4
+D,Paraguay,3,1,1,1,2,4,-2,4
+D,Türkiye,3,1,0,2,3,5,-2,3
+E,Germany,3,2,0,1,10,4,6,6
+E,Ivory Coast,3,2,0,1,4,2,2,6
+E,Ecuador,3,1,1,1,2,2,0,4
+E,Curaçao,3,0,1,2,1,9,-8,1
+F,Netherlands,3,2,1,0,10,4,6,7
+F,Japan,3,1,2,0,7,3,4,5
+F,Sweden,3,1,1,1,7,7,0,4
+F,Tunisia,3,0,0,3,2,12,-10,0
 G,Egypt,2,1,1,0,4,2,2,4
 G,Iran,2,0,2,0,2,2,0,2
 G,Belgium,2,0,2,0,1,1,0,2
