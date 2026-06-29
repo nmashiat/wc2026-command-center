@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 72.0,
-    "total_goals": 215.0,
-    "avg_goals_per_match": 2.99,
+    "matches_played": 73.0,
+    "total_goals": 216.0,
+    "avg_goals_per_match": 2.96,
     "home_wins": 33.0,
     "draws": 20.0,
-    "away_wins": 19.0,
-    "clean_sheets": 33.0
+    "away_wins": 20.0,
+    "clean_sheets": 34.0
   },
   "standings": [
     {
@@ -24,13 +24,13 @@
     {
       "grp": "A",
       "team": "South Africa",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "gf": 2,
-      "ga": 3,
-      "gd": -1,
+      "ga": 4,
+      "gd": -2,
       "points": 4
     },
     {
@@ -59,6 +59,18 @@
     },
     {
       "grp": "B",
+      "team": "Canada",
+      "played": 4,
+      "won": 2,
+      "drawn": 1,
+      "lost": 1,
+      "gf": 9,
+      "ga": 3,
+      "gd": 6,
+      "points": 7
+    },
+    {
+      "grp": "B",
       "team": "Switzerland",
       "played": 3,
       "won": 2,
@@ -68,18 +80,6 @@
       "ga": 3,
       "gd": 4,
       "points": 7
-    },
-    {
-      "grp": "B",
-      "team": "Canada",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "gf": 8,
-      "ga": 3,
-      "gd": 5,
-      "points": 4
     },
     {
       "grp": "B",
@@ -671,6 +671,11 @@
       "date": "2026-06-27",
       "matches": 6,
       "goals": 19
+    },
+    {
+      "date": "2026-06-28",
+      "matches": 1,
+      "goals": 1
     }
   ],
   "biggest_wins": [
@@ -1108,10 +1113,10 @@
     },
     {
       "elo_rank": 26,
-      "team": "Iran",
-      "grp": "G",
-      "confederation": "AFC",
-      "elo": 1882.0,
+      "team": "Canada",
+      "grp": "B",
+      "confederation": "CONCACAF",
+      "elo": 1885.0,
       "form_pts": 1.7,
       "l10": "4-5-1",
       "gf10": 16,
@@ -1122,16 +1127,16 @@
     },
     {
       "elo_rank": 27,
-      "team": "Canada",
-      "grp": "B",
-      "confederation": "CONCACAF",
-      "elo": 1867.0,
-      "form_pts": 1.5,
-      "l10": "3-6-1",
-      "gf10": 15,
+      "team": "Iran",
+      "grp": "G",
+      "confederation": "AFC",
+      "elo": 1882.0,
+      "form_pts": 1.7,
+      "l10": "4-5-1",
+      "gf10": 16,
       "ga10": 6,
-      "gd10": 9,
-      "avg_gf": 1.5,
+      "gd10": 10,
+      "avg_gf": 1.6,
       "avg_ga": 0.6
     },
     {
@@ -1276,20 +1281,6 @@
     },
     {
       "elo_rank": 38,
-      "team": "South Africa",
-      "grp": "A",
-      "confederation": "CAF",
-      "elo": 1717.0,
-      "form_pts": 1.2,
-      "l10": "3-3-4",
-      "gf10": 9,
-      "ga10": 11,
-      "gd10": -2,
-      "avg_gf": 0.9,
-      "avg_ga": 1.1
-    },
-    {
-      "elo_rank": 39,
       "team": "Saudi Arabia",
       "grp": "H",
       "confederation": "AFC",
@@ -1301,6 +1292,20 @@
       "gd10": -7,
       "avg_gf": 0.8,
       "avg_ga": 1.5
+    },
+    {
+      "elo_rank": 39,
+      "team": "South Africa",
+      "grp": "A",
+      "confederation": "CAF",
+      "elo": 1699.0,
+      "form_pts": 1.2,
+      "l10": "3-3-4",
+      "gf10": 9,
+      "ga10": 11,
+      "gd10": -2,
+      "avg_gf": 0.9,
+      "avg_ga": 1.1
     },
     {
       "elo_rank": 40,

@@ -1,5 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-06-28,South Africa,Canada,0.214,0.295,0.491,away_win,Canada,0.491,150,clear favorite,0.509
 2026-06-29,Germany,Paraguay,0.559,0.21,0.231,home_win,Germany,0.559,105,clear favorite,0.441
 2026-06-29,Brazil,Japan,0.485,0.249,0.266,home_win,Brazil,0.485,91,lean,0.515
 2026-06-29,Netherlands,Morocco,0.372,0.312,0.316,home_win,Netherlands,0.372,20,coin flip,0.628

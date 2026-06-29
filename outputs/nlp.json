@@ -243,8 +243,8 @@
       "sample_negative": "That was awful, completely shocking. I'm gutted"
     },
     {
-      "team": "Iran",
-      "grp": "G",
+      "team": "Canada",
+      "grp": "B",
       "n_comments": 50,
       "mean_sentiment": 0.111,
       "pct_positive": 50.0,
@@ -320,8 +320,8 @@
       "sample_negative": "That was fragile, completely embarrassing. I'm gutted"
     },
     {
-      "team": "Canada",
-      "grp": "B",
+      "team": "Iran",
+      "grp": "G",
       "n_comments": 50,
       "mean_sentiment": -0.038,
       "pct_positive": 42.0,
@@ -367,22 +367,11 @@
       "team": "South Africa",
       "grp": "A",
       "n_comments": 50,
-      "mean_sentiment": -0.077,
-      "pct_positive": 42.0,
-      "pct_neutral": 6.0,
-      "pct_negative": 52.0,
-      "sample_positive": "Absolutely magnificent from the boys today, so brilliant",
-      "sample_negative": "That was embarrassing, completely shambles. I'm gutted"
-    },
-    {
-      "team": "Saudi Arabia",
-      "grp": "H",
-      "n_comments": 50,
-      "mean_sentiment": -0.142,
-      "pct_positive": 42.0,
+      "mean_sentiment": -0.097,
+      "pct_positive": 44.0,
       "pct_neutral": 4.0,
-      "pct_negative": 54.0,
-      "sample_positive": "We look brilliant and brilliant, real dream run coming",
+      "pct_negative": 52.0,
+      "sample_positive": "Absolutely stunning from the boys today, so stunning",
       "sample_negative": "That was awful, completely awful. I'm gutted"
     },
     {
@@ -395,6 +384,17 @@
       "pct_negative": 48.0,
       "sample_positive": "magnificent again! Proud of the lads, genuinely magnificent",
       "sample_negative": "That was embarrassing, completely woeful. I'm gutted"
+    },
+    {
+      "team": "Saudi Arabia",
+      "grp": "H",
+      "n_comments": 50,
+      "mean_sentiment": -0.15,
+      "pct_positive": 36.0,
+      "pct_neutral": 8.0,
+      "pct_negative": 56.0,
+      "sample_positive": "brilliant again! Proud of the lads, genuinely stunning",
+      "sample_negative": "That was embarrassing, completely shambles. I'm gutted"
     },
     {
       "team": "Panama",

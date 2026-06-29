@@ -1151,23 +1151,25 @@
       "favorite": "Colombia",
       "upset": true,
       "p_actual": 0.335
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-06-28",
       "home": "South Africa",
       "away": "Canada",
+      "home_score": 0,
+      "away_score": 1,
+      "actual": "away_win",
       "p_home": 0.214,
       "p_draw": 0.295,
       "p_away": 0.491,
-      "most_likely": "away_win",
+      "pick": "away_win",
+      "correct": true,
       "favorite": "Canada",
-      "favorite_win_prob": 0.491,
-      "elo_gap": 150,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.509
-    },
+      "upset": false,
+      "p_actual": 0.491
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-06-29",
       "home": "Germany",
@@ -1380,10 +1382,10 @@
     }
   ],
   "scorecard": {
-    "graded": 72,
-    "correct": 44,
-    "accuracy": 0.611,
-    "log_loss": 0.874,
+    "graded": 73,
+    "correct": 45,
+    "accuracy": 0.616,
+    "log_loss": 0.872,
     "upsets": 30
   }
 }
