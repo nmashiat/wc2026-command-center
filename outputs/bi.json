@@ -1,10 +1,10 @@
 {
   "summary": {
-    "matches_played": 73.0,
-    "total_goals": 216.0,
-    "avg_goals_per_match": 2.96,
-    "home_wins": 33.0,
-    "draws": 20.0,
+    "matches_played": 76.0,
+    "total_goals": 223.0,
+    "avg_goals_per_match": 2.93,
+    "home_wins": 34.0,
+    "draws": 22.0,
     "away_wins": 20.0,
     "clean_sheets": 34.0
   },
@@ -108,26 +108,26 @@
     {
       "grp": "C",
       "team": "Brazil",
-      "played": 3,
-      "won": 2,
+      "played": 4,
+      "won": 3,
       "drawn": 1,
       "lost": 0,
-      "gf": 7,
-      "ga": 1,
-      "gd": 6,
-      "points": 7
+      "gf": 9,
+      "ga": 2,
+      "gd": 7,
+      "points": 10
     },
     {
       "grp": "C",
       "team": "Morocco",
-      "played": 3,
+      "played": 4,
       "won": 2,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
-      "gf": 6,
-      "ga": 3,
+      "gf": 7,
+      "ga": 4,
       "gd": 3,
-      "points": 7
+      "points": 8
     },
     {
       "grp": "C",
@@ -167,6 +167,18 @@
     },
     {
       "grp": "D",
+      "team": "Paraguay",
+      "played": 4,
+      "won": 1,
+      "drawn": 2,
+      "lost": 1,
+      "gf": 3,
+      "ga": 5,
+      "gd": -2,
+      "points": 5
+    },
+    {
+      "grp": "D",
       "team": "Australia",
       "played": 3,
       "won": 1,
@@ -175,18 +187,6 @@
       "gf": 2,
       "ga": 2,
       "gd": 0,
-      "points": 4
-    },
-    {
-      "grp": "D",
-      "team": "Paraguay",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "gf": 2,
-      "ga": 4,
-      "gd": -2,
       "points": 4
     },
     {
@@ -204,14 +204,14 @@
     {
       "grp": "E",
       "team": "Germany",
-      "played": 3,
+      "played": 4,
       "won": 2,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 1,
-      "gf": 10,
-      "ga": 4,
+      "gf": 11,
+      "ga": 5,
       "gd": 6,
-      "points": 6
+      "points": 7
     },
     {
       "grp": "E",
@@ -252,25 +252,25 @@
     {
       "grp": "F",
       "team": "Netherlands",
-      "played": 3,
+      "played": 4,
       "won": 2,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
-      "gf": 10,
-      "ga": 4,
+      "gf": 11,
+      "ga": 5,
       "gd": 6,
-      "points": 7
+      "points": 8
     },
     {
       "grp": "F",
       "team": "Japan",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 2,
-      "lost": 0,
-      "gf": 7,
-      "ga": 3,
-      "gd": 4,
+      "lost": 1,
+      "gf": 8,
+      "ga": 5,
+      "gd": 3,
       "points": 5
     },
     {
@@ -676,6 +676,11 @@
       "date": "2026-06-28",
       "matches": 1,
       "goals": 1
+    },
+    {
+      "date": "2026-06-29",
+      "matches": 3,
+      "goals": 7
     }
   ],
   "biggest_wins": [
@@ -805,6 +810,20 @@
     },
     {
       "elo_rank": 4,
+      "team": "Brazil",
+      "grp": "C",
+      "confederation": "CONMEBOL",
+      "elo": 2112.0,
+      "form_pts": 2.3,
+      "l10": "7-2-1",
+      "gf10": 24,
+      "ga10": 9,
+      "gd10": 15,
+      "avg_gf": 2.4,
+      "avg_ga": 0.9
+    },
+    {
+      "elo_rank": 5,
       "team": "England",
       "grp": "L",
       "confederation": "UEFA",
@@ -816,20 +835,6 @@
       "gd10": 16,
       "avg_gf": 2.0,
       "avg_ga": 0.4
-    },
-    {
-      "elo_rank": 5,
-      "team": "Brazil",
-      "grp": "C",
-      "confederation": "CONMEBOL",
-      "elo": 2089.0,
-      "form_pts": 2.0,
-      "l10": "6-2-2",
-      "gf10": 24,
-      "ga10": 11,
-      "gd10": 13,
-      "avg_gf": 2.4,
-      "avg_ga": 1.1
     },
     {
       "elo_rank": 6,
@@ -864,28 +869,28 @@
       "team": "Netherlands",
       "grp": "F",
       "confederation": "UEFA",
-      "elo": 2051.0,
-      "form_pts": 2.1,
-      "l10": "6-3-1",
-      "gf10": 24,
-      "ga10": 9,
-      "gd10": 15,
-      "avg_gf": 2.4,
-      "avg_ga": 0.9
+      "elo": 2049.0,
+      "form_pts": 1.9,
+      "l10": "5-4-1",
+      "gf10": 21,
+      "ga10": 10,
+      "gd10": 11,
+      "avg_gf": 2.1,
+      "avg_ga": 1.0
     },
     {
       "elo_rank": 9,
       "team": "Morocco",
       "grp": "C",
       "confederation": "CAF",
-      "elo": 2030.0,
+      "elo": 2032.0,
       "form_pts": 2.2,
       "l10": "6-4-0",
-      "gf10": 22,
-      "ga10": 6,
+      "gf10": 23,
+      "ga10": 7,
       "gd10": 16,
-      "avg_gf": 2.2,
-      "avg_ga": 0.6
+      "avg_gf": 2.3,
+      "avg_ga": 0.7
     },
     {
       "elo_rank": 10,
@@ -906,31 +911,17 @@
       "team": "Germany",
       "grp": "E",
       "confederation": "UEFA",
-      "elo": 2001.0,
-      "form_pts": 2.7,
-      "l10": "9-0-1",
+      "elo": 1992.0,
+      "form_pts": 2.5,
+      "l10": "8-1-1",
       "gf10": 31,
-      "ga10": 9,
-      "gd10": 22,
+      "ga10": 10,
+      "gd10": 21,
       "avg_gf": 3.1,
-      "avg_ga": 0.9
+      "avg_ga": 1.0
     },
     {
       "elo_rank": 12,
-      "team": "Japan",
-      "grp": "F",
-      "confederation": "AFC",
-      "elo": 1998.0,
-      "form_pts": 2.4,
-      "l10": "7-3-0",
-      "gf10": 20,
-      "ga10": 7,
-      "gd10": 13,
-      "avg_gf": 2.0,
-      "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 13,
       "team": "Norway",
       "grp": "I",
       "confederation": "UEFA",
@@ -944,7 +935,7 @@
       "avg_ga": 1.4
     },
     {
-      "elo_rank": 14,
+      "elo_rank": 13,
       "team": "Ecuador",
       "grp": "E",
       "confederation": "CONMEBOL",
@@ -958,7 +949,7 @@
       "avg_ga": 0.6
     },
     {
-      "elo_rank": 15,
+      "elo_rank": 14,
       "team": "Switzerland",
       "grp": "B",
       "confederation": "UEFA",
@@ -970,6 +961,20 @@
       "gd10": 9,
       "avg_gf": 2.0,
       "avg_ga": 1.1
+    },
+    {
+      "elo_rank": 15,
+      "team": "Japan",
+      "grp": "F",
+      "confederation": "AFC",
+      "elo": 1976.0,
+      "form_pts": 2.3,
+      "l10": "7-2-1",
+      "gf10": 19,
+      "ga10": 7,
+      "gd10": 12,
+      "avg_gf": 1.9,
+      "avg_ga": 0.7
     },
     {
       "elo_rank": 16,
@@ -1057,6 +1062,20 @@
     },
     {
       "elo_rank": 22,
+      "team": "Paraguay",
+      "grp": "D",
+      "confederation": "CONMEBOL",
+      "elo": 1904.0,
+      "form_pts": 1.4,
+      "l10": "4-2-4",
+      "gf10": 12,
+      "ga10": 12,
+      "gd10": 0,
+      "avg_gf": 1.2,
+      "avg_ga": 1.2
+    },
+    {
+      "elo_rank": 23,
       "team": "Austria",
       "grp": "J",
       "confederation": "UEFA",
@@ -1070,7 +1089,7 @@
       "avg_ga": 0.9
     },
     {
-      "elo_rank": 23,
+      "elo_rank": 24,
       "team": "Senegal",
       "grp": "I",
       "confederation": "CAF",
@@ -1081,20 +1100,6 @@
       "ga10": 13,
       "gd10": 4,
       "avg_gf": 1.7,
-      "avg_ga": 1.3
-    },
-    {
-      "elo_rank": 24,
-      "team": "Paraguay",
-      "grp": "D",
-      "confederation": "CONMEBOL",
-      "elo": 1896.0,
-      "form_pts": 1.4,
-      "l10": "4-2-4",
-      "gf10": 13,
-      "ga10": 13,
-      "gd10": 0,
-      "avg_gf": 1.3,
       "avg_ga": 1.3
     },
     {
