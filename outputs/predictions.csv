@@ -1,13 +1,12 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-07-01,Belgium,Senegal,0.457,0.259,0.284,home_win,Belgium,0.457,51,lean,0.543
-2026-07-01,England,DR Congo,0.735,0.172,0.092,home_win,England,0.735,294,clear favorite,0.265
-2026-07-01,United States,Bosnia & Herzegovina,0.761,0.147,0.091,home_win,United States,0.761,212,clear favorite,0.239
 2026-07-02,Portugal,Croatia,0.519,0.266,0.215,home_win,Portugal,0.519,91,lean,0.481
 2026-07-02,Spain,Austria,0.648,0.238,0.114,home_win,Spain,0.648,307,clear favorite,0.352
 2026-07-02,Switzerland,Algeria,0.469,0.292,0.239,home_win,Switzerland,0.469,93,lean,0.531
 2026-07-03,Argentina,Cape Verde,0.865,0.107,0.028,home_win,Argentina,0.865,521,clear favorite,0.135
 2026-07-03,Australia,Egypt,0.408,0.309,0.284,home_win,Australia,0.408,55,lean,0.592
 2026-07-03,Colombia,Ghana,0.76,0.192,0.048,home_win,Colombia,0.76,397,clear favorite,0.24
-2026-07-04,Paraguay,France,0.125,0.214,0.661,away_win,France,0.661,293,clear favorite,0.339
 2026-07-04,Canada,Morocco,0.213,0.313,0.474,away_win,Morocco,0.474,147,clear favorite,0.526
+2026-07-04,Paraguay,France,0.125,0.214,0.661,away_win,France,0.661,293,clear favorite,0.339
+2026-07-05,Mexico,England,0.395,0.343,0.262,home_win,England,0.262,60,lean,0.738
 2026-07-05,Brazil,Norway,0.482,0.239,0.278,home_win,Brazil,0.482,100,lean,0.518
+2026-07-06,United States,Belgium,0.36,0.284,0.356,home_win,Belgium,0.356,54,lean,0.644
