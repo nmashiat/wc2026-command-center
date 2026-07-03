@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 82.0,
-    "total_goals": 241.0,
-    "avg_goals_per_match": 2.94,
-    "home_wins": 39.0,
+    "matches_played": 85.0,
+    "total_goals": 249.0,
+    "avg_goals_per_match": 2.93,
+    "home_wins": 42.0,
     "draws": 22.0,
     "away_wins": 21.0,
-    "clean_sheets": 37.0
+    "clean_sheets": 39.0
   },
   "standings": [
     {
@@ -59,6 +59,18 @@
     },
     {
       "grp": "B",
+      "team": "Switzerland",
+      "played": 4,
+      "won": 3,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 9,
+      "ga": 3,
+      "gd": 6,
+      "points": 10
+    },
+    {
+      "grp": "B",
       "team": "Canada",
       "played": 4,
       "won": 2,
@@ -67,18 +79,6 @@
       "gf": 9,
       "ga": 3,
       "gd": 6,
-      "points": 7
-    },
-    {
-      "grp": "B",
-      "team": "Switzerland",
-      "played": 3,
-      "won": 2,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 7,
-      "ga": 3,
-      "gd": 4,
       "points": 7
     },
     {
@@ -348,14 +348,14 @@
     {
       "grp": "H",
       "team": "Spain",
-      "played": 3,
-      "won": 2,
+      "played": 4,
+      "won": 3,
       "drawn": 1,
       "lost": 0,
-      "gf": 5,
+      "gf": 8,
       "ga": 0,
-      "gd": 5,
-      "points": 7
+      "gd": 8,
+      "points": 10
     },
     {
       "grp": "H",
@@ -456,25 +456,25 @@
     {
       "grp": "J",
       "team": "Austria",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "gf": 6,
-      "ga": 6,
-      "gd": 0,
+      "ga": 9,
+      "gd": -3,
       "points": 4
     },
     {
       "grp": "J",
       "team": "Algeria",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "gf": 5,
-      "ga": 7,
-      "gd": -2,
+      "ga": 9,
+      "gd": -4,
       "points": 4
     },
     {
@@ -491,6 +491,18 @@
     },
     {
       "grp": "K",
+      "team": "Portugal",
+      "played": 4,
+      "won": 2,
+      "drawn": 2,
+      "lost": 0,
+      "gf": 8,
+      "ga": 2,
+      "gd": 6,
+      "points": 8
+    },
+    {
+      "grp": "K",
       "team": "Colombia",
       "played": 3,
       "won": 2,
@@ -500,18 +512,6 @@
       "ga": 1,
       "gd": 3,
       "points": 7
-    },
-    {
-      "grp": "K",
-      "team": "Portugal",
-      "played": 3,
-      "won": 1,
-      "drawn": 2,
-      "lost": 0,
-      "gf": 6,
-      "ga": 1,
-      "gd": 5,
-      "points": 5
     },
     {
       "grp": "K",
@@ -552,13 +552,13 @@
     {
       "grp": "L",
       "team": "Croatia",
-      "played": 3,
+      "played": 4,
       "won": 2,
       "drawn": 0,
-      "lost": 1,
-      "gf": 5,
-      "ga": 5,
-      "gd": 0,
+      "lost": 2,
+      "gf": 6,
+      "ga": 7,
+      "gd": -1,
       "points": 6
     },
     {
@@ -691,6 +691,11 @@
       "date": "2026-07-01",
       "matches": 3,
       "goals": 10
+    },
+    {
+      "date": "2026-07-02",
+      "matches": 3,
+      "goals": 8
     }
   ],
   "biggest_wins": [
@@ -778,6 +783,20 @@
   "team_kpis": [
     {
       "elo_rank": 1,
+      "team": "Spain",
+      "grp": "H",
+      "confederation": "UEFA",
+      "elo": 2224.0,
+      "form_pts": 2.2,
+      "l10": "6-4-0",
+      "gf10": 21,
+      "ga10": 4,
+      "gd10": 17,
+      "avg_gf": 2.1,
+      "avg_ga": 0.4
+    },
+    {
+      "elo_rank": 2,
       "team": "Argentina",
       "grp": "J",
       "confederation": "CONMEBOL",
@@ -789,20 +808,6 @@
       "gd10": 27,
       "avg_gf": 2.9,
       "avg_ga": 0.2
-    },
-    {
-      "elo_rank": 2,
-      "team": "Spain",
-      "grp": "H",
-      "confederation": "UEFA",
-      "elo": 2208.0,
-      "form_pts": 2.2,
-      "l10": "6-4-0",
-      "gf10": 22,
-      "ga10": 4,
-      "gd10": 18,
-      "avg_gf": 2.2,
-      "avg_ga": 0.4
     },
     {
       "elo_rank": 3,
@@ -848,6 +853,20 @@
     },
     {
       "elo_rank": 6,
+      "team": "Portugal",
+      "grp": "K",
+      "confederation": "UEFA",
+      "elo": 2084.0,
+      "form_pts": 2.1,
+      "l10": "6-3-1",
+      "gf10": 23,
+      "ga10": 7,
+      "gd10": 16,
+      "avg_gf": 2.3,
+      "avg_ga": 0.7
+    },
+    {
+      "elo_rank": 7,
       "team": "Colombia",
       "grp": "K",
       "confederation": "CONMEBOL",
@@ -858,20 +877,6 @@
       "ga10": 8,
       "gd10": 8,
       "avg_gf": 1.6,
-      "avg_ga": 0.8
-    },
-    {
-      "elo_rank": 7,
-      "team": "Portugal",
-      "grp": "K",
-      "confederation": "UEFA",
-      "elo": 2062.0,
-      "form_pts": 1.9,
-      "l10": "5-4-1",
-      "gf10": 23,
-      "ga10": 8,
-      "gd10": 15,
-      "avg_gf": 2.3,
       "avg_ga": 0.8
     },
     {
@@ -918,6 +923,20 @@
     },
     {
       "elo_rank": 11,
+      "team": "Switzerland",
+      "grp": "B",
+      "confederation": "UEFA",
+      "elo": 2013.0,
+      "form_pts": 1.9,
+      "l10": "5-4-1",
+      "gf10": 22,
+      "ga10": 11,
+      "gd10": 11,
+      "avg_gf": 2.2,
+      "avg_ga": 1.1
+    },
+    {
+      "elo_rank": 12,
       "team": "Norway",
       "grp": "I",
       "confederation": "UEFA",
@@ -931,7 +950,7 @@
       "avg_ga": 1.4
     },
     {
-      "elo_rank": 12,
+      "elo_rank": 13,
       "team": "Germany",
       "grp": "E",
       "confederation": "UEFA",
@@ -943,20 +962,6 @@
       "gd10": 21,
       "avg_gf": 3.1,
       "avg_ga": 1.0
-    },
-    {
-      "elo_rank": 13,
-      "team": "Switzerland",
-      "grp": "B",
-      "confederation": "UEFA",
-      "elo": 1980.0,
-      "form_pts": 1.7,
-      "l10": "4-5-1",
-      "gf10": 20,
-      "ga10": 11,
-      "gd10": 9,
-      "avg_gf": 2.0,
-      "avg_ga": 1.1
     },
     {
       "elo_rank": 14,
@@ -988,20 +993,6 @@
     },
     {
       "elo_rank": 16,
-      "team": "Croatia",
-      "grp": "L",
-      "confederation": "UEFA",
-      "elo": 1971.0,
-      "form_pts": 2.1,
-      "l10": "7-0-3",
-      "gf10": 19,
-      "ga10": 15,
-      "gd10": 4,
-      "avg_gf": 1.9,
-      "avg_ga": 1.5
-    },
-    {
-      "elo_rank": 17,
       "team": "Ecuador",
       "grp": "E",
       "confederation": "CONMEBOL",
@@ -1013,6 +1004,20 @@
       "gd10": 4,
       "avg_gf": 1.1,
       "avg_ga": 0.7
+    },
+    {
+      "elo_rank": 17,
+      "team": "Croatia",
+      "grp": "L",
+      "confederation": "UEFA",
+      "elo": 1949.0,
+      "form_pts": 1.8,
+      "l10": "6-0-4",
+      "gf10": 17,
+      "ga10": 17,
+      "gd10": 0,
+      "avg_gf": 1.7,
+      "avg_ga": 1.7
     },
     {
       "elo_rank": 18,
@@ -1089,31 +1094,17 @@
       "team": "Austria",
       "grp": "J",
       "confederation": "UEFA",
-      "elo": 1901.0,
-      "form_pts": 2.0,
-      "l10": "6-2-2",
-      "gf10": 26,
-      "ga10": 9,
-      "gd10": 17,
-      "avg_gf": 2.6,
-      "avg_ga": 0.9
+      "elo": 1886.0,
+      "form_pts": 1.7,
+      "l10": "5-2-3",
+      "gf10": 16,
+      "ga10": 12,
+      "gd10": 4,
+      "avg_gf": 1.6,
+      "avg_ga": 1.2
     },
     {
       "elo_rank": 24,
-      "team": "Algeria",
-      "grp": "J",
-      "confederation": "CAF",
-      "elo": 1886.0,
-      "form_pts": 2.0,
-      "l10": "6-2-2",
-      "gf10": 21,
-      "ga10": 10,
-      "gd10": 11,
-      "avg_gf": 2.1,
-      "avg_ga": 1.0
-    },
-    {
-      "elo_rank": 25,
       "team": "Canada",
       "grp": "B",
       "confederation": "CONCACAF",
@@ -1127,7 +1118,7 @@
       "avg_ga": 0.6
     },
     {
-      "elo_rank": 26,
+      "elo_rank": 25,
       "team": "Iran",
       "grp": "G",
       "confederation": "AFC",
@@ -1141,7 +1132,7 @@
       "avg_ga": 0.6
     },
     {
-      "elo_rank": 27,
+      "elo_rank": 26,
       "team": "Senegal",
       "grp": "I",
       "confederation": "CAF",
@@ -1155,7 +1146,7 @@
       "avg_ga": 1.6
     },
     {
-      "elo_rank": 28,
+      "elo_rank": 27,
       "team": "Egypt",
       "grp": "G",
       "confederation": "CAF",
@@ -1167,6 +1158,20 @@
       "gd10": 6,
       "avg_gf": 1.4,
       "avg_ga": 0.8
+    },
+    {
+      "elo_rank": 28,
+      "team": "Algeria",
+      "grp": "J",
+      "confederation": "CAF",
+      "elo": 1853.0,
+      "form_pts": 1.7,
+      "l10": "5-2-3",
+      "gf10": 18,
+      "ga10": 11,
+      "gd10": 7,
+      "avg_gf": 1.8,
+      "avg_ga": 1.1
     },
     {
       "elo_rank": 29,
