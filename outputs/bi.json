@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 85.0,
-    "total_goals": 249.0,
-    "avg_goals_per_match": 2.93,
-    "home_wins": 42.0,
-    "draws": 22.0,
+    "matches_played": 88.0,
+    "total_goals": 257.0,
+    "avg_goals_per_match": 2.92,
+    "home_wins": 44.0,
+    "draws": 23.0,
     "away_wins": 21.0,
-    "clean_sheets": 39.0
+    "clean_sheets": 40.0
   },
   "standings": [
     {
@@ -167,6 +167,18 @@
     },
     {
       "grp": "D",
+      "team": "Australia",
+      "played": 4,
+      "won": 1,
+      "drawn": 2,
+      "lost": 1,
+      "gf": 3,
+      "ga": 3,
+      "gd": 0,
+      "points": 5
+    },
+    {
+      "grp": "D",
       "team": "Paraguay",
       "played": 4,
       "won": 1,
@@ -176,18 +188,6 @@
       "ga": 5,
       "gd": -2,
       "points": 5
-    },
-    {
-      "grp": "D",
-      "team": "Australia",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "gf": 2,
-      "ga": 2,
-      "gd": 0,
-      "points": 4
     },
     {
       "grp": "D",
@@ -312,14 +312,14 @@
     {
       "grp": "G",
       "team": "Egypt",
-      "played": 3,
+      "played": 4,
       "won": 1,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 0,
-      "gf": 5,
-      "ga": 3,
+      "gf": 6,
+      "ga": 4,
       "gd": 2,
-      "points": 5
+      "points": 6
     },
     {
       "grp": "G",
@@ -360,13 +360,13 @@
     {
       "grp": "H",
       "team": "Cape Verde",
-      "played": 3,
+      "played": 4,
       "won": 0,
       "drawn": 3,
-      "lost": 0,
-      "gf": 2,
-      "ga": 2,
-      "gd": 0,
+      "lost": 1,
+      "gf": 4,
+      "ga": 5,
+      "gd": -1,
       "points": 3
     },
     {
@@ -444,14 +444,14 @@
     {
       "grp": "J",
       "team": "Argentina",
-      "played": 3,
-      "won": 3,
+      "played": 4,
+      "won": 4,
       "drawn": 0,
       "lost": 0,
-      "gf": 8,
-      "ga": 1,
-      "gd": 7,
-      "points": 9
+      "gf": 11,
+      "ga": 3,
+      "gd": 8,
+      "points": 12
     },
     {
       "grp": "J",
@@ -491,6 +491,18 @@
     },
     {
       "grp": "K",
+      "team": "Colombia",
+      "played": 4,
+      "won": 3,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 5,
+      "ga": 1,
+      "gd": 4,
+      "points": 10
+    },
+    {
+      "grp": "K",
       "team": "Portugal",
       "played": 4,
       "won": 2,
@@ -500,18 +512,6 @@
       "ga": 2,
       "gd": 6,
       "points": 8
-    },
-    {
-      "grp": "K",
-      "team": "Colombia",
-      "played": 3,
-      "won": 2,
-      "drawn": 1,
-      "lost": 0,
-      "gf": 4,
-      "ga": 1,
-      "gd": 3,
-      "points": 7
     },
     {
       "grp": "K",
@@ -564,13 +564,13 @@
     {
       "grp": "L",
       "team": "Ghana",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 1,
-      "lost": 1,
+      "lost": 2,
       "gf": 2,
-      "ga": 2,
-      "gd": 0,
+      "ga": 3,
+      "gd": -1,
       "points": 4
     },
     {
@@ -696,6 +696,11 @@
       "date": "2026-07-02",
       "matches": 3,
       "goals": 8
+    },
+    {
+      "date": "2026-07-03",
+      "matches": 3,
+      "goals": 8
     }
   ],
   "biggest_wins": [
@@ -800,14 +805,14 @@
       "team": "Argentina",
       "grp": "J",
       "confederation": "CONMEBOL",
-      "elo": 2217.0,
+      "elo": 2220.0,
       "form_pts": 3.0,
       "l10": "10-0-0",
-      "gf10": 29,
-      "ga10": 2,
+      "gf10": 31,
+      "ga10": 4,
       "gd10": 27,
-      "avg_gf": 2.9,
-      "avg_ga": 0.2
+      "avg_gf": 3.1,
+      "avg_ga": 0.4
     },
     {
       "elo_rank": 3,
@@ -853,6 +858,20 @@
     },
     {
       "elo_rank": 6,
+      "team": "Colombia",
+      "grp": "K",
+      "confederation": "CONMEBOL",
+      "elo": 2088.0,
+      "form_pts": 2.2,
+      "l10": "7-1-2",
+      "gf10": 17,
+      "ga10": 8,
+      "gd10": 9,
+      "avg_gf": 1.7,
+      "avg_ga": 0.8
+    },
+    {
+      "elo_rank": 7,
       "team": "Portugal",
       "grp": "K",
       "confederation": "UEFA",
@@ -864,20 +883,6 @@
       "gd10": 16,
       "avg_gf": 2.3,
       "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 7,
-      "team": "Colombia",
-      "grp": "K",
-      "confederation": "CONMEBOL",
-      "elo": 2082.0,
-      "form_pts": 2.0,
-      "l10": "6-2-2",
-      "gf10": 16,
-      "ga10": 8,
-      "gd10": 8,
-      "avg_gf": 1.6,
-      "avg_ga": 0.8
     },
     {
       "elo_rank": 8,
@@ -1066,14 +1071,14 @@
       "team": "Australia",
       "grp": "D",
       "confederation": "AFC",
-      "elo": 1910.0,
-      "form_pts": 1.1,
-      "l10": "3-2-5",
+      "elo": 1906.0,
+      "form_pts": 1.2,
+      "l10": "3-3-4",
       "gf10": 10,
-      "ga10": 11,
-      "gd10": -1,
+      "ga10": 10,
+      "gd10": 0,
       "avg_gf": 1.0,
-      "avg_ga": 1.1
+      "avg_ga": 1.0
     },
     {
       "elo_rank": 22,
@@ -1150,14 +1155,14 @@
       "team": "Egypt",
       "grp": "G",
       "confederation": "CAF",
-      "elo": 1855.0,
-      "form_pts": 1.6,
-      "l10": "4-4-2",
-      "gf10": 14,
-      "ga10": 8,
-      "gd10": 6,
-      "avg_gf": 1.4,
-      "avg_ga": 0.8
+      "elo": 1860.0,
+      "form_pts": 1.4,
+      "l10": "3-5-2",
+      "gf10": 12,
+      "ga10": 7,
+      "gd10": 5,
+      "avg_gf": 1.2,
+      "avg_ga": 0.7
     },
     {
       "elo_rank": 28,
@@ -1332,31 +1337,17 @@
       "team": "Cape Verde",
       "grp": "H",
       "confederation": "CAF",
-      "elo": 1697.0,
-      "form_pts": 1.2,
-      "l10": "2-6-2",
-      "gf10": 12,
-      "ga10": 11,
-      "gd10": 1,
-      "avg_gf": 1.2,
-      "avg_ga": 1.1
+      "elo": 1694.0,
+      "form_pts": 0.9,
+      "l10": "1-6-3",
+      "gf10": 11,
+      "ga10": 14,
+      "gd10": -3,
+      "avg_gf": 1.1,
+      "avg_ga": 1.4
     },
     {
       "elo_rank": 41,
-      "team": "Ghana",
-      "grp": "L",
-      "confederation": "CAF",
-      "elo": 1685.0,
-      "form_pts": 0.8,
-      "l10": "2-2-6",
-      "gf10": 6,
-      "ga10": 15,
-      "gd10": -9,
-      "avg_gf": 0.6,
-      "avg_ga": 1.5
-    },
-    {
-      "elo_rank": 42,
       "team": "Bosnia & Herzegovina",
       "grp": "B",
       "confederation": "UEFA",
@@ -1368,6 +1359,20 @@
       "gd10": -1,
       "avg_gf": 1.2,
       "avg_ga": 1.3
+    },
+    {
+      "elo_rank": 42,
+      "team": "Ghana",
+      "grp": "L",
+      "confederation": "CAF",
+      "elo": 1679.0,
+      "form_pts": 0.5,
+      "l10": "1-2-7",
+      "gf10": 5,
+      "ga10": 16,
+      "gd10": -11,
+      "avg_gf": 0.5,
+      "avg_ga": 1.6
     },
     {
       "elo_rank": 43,

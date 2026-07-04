@@ -59,9 +59,9 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-25,Ecuador,Germany,2,1,home_win,0.252,0.308,0.44,away_win,False,Germany,True,0.252
 2026-06-25,Japan,Sweden,1,1,draw,0.64,0.232,0.127,home_win,False,Japan,True,0.232
 2026-06-25,Tunisia,Netherlands,1,3,away_win,0.069,0.173,0.758,away_win,True,Netherlands,False,0.758
-2026-06-26,Senegal,Iraq,5,0,home_win,0.563,0.244,0.193,home_win,True,Senegal,False,0.563
-2026-06-26,Uruguay,Spain,0,1,away_win,0.131,0.229,0.64,away_win,True,Spain,False,0.64
 2026-06-26,Norway,France,1,4,away_win,0.222,0.251,0.527,away_win,True,France,False,0.527
+2026-06-26,Uruguay,Spain,0,1,away_win,0.131,0.229,0.64,away_win,True,Spain,False,0.64
+2026-06-26,Senegal,Iraq,5,0,home_win,0.563,0.244,0.193,home_win,True,Senegal,False,0.563
 2026-06-26,New Zealand,Belgium,1,5,away_win,0.121,0.208,0.67,away_win,True,Belgium,False,0.67
 2026-06-26,Egypt,Iran,1,1,draw,0.323,0.316,0.361,away_win,False,Iran,True,0.316
 2026-06-26,Cape Verde,Saudi Arabia,0,0,draw,0.302,0.297,0.401,away_win,False,Saudi Arabia,True,0.297
@@ -84,3 +84,6 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-07-02,Spain,Austria,3,0,home_win,0.648,0.238,0.114,home_win,True,Spain,False,0.648
 2026-07-02,Portugal,Croatia,2,1,home_win,0.519,0.266,0.215,home_win,True,Portugal,False,0.519
 2026-07-02,Switzerland,Algeria,2,0,home_win,0.469,0.292,0.239,home_win,True,Switzerland,False,0.469
+2026-07-03,Australia,Egypt,1,1,draw,0.408,0.309,0.284,home_win,False,Australia,True,0.309
+2026-07-03,Argentina,Cape Verde,3,2,home_win,0.865,0.107,0.028,home_win,True,Argentina,False,0.865
+2026-07-03,Colombia,Ghana,1,0,home_win,0.76,0.192,0.048,home_win,True,Colombia,False,0.76

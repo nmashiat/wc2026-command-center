@@ -100,10 +100,10 @@
       "sample_negative": "That was awful, completely shambles. I'm gutted"
     },
     {
-      "team": "Portugal",
+      "team": "Colombia",
       "grp": "K",
       "n_comments": 50,
-      "mean_sentiment": 0.361,
+      "mean_sentiment": 0.367,
       "pct_positive": 66.0,
       "pct_neutral": 8.0,
       "pct_negative": 26.0,
@@ -155,6 +155,17 @@
       "sample_negative": "That was embarrassing, completely woeful. I'm gutted"
     },
     {
+      "team": "Portugal",
+      "grp": "K",
+      "n_comments": 50,
+      "mean_sentiment": 0.247,
+      "pct_positive": 62.0,
+      "pct_neutral": 8.0,
+      "pct_negative": 30.0,
+      "sample_positive": "Absolutely stunning from the boys today, so brilliant",
+      "sample_negative": "That was woeful, completely shocking. I'm gutted"
+    },
+    {
       "team": "Norway",
       "grp": "I",
       "n_comments": 50,
@@ -175,17 +186,6 @@
       "pct_negative": 36.0,
       "sample_positive": "Absolutely magnificent from the boys today, so magnificent",
       "sample_negative": "That was embarrassing, completely shocking. I'm gutted"
-    },
-    {
-      "team": "Colombia",
-      "grp": "K",
-      "n_comments": 50,
-      "mean_sentiment": 0.222,
-      "pct_positive": 60.0,
-      "pct_neutral": 8.0,
-      "pct_negative": 32.0,
-      "sample_positive": "Absolutely stunning from the boys today, so brilliant",
-      "sample_negative": "That was woeful, completely shocking. I'm gutted"
     },
     {
       "team": "Switzerland",
@@ -232,6 +232,17 @@
       "sample_negative": "That was embarrassing, completely embarrassing. I'm gutted"
     },
     {
+      "team": "Australia",
+      "grp": "D",
+      "n_comments": 50,
+      "mean_sentiment": 0.095,
+      "pct_positive": 52.0,
+      "pct_neutral": 0.0,
+      "pct_negative": 48.0,
+      "sample_positive": "Absolutely stunning from the boys today, so brilliant",
+      "sample_negative": "That was embarrassing, completely shambles. I'm gutted"
+    },
+    {
       "team": "Senegal",
       "grp": "I",
       "n_comments": 50,
@@ -241,17 +252,6 @@
       "pct_negative": 44.0,
       "sample_positive": "magnificent again! Proud of the lads, genuinely brilliant",
       "sample_negative": "That was awful, completely embarrassing. I'm gutted"
-    },
-    {
-      "team": "Australia",
-      "grp": "D",
-      "n_comments": 50,
-      "mean_sentiment": 0.044,
-      "pct_positive": 48.0,
-      "pct_neutral": 2.0,
-      "pct_negative": 50.0,
-      "sample_positive": "Absolutely stunning from the boys today, so stunning",
-      "sample_negative": "That was embarrassing, completely shambles. I'm gutted"
     },
     {
       "team": "Czechia",
@@ -342,17 +342,6 @@
       "sample_negative": "That was embarrassing, completely awful. I'm gutted"
     },
     {
-      "team": "Egypt",
-      "grp": "G",
-      "n_comments": 50,
-      "mean_sentiment": -0.065,
-      "pct_positive": 40.0,
-      "pct_neutral": 6.0,
-      "pct_negative": 54.0,
-      "sample_positive": "Absolutely magnificent from the boys today, so magnificent",
-      "sample_negative": "That was shocking, completely shambles. I'm gutted"
-    },
-    {
       "team": "DR Congo",
       "grp": "K",
       "n_comments": 50,
@@ -364,6 +353,17 @@
       "sample_negative": "That was embarrassing, completely embarrassing. I'm gutted"
     },
     {
+      "team": "Egypt",
+      "grp": "G",
+      "n_comments": 50,
+      "mean_sentiment": -0.093,
+      "pct_positive": 38.0,
+      "pct_neutral": 6.0,
+      "pct_negative": 56.0,
+      "sample_positive": "Absolutely magnificent from the boys today, so magnificent",
+      "sample_negative": "That was shocking, completely shambles. I'm gutted"
+    },
+    {
       "team": "South Africa",
       "grp": "A",
       "n_comments": 50,
@@ -373,17 +373,6 @@
       "pct_negative": 52.0,
       "sample_positive": "Absolutely stunning from the boys today, so stunning",
       "sample_negative": "That was awful, completely awful. I'm gutted"
-    },
-    {
-      "team": "Bosnia & Herzegovina",
-      "grp": "B",
-      "n_comments": 50,
-      "mean_sentiment": -0.113,
-      "pct_positive": 40.0,
-      "pct_neutral": 8.0,
-      "pct_negative": 52.0,
-      "sample_positive": "Absolutely magnificent from the boys today, so stunning",
-      "sample_negative": "That was fragile, completely woeful. I'm gutted"
     },
     {
       "team": "Saudi Arabia",
@@ -430,17 +419,6 @@
       "sample_negative": "That was embarrassing, completely awful. I'm gutted"
     },
     {
-      "team": "Cape Verde",
-      "grp": "H",
-      "n_comments": 50,
-      "mean_sentiment": -0.208,
-      "pct_positive": 38.0,
-      "pct_neutral": 4.0,
-      "pct_negative": 58.0,
-      "sample_positive": "dominant again! Proud of the lads, genuinely magnificent",
-      "sample_negative": "That was embarrassing, completely embarrassing. I'm gutted"
-    },
-    {
       "team": "Uzbekistan",
       "grp": "K",
       "n_comments": 50,
@@ -452,21 +430,21 @@
       "sample_negative": "That was embarrassing, completely embarrassing. I'm gutted"
     },
     {
-      "team": "Haiti",
-      "grp": "C",
+      "team": "Ghana",
+      "grp": "L",
       "n_comments": 50,
-      "mean_sentiment": -0.251,
-      "pct_positive": 30.0,
-      "pct_neutral": 6.0,
-      "pct_negative": 64.0,
-      "sample_positive": "Absolutely magnificent from the boys today, so magnificent",
-      "sample_negative": "That was embarrassing, completely shambles. I'm gutted"
+      "mean_sentiment": -0.266,
+      "pct_positive": 34.0,
+      "pct_neutral": 8.0,
+      "pct_negative": 58.0,
+      "sample_positive": "Absolutely magnificent from the boys today, so stunning",
+      "sample_negative": "That was fragile, completely woeful. I'm gutted"
     },
     {
       "team": "Cura\u00e7ao",
       "grp": "E",
       "n_comments": 50,
-      "mean_sentiment": -0.282,
+      "mean_sentiment": -0.273,
       "pct_positive": 36.0,
       "pct_neutral": 6.0,
       "pct_negative": 58.0,
@@ -474,10 +452,32 @@
       "sample_negative": "That was awful, completely embarrassing. I'm gutted"
     },
     {
+      "team": "Cape Verde",
+      "grp": "H",
+      "n_comments": 50,
+      "mean_sentiment": -0.278,
+      "pct_positive": 32.0,
+      "pct_neutral": 8.0,
+      "pct_negative": 60.0,
+      "sample_positive": "dominant again! Proud of the lads, genuinely magnificent",
+      "sample_negative": "That was embarrassing, completely embarrassing. I'm gutted"
+    },
+    {
+      "team": "Haiti",
+      "grp": "C",
+      "n_comments": 50,
+      "mean_sentiment": -0.284,
+      "pct_positive": 28.0,
+      "pct_neutral": 6.0,
+      "pct_negative": 66.0,
+      "sample_positive": "Absolutely magnificent from the boys today, so magnificent",
+      "sample_negative": "That was embarrassing, completely shambles. I'm gutted"
+    },
+    {
       "team": "Qatar",
       "grp": "B",
       "n_comments": 50,
-      "mean_sentiment": -0.353,
+      "mean_sentiment": -0.361,
       "pct_positive": 20.0,
       "pct_neutral": 8.0,
       "pct_negative": 72.0,
@@ -488,7 +488,7 @@
       "team": "Tunisia",
       "grp": "F",
       "n_comments": 50,
-      "mean_sentiment": -0.369,
+      "mean_sentiment": -0.371,
       "pct_positive": 30.0,
       "pct_neutral": 0.0,
       "pct_negative": 70.0,
@@ -496,26 +496,26 @@
       "sample_negative": "That was shambles, completely woeful. I'm gutted"
     },
     {
+      "team": "Bosnia & Herzegovina",
+      "grp": "B",
+      "n_comments": 50,
+      "mean_sentiment": -0.392,
+      "pct_positive": 22.0,
+      "pct_neutral": 2.0,
+      "pct_negative": 76.0,
+      "sample_positive": "We look brilliant and magnificent, real dream run coming",
+      "sample_negative": "That was shambles, completely awful. I'm gutted"
+    },
+    {
       "team": "Iraq",
       "grp": "I",
       "n_comments": 50,
-      "mean_sentiment": -0.428,
-      "pct_positive": 18.0,
+      "mean_sentiment": -0.393,
+      "pct_positive": 20.0,
       "pct_neutral": 8.0,
-      "pct_negative": 74.0,
+      "pct_negative": 72.0,
       "sample_positive": "Absolutely clinical from the boys today, so stunning",
-      "sample_negative": "That was woeful, completely embarrassing. I'm gutted"
-    },
-    {
-      "team": "Ghana",
-      "grp": "L",
-      "n_comments": 50,
-      "mean_sentiment": -0.448,
-      "pct_positive": 16.0,
-      "pct_neutral": 2.0,
-      "pct_negative": 82.0,
-      "sample_positive": "We look brilliant and magnificent, real dream run coming",
-      "sample_negative": "That was shambles, completely awful. I'm gutted"
+      "sample_negative": "That was awful, completely embarrassing. I'm gutted"
     },
     {
       "team": "New Zealand",
