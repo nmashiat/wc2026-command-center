@@ -100,8 +100,8 @@
       "sample_negative": "That was poor, completely awful. I'm gutted"
     },
     {
-      "team": "Brazil",
-      "grp": "C",
+      "team": "Norway",
+      "grp": "I",
       "n_comments": 50,
       "mean_sentiment": 0.328,
       "pct_positive": 66.0,
@@ -177,8 +177,8 @@
       "sample_negative": "That was shocking, completely poor. I'm gutted"
     },
     {
-      "team": "Norway",
-      "grp": "I",
+      "team": "Brazil",
+      "grp": "C",
       "n_comments": 50,
       "mean_sentiment": 0.222,
       "pct_positive": 60.0,

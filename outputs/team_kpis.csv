@@ -5,9 +5,9 @@ elo_rank,team,grp,confederation,elo,form_pts,l10,gf10,ga10,gd10,avg_gf,avg_ga
 4,England,L,UEFA,2150.0,2.3,7-2-1,18,7,11,1.8,0.7
 5,Colombia,K,CONMEBOL,2088.0,2.2,7-1-2,17,8,9,1.7,0.8
 6,Portugal,K,UEFA,2084.0,2.1,6-3-1,23,7,16,2.3,0.7
-7,Norway,I,UEFA,2069.0,2.0,6-2-2,21,13,8,2.1,1.3
+7,Brazil,C,CONMEBOL,2073.0,2.0,6-2-2,23,11,12,2.3,1.1
 8,Morocco,C,CAF,2063.0,2.2,6-4-0,23,7,16,2.3,0.7
-9,Brazil,C,CONMEBOL,2054.0,2.0,6-2-2,22,11,11,2.2,1.1
+9,Norway,I,UEFA,2050.0,2.0,6-2-2,21,14,7,2.1,1.4
 10,Netherlands,F,UEFA,2049.0,1.9,5-4-1,21,10,11,2.1,1.0
 11,Mexico,A,CONCACAF,2028.0,2.3,7-2-1,19,5,14,1.9,0.5
 12,Switzerland,B,UEFA,2013.0,1.9,5-4-1,22,11,11,2.2,1.1

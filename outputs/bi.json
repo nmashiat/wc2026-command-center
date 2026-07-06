@@ -1,12 +1,12 @@
 {
   "summary": {
     "matches_played": 92.0,
-    "total_goals": 268.0,
-    "avg_goals_per_match": 2.91,
+    "total_goals": 269.0,
+    "avg_goals_per_match": 2.92,
     "home_wins": 44.0,
     "draws": 23.0,
     "away_wins": 25.0,
-    "clean_sheets": 43.0
+    "clean_sheets": 42.0
   },
   "standings": [
     {
@@ -124,9 +124,9 @@
       "won": 3,
       "drawn": 1,
       "lost": 1,
-      "gf": 9,
+      "gf": 10,
       "ga": 4,
-      "gd": 5,
+      "gd": 6,
       "points": 10
     },
     {
@@ -413,8 +413,8 @@
       "drawn": 0,
       "lost": 1,
       "gf": 12,
-      "ga": 8,
-      "gd": 4,
+      "ga": 9,
+      "gd": 3,
       "points": 12
     },
     {
@@ -710,7 +710,7 @@
     {
       "date": "2026-07-05",
       "matches": 2,
-      "goals": 7
+      "goals": 8
     }
   ],
   "biggest_wins": [
@@ -882,17 +882,17 @@
     },
     {
       "elo_rank": 7,
-      "team": "Norway",
-      "grp": "I",
-      "confederation": "UEFA",
-      "elo": 2069.0,
+      "team": "Brazil",
+      "grp": "C",
+      "confederation": "CONMEBOL",
+      "elo": 2073.0,
       "form_pts": 2.0,
       "l10": "6-2-2",
-      "gf10": 21,
-      "ga10": 13,
-      "gd10": 8,
-      "avg_gf": 2.1,
-      "avg_ga": 1.3
+      "gf10": 23,
+      "ga10": 11,
+      "gd10": 12,
+      "avg_gf": 2.3,
+      "avg_ga": 1.1
     },
     {
       "elo_rank": 8,
@@ -910,17 +910,17 @@
     },
     {
       "elo_rank": 9,
-      "team": "Brazil",
-      "grp": "C",
-      "confederation": "CONMEBOL",
-      "elo": 2054.0,
+      "team": "Norway",
+      "grp": "I",
+      "confederation": "UEFA",
+      "elo": 2050.0,
       "form_pts": 2.0,
       "l10": "6-2-2",
-      "gf10": 22,
-      "ga10": 11,
-      "gd10": 11,
-      "avg_gf": 2.2,
-      "avg_ga": 1.1
+      "gf10": 21,
+      "ga10": 14,
+      "gd10": 7,
+      "avg_gf": 2.1,
+      "avg_ga": 1.4
     },
     {
       "elo_rank": 10,

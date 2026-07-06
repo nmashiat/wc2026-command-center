@@ -90,4 +90,4 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-07-04,Canada,Morocco,0,3,away_win,0.213,0.313,0.474,away_win,True,Morocco,False,0.474
 2026-07-04,Paraguay,France,0,1,away_win,0.125,0.214,0.661,away_win,True,France,False,0.661
 2026-07-05,Mexico,England,2,3,away_win,0.395,0.343,0.262,home_win,False,England,False,0.262
-2026-07-05,Brazil,Norway,0,2,away_win,0.482,0.239,0.278,home_win,False,Brazil,True,0.278
+2026-07-05,Brazil,Norway,1,2,away_win,0.482,0.239,0.278,home_win,False,Brazil,True,0.278

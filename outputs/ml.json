@@ -1460,7 +1460,7 @@
       "date": "2026-07-05",
       "home": "Brazil",
       "away": "Norway",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 2,
       "actual": "away_win",
       "p_home": 0.482,
@@ -1548,15 +1548,15 @@
       "date": "2026-07-11",
       "home": "Norway",
       "away": "England",
-      "p_home": 0.221,
-      "p_draw": 0.267,
-      "p_away": 0.512,
+      "p_home": 0.208,
+      "p_draw": 0.26,
+      "p_away": 0.532,
       "most_likely": "away_win",
       "favorite": "England",
-      "favorite_win_prob": 0.512,
-      "elo_gap": 80,
+      "favorite_win_prob": 0.532,
+      "elo_gap": 99,
       "gap_class": "lean",
-      "upset_risk": 0.488
+      "upset_risk": 0.468
     }
   ],
   "scorecard": {
