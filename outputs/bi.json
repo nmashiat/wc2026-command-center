@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 92.0,
-    "total_goals": 269.0,
-    "avg_goals_per_match": 2.92,
+    "matches_played": 94.0,
+    "total_goals": 275.0,
+    "avg_goals_per_match": 2.93,
     "home_wins": 44.0,
     "draws": 23.0,
-    "away_wins": 25.0,
-    "clean_sheets": 42.0
+    "away_wins": 27.0,
+    "clean_sheets": 43.0
   },
   "standings": [
     {
@@ -156,13 +156,13 @@
     {
       "grp": "D",
       "team": "United States",
-      "played": 4,
+      "played": 5,
       "won": 3,
       "drawn": 0,
-      "lost": 1,
-      "gf": 10,
-      "ga": 4,
-      "gd": 6,
+      "lost": 2,
+      "gf": 11,
+      "ga": 8,
+      "gd": 3,
       "points": 9
     },
     {
@@ -300,14 +300,14 @@
     {
       "grp": "G",
       "team": "Belgium",
-      "played": 4,
-      "won": 2,
+      "played": 5,
+      "won": 3,
       "drawn": 2,
       "lost": 0,
-      "gf": 9,
-      "ga": 4,
-      "gd": 5,
-      "points": 8
+      "gf": 13,
+      "ga": 5,
+      "gd": 8,
+      "points": 11
     },
     {
       "grp": "G",
@@ -348,14 +348,14 @@
     {
       "grp": "H",
       "team": "Spain",
-      "played": 4,
-      "won": 3,
+      "played": 5,
+      "won": 4,
       "drawn": 1,
       "lost": 0,
-      "gf": 8,
+      "gf": 9,
       "ga": 0,
-      "gd": 8,
-      "points": 10
+      "gd": 9,
+      "points": 13
     },
     {
       "grp": "H",
@@ -504,13 +504,13 @@
     {
       "grp": "K",
       "team": "Portugal",
-      "played": 4,
+      "played": 5,
       "won": 2,
       "drawn": 2,
-      "lost": 0,
+      "lost": 1,
       "gf": 8,
-      "ga": 2,
-      "gd": 6,
+      "ga": 3,
+      "gd": 5,
       "points": 8
     },
     {
@@ -711,6 +711,11 @@
       "date": "2026-07-05",
       "matches": 2,
       "goals": 8
+    },
+    {
+      "date": "2026-07-06",
+      "matches": 2,
+      "goals": 6
     }
   ],
   "biggest_wins": [
@@ -801,13 +806,13 @@
       "team": "Spain",
       "grp": "H",
       "confederation": "UEFA",
-      "elo": 2224.0,
+      "elo": 2242.0,
       "form_pts": 2.2,
       "l10": "6-4-0",
-      "gf10": 21,
+      "gf10": 18,
       "ga10": 4,
-      "gd10": 17,
-      "avg_gf": 2.1,
+      "gd10": 14,
+      "avg_gf": 1.8,
       "avg_ga": 0.4
     },
     {
@@ -868,20 +873,6 @@
     },
     {
       "elo_rank": 6,
-      "team": "Portugal",
-      "grp": "K",
-      "confederation": "UEFA",
-      "elo": 2084.0,
-      "form_pts": 2.1,
-      "l10": "6-3-1",
-      "gf10": 23,
-      "ga10": 7,
-      "gd10": 16,
-      "avg_gf": 2.3,
-      "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 7,
       "team": "Brazil",
       "grp": "C",
       "confederation": "CONMEBOL",
@@ -893,6 +884,20 @@
       "gd10": 12,
       "avg_gf": 2.3,
       "avg_ga": 1.1
+    },
+    {
+      "elo_rank": 7,
+      "team": "Portugal",
+      "grp": "K",
+      "confederation": "UEFA",
+      "elo": 2066.0,
+      "form_pts": 2.1,
+      "l10": "6-3-1",
+      "gf10": 23,
+      "ga10": 6,
+      "gd10": 17,
+      "avg_gf": 2.3,
+      "avg_ga": 0.6
     },
     {
       "elo_rank": 8,
@@ -938,6 +943,20 @@
     },
     {
       "elo_rank": 11,
+      "team": "Belgium",
+      "grp": "G",
+      "confederation": "UEFA",
+      "elo": 2030.0,
+      "form_pts": 2.4,
+      "l10": "7-3-0",
+      "gf10": 33,
+      "ga10": 8,
+      "gd10": 25,
+      "avg_gf": 3.3,
+      "avg_ga": 0.8
+    },
+    {
+      "elo_rank": 12,
       "team": "Mexico",
       "grp": "A",
       "confederation": "CONCACAF",
@@ -951,7 +970,7 @@
       "avg_ga": 0.5
     },
     {
-      "elo_rank": 12,
+      "elo_rank": 13,
       "team": "Switzerland",
       "grp": "B",
       "confederation": "UEFA",
@@ -965,7 +984,7 @@
       "avg_ga": 1.1
     },
     {
-      "elo_rank": 13,
+      "elo_rank": 14,
       "team": "Germany",
       "grp": "E",
       "confederation": "UEFA",
@@ -979,7 +998,7 @@
       "avg_ga": 1.0
     },
     {
-      "elo_rank": 14,
+      "elo_rank": 15,
       "team": "Japan",
       "grp": "F",
       "confederation": "AFC",
@@ -991,20 +1010,6 @@
       "gd10": 12,
       "avg_gf": 1.9,
       "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 15,
-      "team": "Belgium",
-      "grp": "G",
-      "confederation": "UEFA",
-      "elo": 1976.0,
-      "form_pts": 2.2,
-      "l10": "6-4-0",
-      "gf10": 30,
-      "ga10": 8,
-      "gd10": 22,
-      "avg_gf": 3.0,
-      "avg_ga": 0.8
     },
     {
       "elo_rank": 16,
@@ -1050,20 +1055,6 @@
     },
     {
       "elo_rank": 19,
-      "team": "United States",
-      "grp": "D",
-      "confederation": "CONCACAF",
-      "elo": 1923.0,
-      "form_pts": 1.8,
-      "l10": "6-0-4",
-      "gf10": 23,
-      "ga10": 17,
-      "gd10": 6,
-      "avg_gf": 2.3,
-      "avg_ga": 1.7
-    },
-    {
-      "elo_rank": 20,
       "team": "Uruguay",
       "grp": "H",
       "confederation": "CONMEBOL",
@@ -1077,7 +1068,7 @@
       "avg_ga": 1.1
     },
     {
-      "elo_rank": 21,
+      "elo_rank": 20,
       "team": "Australia",
       "grp": "D",
       "confederation": "AFC",
@@ -1091,7 +1082,7 @@
       "avg_ga": 1.0
     },
     {
-      "elo_rank": 22,
+      "elo_rank": 21,
       "team": "Paraguay",
       "grp": "D",
       "confederation": "CONMEBOL",
@@ -1105,7 +1096,7 @@
       "avg_ga": 1.1
     },
     {
-      "elo_rank": 23,
+      "elo_rank": 22,
       "team": "Austria",
       "grp": "J",
       "confederation": "UEFA",
@@ -1119,7 +1110,7 @@
       "avg_ga": 1.2
     },
     {
-      "elo_rank": 24,
+      "elo_rank": 23,
       "team": "Iran",
       "grp": "G",
       "confederation": "AFC",
@@ -1133,7 +1124,7 @@
       "avg_ga": 0.6
     },
     {
-      "elo_rank": 25,
+      "elo_rank": 24,
       "team": "Senegal",
       "grp": "I",
       "confederation": "CAF",
@@ -1145,6 +1136,20 @@
       "gd10": 2,
       "avg_gf": 1.8,
       "avg_ga": 1.6
+    },
+    {
+      "elo_rank": 25,
+      "team": "United States",
+      "grp": "D",
+      "confederation": "CONCACAF",
+      "elo": 1868.0,
+      "form_pts": 1.5,
+      "l10": "5-0-5",
+      "gf10": 22,
+      "ga10": 20,
+      "gd10": 2,
+      "avg_gf": 2.2,
+      "avg_ga": 2.0
     },
     {
       "elo_rank": 26,
