@@ -1,6 +1,5 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-07-06,Argentina,Egypt,0.777,0.156,0.068,home_win,Argentina,0.777,360,clear favorite,0.223
-2026-07-06,Switzerland,Colombia,0.285,0.287,0.428,away_win,Colombia,0.428,75,lean,0.572
 2026-07-09,France,Morocco,0.529,0.281,0.189,home_win,France,0.529,143,clear favorite,0.471
 2026-07-10,Spain,Belgium,0.561,0.273,0.166,home_win,Spain,0.561,212,clear favorite,0.439
 2026-07-11,Norway,England,0.208,0.26,0.532,away_win,England,0.532,99,lean,0.468
+2026-07-11,Argentina,Switzerland,0.645,0.202,0.154,home_win,Argentina,0.645,208,clear favorite,0.355

@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 94.0,
-    "total_goals": 275.0,
-    "avg_goals_per_match": 2.93,
-    "home_wins": 44.0,
-    "draws": 23.0,
+    "matches_played": 96.0,
+    "total_goals": 280.0,
+    "avg_goals_per_match": 2.92,
+    "home_wins": 45.0,
+    "draws": 24.0,
     "away_wins": 27.0,
-    "clean_sheets": 43.0
+    "clean_sheets": 44.0
   },
   "standings": [
     {
@@ -60,14 +60,14 @@
     {
       "grp": "B",
       "team": "Switzerland",
-      "played": 4,
+      "played": 5,
       "won": 3,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
       "gf": 9,
       "ga": 3,
       "gd": 6,
-      "points": 10
+      "points": 11
     },
     {
       "grp": "B",
@@ -312,13 +312,13 @@
     {
       "grp": "G",
       "team": "Egypt",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "drawn": 3,
-      "lost": 0,
-      "gf": 6,
-      "ga": 4,
-      "gd": 2,
+      "lost": 1,
+      "gf": 8,
+      "ga": 7,
+      "gd": 1,
       "points": 6
     },
     {
@@ -444,14 +444,14 @@
     {
       "grp": "J",
       "team": "Argentina",
-      "played": 4,
-      "won": 4,
+      "played": 5,
+      "won": 5,
       "drawn": 0,
       "lost": 0,
-      "gf": 11,
-      "ga": 3,
-      "gd": 8,
-      "points": 12
+      "gf": 14,
+      "ga": 5,
+      "gd": 9,
+      "points": 15
     },
     {
       "grp": "J",
@@ -492,14 +492,14 @@
     {
       "grp": "K",
       "team": "Colombia",
-      "played": 4,
+      "played": 5,
       "won": 3,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 0,
       "gf": 5,
       "ga": 1,
       "gd": 4,
-      "points": 10
+      "points": 11
     },
     {
       "grp": "K",
@@ -716,6 +716,11 @@
       "date": "2026-07-06",
       "matches": 2,
       "goals": 6
+    },
+    {
+      "date": "2026-07-07",
+      "matches": 2,
+      "goals": 5
     }
   ],
   "biggest_wins": [
@@ -820,14 +825,14 @@
       "team": "Argentina",
       "grp": "J",
       "confederation": "CONMEBOL",
-      "elo": 2220.0,
+      "elo": 2227.0,
       "form_pts": 3.0,
       "l10": "10-0-0",
-      "gf10": 31,
-      "ga10": 4,
-      "gd10": 27,
-      "avg_gf": 3.1,
-      "avg_ga": 0.4
+      "gf10": 28,
+      "ga10": 6,
+      "gd10": 22,
+      "avg_gf": 2.8,
+      "avg_ga": 0.6
     },
     {
       "elo_rank": 3,
@@ -862,14 +867,14 @@
       "team": "Colombia",
       "grp": "K",
       "confederation": "CONMEBOL",
-      "elo": 2088.0,
-      "form_pts": 2.2,
-      "l10": "7-1-2",
-      "gf10": 17,
-      "ga10": 8,
-      "gd10": 9,
-      "avg_gf": 1.7,
-      "avg_ga": 0.8
+      "elo": 2081.0,
+      "form_pts": 2.0,
+      "l10": "6-2-2",
+      "gf10": 15,
+      "ga10": 7,
+      "gd10": 8,
+      "avg_gf": 1.5,
+      "avg_ga": 0.7
     },
     {
       "elo_rank": 6,
@@ -974,14 +979,14 @@
       "team": "Switzerland",
       "grp": "B",
       "confederation": "UEFA",
-      "elo": 2013.0,
-      "form_pts": 1.9,
-      "l10": "5-4-1",
-      "gf10": 22,
-      "ga10": 11,
-      "gd10": 11,
-      "avg_gf": 2.2,
-      "avg_ga": 1.1
+      "elo": 2019.0,
+      "form_pts": 1.7,
+      "l10": "4-5-1",
+      "gf10": 18,
+      "ga10": 10,
+      "gd10": 8,
+      "avg_gf": 1.8,
+      "avg_ga": 1.0
     },
     {
       "elo_rank": 14,
@@ -1153,20 +1158,6 @@
     },
     {
       "elo_rank": 26,
-      "team": "Egypt",
-      "grp": "G",
-      "confederation": "CAF",
-      "elo": 1860.0,
-      "form_pts": 1.4,
-      "l10": "3-5-2",
-      "gf10": 12,
-      "ga10": 7,
-      "gd10": 5,
-      "avg_gf": 1.2,
-      "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 27,
       "team": "Algeria",
       "grp": "J",
       "confederation": "CAF",
@@ -1178,6 +1169,20 @@
       "gd10": 7,
       "avg_gf": 1.8,
       "avg_ga": 1.1
+    },
+    {
+      "elo_rank": 27,
+      "team": "Egypt",
+      "grp": "G",
+      "confederation": "CAF",
+      "elo": 1853.0,
+      "form_pts": 1.4,
+      "l10": "3-5-2",
+      "gf10": 14,
+      "ga10": 9,
+      "gd10": 5,
+      "avg_gf": 1.4,
+      "avg_ga": 0.9
     },
     {
       "elo_rank": 28,
