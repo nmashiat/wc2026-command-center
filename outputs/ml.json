@@ -1535,23 +1535,25 @@
       "favorite": "Colombia",
       "upset": true,
       "p_actual": 0.291
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-07-09",
       "home": "France",
       "away": "Morocco",
+      "home_score": 2,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.529,
       "p_draw": 0.281,
       "p_away": 0.189,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "France",
-      "favorite_win_prob": 0.529,
-      "elo_gap": 143,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.471
-    },
+      "upset": false,
+      "p_actual": 0.529
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-07-10",
       "home": "Spain",
@@ -1596,10 +1598,10 @@
     }
   ],
   "scorecard": {
-    "graded": 96,
-    "correct": 61,
-    "accuracy": 0.635,
-    "log_loss": 0.838,
+    "graded": 97,
+    "correct": 62,
+    "accuracy": 0.639,
+    "log_loss": 0.836,
     "upsets": 35
   }
 }

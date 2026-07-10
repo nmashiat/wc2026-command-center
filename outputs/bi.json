@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 96.0,
-    "total_goals": 280.0,
-    "avg_goals_per_match": 2.92,
-    "home_wins": 45.0,
+    "matches_played": 97.0,
+    "total_goals": 282.0,
+    "avg_goals_per_match": 2.91,
+    "home_wins": 46.0,
     "draws": 24.0,
     "away_wins": 27.0,
-    "clean_sheets": 44.0
+    "clean_sheets": 45.0
   },
   "standings": [
     {
@@ -108,13 +108,13 @@
     {
       "grp": "C",
       "team": "Morocco",
-      "played": 5,
+      "played": 6,
       "won": 3,
       "drawn": 2,
-      "lost": 0,
+      "lost": 1,
       "gf": 10,
-      "ga": 4,
-      "gd": 6,
+      "ga": 6,
+      "gd": 4,
       "points": 11
     },
     {
@@ -396,14 +396,14 @@
     {
       "grp": "I",
       "team": "France",
-      "played": 5,
-      "won": 5,
+      "played": 6,
+      "won": 6,
       "drawn": 0,
       "lost": 0,
-      "gf": 14,
+      "gf": 16,
       "ga": 2,
-      "gd": 12,
-      "points": 15
+      "gd": 14,
+      "points": 18
     },
     {
       "grp": "I",
@@ -721,6 +721,11 @@
       "date": "2026-07-07",
       "matches": 2,
       "goals": 5
+    },
+    {
+      "date": "2026-07-09",
+      "matches": 1,
+      "goals": 2
     }
   ],
   "biggest_wins": [
@@ -822,6 +827,20 @@
     },
     {
       "elo_rank": 2,
+      "team": "France",
+      "grp": "I",
+      "confederation": "UEFA",
+      "elo": 2234.0,
+      "form_pts": 2.7,
+      "l10": "9-0-1",
+      "gf10": 25,
+      "ga10": 7,
+      "gd10": 18,
+      "avg_gf": 2.5,
+      "avg_ga": 0.7
+    },
+    {
+      "elo_rank": 3,
       "team": "Argentina",
       "grp": "J",
       "confederation": "CONMEBOL",
@@ -833,20 +852,6 @@
       "gd10": 22,
       "avg_gf": 2.8,
       "avg_ga": 0.6
-    },
-    {
-      "elo_rank": 3,
-      "team": "France",
-      "grp": "I",
-      "confederation": "UEFA",
-      "elo": 2207.0,
-      "form_pts": 2.7,
-      "l10": "9-0-1",
-      "gf10": 26,
-      "ga10": 8,
-      "gd10": 18,
-      "avg_gf": 2.6,
-      "avg_ga": 0.8
     },
     {
       "elo_rank": 4,
@@ -906,20 +911,6 @@
     },
     {
       "elo_rank": 8,
-      "team": "Morocco",
-      "grp": "C",
-      "confederation": "CAF",
-      "elo": 2063.0,
-      "form_pts": 2.2,
-      "l10": "6-4-0",
-      "gf10": 23,
-      "ga10": 7,
-      "gd10": 16,
-      "avg_gf": 2.3,
-      "avg_ga": 0.7
-    },
-    {
-      "elo_rank": 9,
       "team": "Norway",
       "grp": "I",
       "confederation": "UEFA",
@@ -933,7 +924,7 @@
       "avg_ga": 1.4
     },
     {
-      "elo_rank": 10,
+      "elo_rank": 9,
       "team": "Netherlands",
       "grp": "F",
       "confederation": "UEFA",
@@ -945,6 +936,20 @@
       "gd10": 11,
       "avg_gf": 2.1,
       "avg_ga": 1.0
+    },
+    {
+      "elo_rank": 10,
+      "team": "Morocco",
+      "grp": "C",
+      "confederation": "CAF",
+      "elo": 2036.0,
+      "form_pts": 2.1,
+      "l10": "6-3-1",
+      "gf10": 22,
+      "ga10": 8,
+      "gd10": 14,
+      "avg_gf": 2.2,
+      "avg_ga": 0.8
     },
     {
       "elo_rank": 11,
