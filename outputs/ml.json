@@ -1551,23 +1551,25 @@
       "favorite": "France",
       "upset": false,
       "p_actual": 0.529
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-07-10",
       "home": "Spain",
       "away": "Belgium",
+      "home_score": 2,
+      "away_score": 1,
+      "actual": "home_win",
       "p_home": 0.561,
       "p_draw": 0.273,
       "p_away": 0.166,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Spain",
-      "favorite_win_prob": 0.561,
-      "elo_gap": 212,
-      "gap_class": "clear favorite",
-      "upset_risk": 0.439
-    },
+      "upset": false,
+      "p_actual": 0.561
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-07-11",
       "home": "Norway",
@@ -1598,10 +1600,10 @@
     }
   ],
   "scorecard": {
-    "graded": 97,
-    "correct": 62,
-    "accuracy": 0.639,
-    "log_loss": 0.836,
+    "graded": 98,
+    "correct": 63,
+    "accuracy": 0.643,
+    "log_loss": 0.833,
     "upsets": 35
   }
 }

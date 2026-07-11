@@ -1,9 +1,9 @@
 {
   "summary": {
-    "matches_played": 97.0,
-    "total_goals": 282.0,
+    "matches_played": 98.0,
+    "total_goals": 285.0,
     "avg_goals_per_match": 2.91,
-    "home_wins": 46.0,
+    "home_wins": 47.0,
     "draws": 24.0,
     "away_wins": 27.0,
     "clean_sheets": 45.0
@@ -300,13 +300,13 @@
     {
       "grp": "G",
       "team": "Belgium",
-      "played": 5,
+      "played": 6,
       "won": 3,
       "drawn": 2,
-      "lost": 0,
-      "gf": 13,
-      "ga": 5,
-      "gd": 8,
+      "lost": 1,
+      "gf": 14,
+      "ga": 7,
+      "gd": 7,
       "points": 11
     },
     {
@@ -348,14 +348,14 @@
     {
       "grp": "H",
       "team": "Spain",
-      "played": 5,
-      "won": 4,
+      "played": 6,
+      "won": 5,
       "drawn": 1,
       "lost": 0,
-      "gf": 9,
-      "ga": 0,
-      "gd": 9,
-      "points": 13
+      "gf": 11,
+      "ga": 1,
+      "gd": 10,
+      "points": 16
     },
     {
       "grp": "H",
@@ -726,6 +726,11 @@
       "date": "2026-07-09",
       "matches": 1,
       "goals": 2
+    },
+    {
+      "date": "2026-07-10",
+      "matches": 1,
+      "goals": 3
     }
   ],
   "biggest_wins": [
@@ -816,14 +821,14 @@
       "team": "Spain",
       "grp": "H",
       "confederation": "UEFA",
-      "elo": 2242.0,
-      "form_pts": 2.2,
-      "l10": "6-4-0",
+      "elo": 2256.0,
+      "form_pts": 2.4,
+      "l10": "7-3-0",
       "gf10": 18,
-      "ga10": 4,
-      "gd10": 14,
+      "ga10": 3,
+      "gd10": 15,
       "avg_gf": 1.8,
-      "avg_ga": 0.4
+      "avg_ga": 0.3
     },
     {
       "elo_rank": 2,
@@ -953,20 +958,6 @@
     },
     {
       "elo_rank": 11,
-      "team": "Belgium",
-      "grp": "G",
-      "confederation": "UEFA",
-      "elo": 2030.0,
-      "form_pts": 2.4,
-      "l10": "7-3-0",
-      "gf10": 33,
-      "ga10": 8,
-      "gd10": 25,
-      "avg_gf": 3.3,
-      "avg_ga": 0.8
-    },
-    {
-      "elo_rank": 12,
       "team": "Mexico",
       "grp": "A",
       "confederation": "CONCACAF",
@@ -980,7 +971,7 @@
       "avg_ga": 0.5
     },
     {
-      "elo_rank": 13,
+      "elo_rank": 12,
       "team": "Switzerland",
       "grp": "B",
       "confederation": "UEFA",
@@ -991,6 +982,20 @@
       "ga10": 10,
       "gd10": 8,
       "avg_gf": 1.8,
+      "avg_ga": 1.0
+    },
+    {
+      "elo_rank": 13,
+      "team": "Belgium",
+      "grp": "G",
+      "confederation": "UEFA",
+      "elo": 2017.0,
+      "form_pts": 2.1,
+      "l10": "6-3-1",
+      "gf10": 27,
+      "ga10": 10,
+      "gd10": 17,
+      "avg_gf": 2.7,
       "avg_ga": 1.0
     },
     {

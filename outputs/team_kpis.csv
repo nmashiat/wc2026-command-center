@@ -1,5 +1,5 @@
 elo_rank,team,grp,confederation,elo,form_pts,l10,gf10,ga10,gd10,avg_gf,avg_ga
-1,Spain,H,UEFA,2242.0,2.2,6-4-0,18,4,14,1.8,0.4
+1,Spain,H,UEFA,2256.0,2.4,7-3-0,18,3,15,1.8,0.3
 2,France,I,UEFA,2234.0,2.7,9-0-1,25,7,18,2.5,0.7
 3,Argentina,J,CONMEBOL,2227.0,3.0,10-0-0,28,6,22,2.8,0.6
 4,England,L,UEFA,2150.0,2.3,7-2-1,18,7,11,1.8,0.7
@@ -9,9 +9,9 @@ elo_rank,team,grp,confederation,elo,form_pts,l10,gf10,ga10,gd10,avg_gf,avg_ga
 8,Norway,I,UEFA,2050.0,2.0,6-2-2,21,14,7,2.1,1.4
 9,Netherlands,F,UEFA,2049.0,1.9,5-4-1,21,10,11,2.1,1.0
 10,Morocco,C,CAF,2036.0,2.1,6-3-1,22,8,14,2.2,0.8
-11,Belgium,G,UEFA,2030.0,2.4,7-3-0,33,8,25,3.3,0.8
-12,Mexico,A,CONCACAF,2028.0,2.3,7-2-1,19,5,14,1.9,0.5
-13,Switzerland,B,UEFA,2019.0,1.7,4-5-1,18,10,8,1.8,1.0
+11,Mexico,A,CONCACAF,2028.0,2.3,7-2-1,19,5,14,1.9,0.5
+12,Switzerland,B,UEFA,2019.0,1.7,4-5-1,18,10,8,1.8,1.0
+13,Belgium,G,UEFA,2017.0,2.1,6-3-1,27,10,17,2.7,1.0
 14,Germany,E,UEFA,1992.0,2.5,8-1-1,31,10,21,3.1,1.0
 15,Japan,F,AFC,1976.0,2.3,7-2-1,19,7,12,1.9,0.7
 16,Ecuador,E,CONMEBOL,1956.0,1.6,4-4-2,11,7,4,1.1,0.7

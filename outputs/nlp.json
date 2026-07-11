@@ -45,6 +45,17 @@
       "sample_negative": "That was shocking, completely awful. I'm gutted"
     },
     {
+      "team": "Spain",
+      "grp": "H",
+      "n_comments": 50,
+      "mean_sentiment": 0.473,
+      "pct_positive": 72.0,
+      "pct_neutral": 8.0,
+      "pct_negative": 20.0,
+      "sample_positive": "Absolutely magnificent from the boys today, so stunning",
+      "sample_negative": "What a awful display, we totally bottled it"
+    },
+    {
       "team": "Colombia",
       "grp": "K",
       "n_comments": 50,
@@ -56,12 +67,12 @@
       "sample_negative": "That was shambles, completely embarrassing. I'm gutted"
     },
     {
-      "team": "Switzerland",
-      "grp": "B",
+      "team": "Belgium",
+      "grp": "G",
       "n_comments": 50,
-      "mean_sentiment": 0.421,
-      "pct_positive": 74.0,
-      "pct_neutral": 4.0,
+      "mean_sentiment": 0.439,
+      "pct_positive": 76.0,
+      "pct_neutral": 2.0,
       "pct_negative": 22.0,
       "sample_positive": "Absolutely magnificent from the boys today, so magnificent",
       "sample_negative": "That was awful, completely embarrassing. I'm gutted"
@@ -75,17 +86,6 @@
       "pct_neutral": 10.0,
       "pct_negative": 22.0,
       "sample_positive": "Absolutely stunning from the boys today, so magnificent",
-      "sample_negative": "That was awful, completely shambles. I'm gutted"
-    },
-    {
-      "team": "Spain",
-      "grp": "H",
-      "n_comments": 50,
-      "mean_sentiment": 0.416,
-      "pct_positive": 70.0,
-      "pct_neutral": 4.0,
-      "pct_negative": 26.0,
-      "sample_positive": "Absolutely magnificent from the boys today, so stunning",
       "sample_negative": "That was awful, completely shambles. I'm gutted"
     },
     {
@@ -133,17 +133,6 @@
       "sample_negative": "That was embarrassing, completely woeful. I'm gutted"
     },
     {
-      "team": "Belgium",
-      "grp": "G",
-      "n_comments": 50,
-      "mean_sentiment": 0.287,
-      "pct_positive": 62.0,
-      "pct_neutral": 6.0,
-      "pct_negative": 32.0,
-      "sample_positive": "We look stunning and magnificent, real dream run coming",
-      "sample_negative": "That was shocking, completely poor. I'm gutted"
-    },
-    {
       "team": "T\u00fcrkiye",
       "grp": "D",
       "n_comments": 50,
@@ -153,17 +142,6 @@
       "pct_negative": 30.0,
       "sample_positive": "Absolutely brilliant from the boys today, so stunning",
       "sample_negative": "That was shocking, completely awful. I'm gutted"
-    },
-    {
-      "team": "Mexico",
-      "grp": "A",
-      "n_comments": 50,
-      "mean_sentiment": 0.283,
-      "pct_positive": 66.0,
-      "pct_neutral": 2.0,
-      "pct_negative": 32.0,
-      "sample_positive": "Absolutely magnificent from the boys today, so brilliant",
-      "sample_negative": "That was fragile, completely embarrassing. I'm gutted"
     },
     {
       "team": "Japan",
@@ -177,6 +155,17 @@
       "sample_negative": "That was embarrassing, completely shocking. I'm gutted"
     },
     {
+      "team": "Switzerland",
+      "grp": "B",
+      "n_comments": 50,
+      "mean_sentiment": 0.251,
+      "pct_positive": 66.0,
+      "pct_neutral": 0.0,
+      "pct_negative": 34.0,
+      "sample_positive": "Absolutely magnificent from the boys today, so brilliant",
+      "sample_negative": "That was shambles, completely shambles. I'm gutted"
+    },
+    {
       "team": "Netherlands",
       "grp": "F",
       "n_comments": 50,
@@ -186,6 +175,17 @@
       "pct_negative": 34.0,
       "sample_positive": "Absolutely brilliant from the boys today, so dominant",
       "sample_negative": "That was embarrassing, completely woeful. I'm gutted"
+    },
+    {
+      "team": "Mexico",
+      "grp": "A",
+      "n_comments": 50,
+      "mean_sentiment": 0.24,
+      "pct_positive": 58.0,
+      "pct_neutral": 6.0,
+      "pct_negative": 36.0,
+      "sample_positive": "We look stunning and magnificent, real dream run coming",
+      "sample_negative": "That was shocking, completely poor. I'm gutted"
     },
     {
       "team": "Portugal",

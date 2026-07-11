@@ -96,3 +96,4 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-07-07,Argentina,Egypt,3,2,home_win,0.777,0.156,0.067,home_win,True,Argentina,False,0.777
 2026-07-07,Switzerland,Colombia,0,0,draw,0.283,0.291,0.426,away_win,False,Colombia,True,0.291
 2026-07-09,France,Morocco,2,0,home_win,0.529,0.281,0.189,home_win,True,France,False,0.529
+2026-07-10,Spain,Belgium,2,1,home_win,0.561,0.273,0.166,home_win,True,Spain,False,0.561
