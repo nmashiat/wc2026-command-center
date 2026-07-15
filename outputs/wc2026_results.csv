@@ -99,3 +99,4 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-07-10,Spain,Belgium,2,1,home_win,0.561,0.273,0.166,home_win,True,Spain,False,0.561
 2026-07-11,Norway,England,1,2,away_win,0.208,0.26,0.532,away_win,True,England,False,0.532
 2026-07-11,Argentina,Switzerland,3,1,home_win,0.645,0.202,0.154,home_win,True,Argentina,False,0.645
+2026-07-14,France,Spain,0,2,away_win,0.31,0.308,0.382,away_win,True,Spain,False,0.382

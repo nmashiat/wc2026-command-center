@@ -1,5 +1,4 @@
 date,home,away,p_home,p_draw,p_away,most_likely,favorite,favorite_win_prob,elo_gap,gap_class,upset_risk
-2026-07-14,France,Spain,0.31,0.308,0.382,away_win,Spain,0.382,22,coin flip,0.618
 2026-07-15,England,Argentina,0.242,0.258,0.5,away_win,Argentina,0.5,77,lean,0.5
-2026-07-18,,,0.446,0.203,0.351,home_win,,0.446,0,coin flip,0.554
-2026-07-19,,,0.446,0.203,0.351,home_win,,0.446,0,coin flip,0.554
+2026-07-18,France,,0.936,0.05,0.014,home_win,France,0.936,692,clear favorite,0.064
+2026-07-19,Spain,,0.957,0.032,0.011,home_win,Spain,0.957,798,clear favorite,0.043

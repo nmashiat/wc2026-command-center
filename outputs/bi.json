@@ -1,12 +1,12 @@
 {
   "summary": {
-    "matches_played": 100.0,
-    "total_goals": 292.0,
-    "avg_goals_per_match": 2.92,
+    "matches_played": 101.0,
+    "total_goals": 294.0,
+    "avg_goals_per_match": 2.91,
     "home_wins": 48.0,
     "draws": 24.0,
-    "away_wins": 28.0,
-    "clean_sheets": 45.0
+    "away_wins": 29.0,
+    "clean_sheets": 46.0
   },
   "standings": [
     {
@@ -348,14 +348,14 @@
     {
       "grp": "H",
       "team": "Spain",
-      "played": 6,
-      "won": 5,
+      "played": 7,
+      "won": 6,
       "drawn": 1,
       "lost": 0,
-      "gf": 11,
+      "gf": 13,
       "ga": 1,
-      "gd": 10,
-      "points": 16
+      "gd": 12,
+      "points": 19
     },
     {
       "grp": "H",
@@ -396,13 +396,13 @@
     {
       "grp": "I",
       "team": "France",
-      "played": 6,
+      "played": 7,
       "won": 6,
       "drawn": 0,
-      "lost": 0,
+      "lost": 1,
       "gf": 16,
-      "ga": 2,
-      "gd": 14,
+      "ga": 4,
+      "gd": 12,
       "points": 18
     },
     {
@@ -736,6 +736,11 @@
       "date": "2026-07-11",
       "matches": 2,
       "goals": 7
+    },
+    {
+      "date": "2026-07-14",
+      "matches": 1,
+      "goals": 2
     }
   ],
   "biggest_wins": [
@@ -826,13 +831,13 @@
       "team": "Spain",
       "grp": "H",
       "confederation": "UEFA",
-      "elo": 2256.0,
+      "elo": 2298.0,
       "form_pts": 2.4,
       "l10": "7-3-0",
-      "gf10": 18,
+      "gf10": 17,
       "ga10": 3,
-      "gd10": 15,
-      "avg_gf": 1.8,
+      "gd10": 14,
+      "avg_gf": 1.7,
       "avg_ga": 0.3
     },
     {
@@ -854,14 +859,14 @@
       "team": "France",
       "grp": "I",
       "confederation": "UEFA",
-      "elo": 2234.0,
-      "form_pts": 2.7,
-      "l10": "9-0-1",
-      "gf10": 25,
-      "ga10": 7,
-      "gd10": 18,
-      "avg_gf": 2.5,
-      "avg_ga": 0.7
+      "elo": 2192.0,
+      "form_pts": 2.4,
+      "l10": "8-0-2",
+      "gf10": 23,
+      "ga10": 8,
+      "gd10": 15,
+      "avg_gf": 2.3,
+      "avg_ga": 0.8
     },
     {
       "elo_rank": 4,

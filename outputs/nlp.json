@@ -4,10 +4,10 @@
       "team": "France",
       "grp": "I",
       "n_comments": 50,
-      "mean_sentiment": 0.605,
-      "pct_positive": 84.0,
+      "mean_sentiment": 0.555,
+      "pct_positive": 82.0,
       "pct_neutral": 0.0,
-      "pct_negative": 16.0,
+      "pct_negative": 18.0,
       "sample_positive": "brilliant again! Proud of the lads, genuinely magnificent",
       "sample_negative": "What a embarrassing display, we totally bottled it"
     },

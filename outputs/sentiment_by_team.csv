@@ -1,5 +1,5 @@
 team,grp,n_comments,mean_sentiment,pct_positive,pct_neutral,pct_negative,sample_positive,sample_negative
-France,I,50,0.605,84.0,0.0,16.0,"brilliant again! Proud of the lads, genuinely magnificent","What a embarrassing display, we totally bottled it"
+France,I,50,0.555,82.0,0.0,18.0,"brilliant again! Proud of the lads, genuinely magnificent","What a embarrassing display, we totally bottled it"
 England,L,50,0.547,80.0,4.0,16.0,"We look stunning and magnificent, real dream run coming","Utterly awful again, this team is woeful"
 Germany,E,50,0.526,82.0,2.0,16.0,"Absolutely brilliant from the boys today, so brilliant","That was woeful, completely fragile. I'm gutted"
 Spain,H,50,0.473,72.0,8.0,20.0,"Absolutely magnificent from the boys today, so stunning","What a awful display, we totally bottled it"
