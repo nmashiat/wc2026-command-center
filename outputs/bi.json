@@ -1,11 +1,11 @@
 {
   "summary": {
-    "matches_played": 101.0,
-    "total_goals": 294.0,
+    "matches_played": 102.0,
+    "total_goals": 297.0,
     "avg_goals_per_match": 2.91,
     "home_wins": 48.0,
     "draws": 24.0,
-    "away_wins": 29.0,
+    "away_wins": 30.0,
     "clean_sheets": 46.0
   },
   "standings": [
@@ -444,14 +444,14 @@
     {
       "grp": "J",
       "team": "Argentina",
-      "played": 6,
-      "won": 6,
+      "played": 7,
+      "won": 7,
       "drawn": 0,
       "lost": 0,
-      "gf": 17,
-      "ga": 6,
-      "gd": 11,
-      "points": 18
+      "gf": 19,
+      "ga": 7,
+      "gd": 12,
+      "points": 21
     },
     {
       "grp": "J",
@@ -540,13 +540,13 @@
     {
       "grp": "L",
       "team": "England",
-      "played": 6,
+      "played": 7,
       "won": 5,
       "drawn": 1,
-      "lost": 0,
-      "gf": 13,
-      "ga": 6,
-      "gd": 7,
+      "lost": 1,
+      "gf": 14,
+      "ga": 8,
+      "gd": 6,
       "points": 16
     },
     {
@@ -741,6 +741,11 @@
       "date": "2026-07-14",
       "matches": 1,
       "goals": 2
+    },
+    {
+      "date": "2026-07-15",
+      "matches": 1,
+      "goals": 3
     }
   ],
   "biggest_wins": [
@@ -845,7 +850,7 @@
       "team": "Argentina",
       "grp": "J",
       "confederation": "CONMEBOL",
-      "elo": 2248.0,
+      "elo": 2271.0,
       "form_pts": 3.0,
       "l10": "10-0-0",
       "gf10": 29,
@@ -873,14 +878,14 @@
       "team": "England",
       "grp": "L",
       "confederation": "UEFA",
-      "elo": 2171.0,
-      "form_pts": 2.3,
-      "l10": "7-2-1",
+      "elo": 2148.0,
+      "form_pts": 2.2,
+      "l10": "7-1-2",
       "gf10": 18,
-      "ga10": 8,
-      "gd10": 10,
+      "ga10": 9,
+      "gd10": 9,
       "avg_gf": 1.8,
-      "avg_ga": 0.8
+      "avg_ga": 0.9
     },
     {
       "elo_rank": 5,
@@ -957,7 +962,7 @@
       "team": "Norway",
       "grp": "I",
       "confederation": "UEFA",
-      "elo": 2028.0,
+      "elo": 2029.0,
       "form_pts": 1.7,
       "l10": "5-2-3",
       "gf10": 18,
@@ -1335,7 +1340,7 @@
       "team": "Jordan",
       "grp": "J",
       "confederation": "AFC",
-      "elo": 1717.0,
+      "elo": 1718.0,
       "form_pts": 0.8,
       "l10": "2-2-6",
       "gf10": 12,
@@ -1405,7 +1410,7 @@
       "team": "Ghana",
       "grp": "L",
       "confederation": "CAF",
-      "elo": 1679.0,
+      "elo": 1680.0,
       "form_pts": 0.5,
       "l10": "1-2-7",
       "gf10": 5,
