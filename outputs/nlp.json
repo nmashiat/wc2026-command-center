@@ -1,10 +1,10 @@
 {
   "teams": [
     {
-      "team": "France",
-      "grp": "I",
+      "team": "England",
+      "grp": "L",
       "n_comments": 50,
-      "mean_sentiment": 0.555,
+      "mean_sentiment": 0.569,
       "pct_positive": 82.0,
       "pct_neutral": 0.0,
       "pct_negative": 18.0,
@@ -12,8 +12,8 @@
       "sample_negative": "What a embarrassing display, we totally bottled it"
     },
     {
-      "team": "England",
-      "grp": "L",
+      "team": "France",
+      "grp": "I",
       "n_comments": 50,
       "mean_sentiment": 0.531,
       "pct_positive": 80.0,

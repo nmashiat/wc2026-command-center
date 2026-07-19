@@ -1631,23 +1631,25 @@
       "favorite": "Argentina",
       "upset": false,
       "p_actual": 0.5
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-07-18",
       "home": "France",
       "away": "England",
+      "home_score": 4,
+      "away_score": 6,
+      "actual": "away_win",
       "p_home": 0.405,
       "p_draw": 0.292,
       "p_away": 0.303,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": false,
       "favorite": "France",
-      "favorite_win_prob": 0.405,
-      "elo_gap": 44,
-      "gap_class": "lean",
-      "upset_risk": 0.595
-    },
+      "upset": true,
+      "p_actual": 0.303
+    }
+  ],
+  "fixtures": [
     {
       "date": "2026-07-19",
       "home": "Spain",
@@ -1664,10 +1666,10 @@
     }
   ],
   "scorecard": {
-    "graded": 102,
+    "graded": 103,
     "correct": 67,
-    "accuracy": 0.657,
-    "log_loss": 0.827,
-    "upsets": 35
+    "accuracy": 0.65,
+    "log_loss": 0.831,
+    "upsets": 36
   }
 }

@@ -1,11 +1,11 @@
 {
   "summary": {
-    "matches_played": 102.0,
-    "total_goals": 297.0,
-    "avg_goals_per_match": 2.91,
+    "matches_played": 103.0,
+    "total_goals": 307.0,
+    "avg_goals_per_match": 2.98,
     "home_wins": 48.0,
     "draws": 24.0,
-    "away_wins": 30.0,
+    "away_wins": 31.0,
     "clean_sheets": 46.0
   },
   "standings": [
@@ -396,13 +396,13 @@
     {
       "grp": "I",
       "team": "France",
-      "played": 7,
+      "played": 8,
       "won": 6,
       "drawn": 0,
-      "lost": 1,
-      "gf": 16,
-      "ga": 4,
-      "gd": 12,
+      "lost": 2,
+      "gf": 20,
+      "ga": 10,
+      "gd": 10,
       "points": 18
     },
     {
@@ -540,14 +540,14 @@
     {
       "grp": "L",
       "team": "England",
-      "played": 7,
-      "won": 5,
+      "played": 8,
+      "won": 6,
       "drawn": 1,
       "lost": 1,
-      "gf": 14,
-      "ga": 8,
-      "gd": 6,
-      "points": 16
+      "gf": 20,
+      "ga": 12,
+      "gd": 8,
+      "points": 19
     },
     {
       "grp": "L",
@@ -746,6 +746,11 @@
       "date": "2026-07-15",
       "matches": 1,
       "goals": 3
+    },
+    {
+      "date": "2026-07-18",
+      "matches": 1,
+      "goals": 10
     }
   ],
   "biggest_wins": [
@@ -861,31 +866,31 @@
     },
     {
       "elo_rank": 3,
-      "team": "France",
-      "grp": "I",
-      "confederation": "UEFA",
-      "elo": 2192.0,
-      "form_pts": 2.4,
-      "l10": "8-0-2",
-      "gf10": 23,
-      "ga10": 8,
-      "gd10": 15,
-      "avg_gf": 2.3,
-      "avg_ga": 0.8
-    },
-    {
-      "elo_rank": 4,
       "team": "England",
       "grp": "L",
       "confederation": "UEFA",
-      "elo": 2148.0,
-      "form_pts": 2.2,
-      "l10": "7-1-2",
-      "gf10": 18,
-      "ga10": 9,
-      "gd10": 9,
-      "avg_gf": 1.8,
-      "avg_ga": 0.9
+      "elo": 2199.0,
+      "form_pts": 2.5,
+      "l10": "8-1-1",
+      "gf10": 24,
+      "ga10": 12,
+      "gd10": 12,
+      "avg_gf": 2.4,
+      "avg_ga": 1.2
+    },
+    {
+      "elo_rank": 4,
+      "team": "France",
+      "grp": "I",
+      "confederation": "UEFA",
+      "elo": 2141.0,
+      "form_pts": 2.1,
+      "l10": "7-0-3",
+      "gf10": 24,
+      "ga10": 13,
+      "gd10": 11,
+      "avg_gf": 2.4,
+      "avg_ga": 1.3
     },
     {
       "elo_rank": 5,
