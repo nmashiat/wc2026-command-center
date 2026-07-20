@@ -37,10 +37,10 @@
       "team": "Spain",
       "grp": "H",
       "n_comments": 50,
-      "mean_sentiment": 0.473,
-      "pct_positive": 72.0,
+      "mean_sentiment": 0.498,
+      "pct_positive": 74.0,
       "pct_neutral": 8.0,
-      "pct_negative": 20.0,
+      "pct_negative": 18.0,
       "sample_positive": "Absolutely magnificent from the boys today, so stunning",
       "sample_negative": "What a awful display, we totally bottled it"
     },
@@ -48,12 +48,12 @@
       "team": "Argentina",
       "grp": "J",
       "n_comments": 50,
-      "mean_sentiment": 0.465,
-      "pct_positive": 72.0,
-      "pct_neutral": 0.0,
-      "pct_negative": 28.0,
+      "mean_sentiment": 0.494,
+      "pct_positive": 74.0,
+      "pct_neutral": 4.0,
+      "pct_negative": 22.0,
       "sample_positive": "Absolutely stunning from the boys today, so magnificent",
-      "sample_negative": "Mixed feelings, some good some awful, we'll see"
+      "sample_negative": "That was shocking, completely awful. I'm gutted"
     },
     {
       "team": "Colombia",

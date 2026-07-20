@@ -1647,29 +1647,30 @@
       "favorite": "France",
       "upset": true,
       "p_actual": 0.303
-    }
-  ],
-  "fixtures": [
+    },
     {
       "date": "2026-07-19",
       "home": "Spain",
       "away": "Argentina",
+      "home_score": 1,
+      "away_score": 0,
+      "actual": "home_win",
       "p_home": 0.343,
       "p_draw": 0.32,
       "p_away": 0.337,
-      "most_likely": "home_win",
+      "pick": "home_win",
+      "correct": true,
       "favorite": "Spain",
-      "favorite_win_prob": 0.343,
-      "elo_gap": 27,
-      "gap_class": "coin flip",
-      "upset_risk": 0.657
+      "upset": false,
+      "p_actual": 0.343
     }
   ],
+  "fixtures": [],
   "scorecard": {
-    "graded": 103,
-    "correct": 67,
-    "accuracy": 0.65,
-    "log_loss": 0.831,
+    "graded": 104,
+    "correct": 68,
+    "accuracy": 0.654,
+    "log_loss": 0.833,
     "upsets": 36
   }
 }
