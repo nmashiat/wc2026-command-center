@@ -169,7 +169,7 @@
       "actual": "draw",
       "p_home": 0.388,
       "p_draw": 0.314,
-      "p_away": 0.299,
+      "p_away": 0.298,
       "pick": "home_win",
       "correct": false,
       "favorite": "Netherlands",
@@ -279,7 +279,7 @@
       "home_score": 1,
       "away_score": 4,
       "actual": "away_win",
-      "p_home": 0.125,
+      "p_home": 0.124,
       "p_draw": 0.203,
       "p_away": 0.672,
       "pick": "away_win",
@@ -649,12 +649,12 @@
       "actual": "away_win",
       "p_home": 0.237,
       "p_draw": 0.271,
-      "p_away": 0.491,
+      "p_away": 0.492,
       "pick": "away_win",
       "correct": true,
       "favorite": "Algeria",
       "upset": false,
-      "p_actual": 0.491
+      "p_actual": 0.492
     },
     {
       "date": "2026-06-22",
@@ -761,12 +761,12 @@
       "actual": "away_win",
       "p_home": 0.241,
       "p_draw": 0.246,
-      "p_away": 0.513,
+      "p_away": 0.512,
       "pick": "away_win",
       "correct": true,
       "favorite": "Croatia",
       "upset": false,
-      "p_actual": 0.513
+      "p_actual": 0.512
     },
     {
       "date": "2026-06-24",
@@ -1047,14 +1047,14 @@
       "home_score": 5,
       "away_score": 0,
       "actual": "home_win",
-      "p_home": 0.555,
-      "p_draw": 0.249,
-      "p_away": 0.196,
+      "p_home": 0.563,
+      "p_draw": 0.244,
+      "p_away": 0.193,
       "pick": "home_win",
       "correct": true,
       "favorite": "Senegal",
       "upset": false,
-      "p_actual": 0.555
+      "p_actual": 0.563
     },
     {
       "date": "2026-06-27",
@@ -1367,7 +1367,7 @@
       "home_score": 1,
       "away_score": 1,
       "actual": "draw",
-      "p_home": 0.407,
+      "p_home": 0.408,
       "p_draw": 0.309,
       "p_away": 0.284,
       "pick": "home_win",
