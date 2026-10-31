@@ -15,7 +15,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-15,Iran,New Zealand,2,2,draw,0.563,0.298,0.138,home_win,False,Iran,True,0.298
 2026-06-15,Spain,Cape Verde,0,0,draw,0.862,0.118,0.02,home_win,False,Spain,True,0.118
 2026-06-15,Saudi Arabia,Uruguay,1,1,draw,0.153,0.242,0.605,away_win,False,Uruguay,True,0.242
-2026-06-16,Austria,Jordan,3,1,home_win,0.527,0.254,0.218,home_win,True,Austria,False,0.527
+2026-06-16,Austria,Jordan,3,1,home_win,0.528,0.254,0.218,home_win,True,Austria,False,0.528
 2026-06-16,Argentina,Algeria,3,0,home_win,0.705,0.195,0.101,home_win,True,Argentina,False,0.705
 2026-06-16,Iraq,Norway,1,4,away_win,0.123,0.214,0.663,away_win,True,Norway,False,0.663
 2026-06-16,France,Senegal,3,1,home_win,0.593,0.249,0.157,home_win,True,France,False,0.593
@@ -58,7 +58,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-06-25,Paraguay,Australia,0,0,draw,0.323,0.294,0.383,away_win,False,Australia,True,0.294
 2026-06-25,Curaçao,Ivory Coast,0,2,away_win,0.15,0.23,0.62,away_win,True,Ivory Coast,False,0.62
 2026-06-25,Ecuador,Germany,2,1,home_win,0.252,0.308,0.44,away_win,False,Germany,True,0.252
-2026-06-25,Japan,Sweden,1,1,draw,0.64,0.233,0.127,home_win,False,Japan,True,0.233
+2026-06-25,Japan,Sweden,1,1,draw,0.64,0.233,0.128,home_win,False,Japan,True,0.233
 2026-06-26,Senegal,Iraq,5,0,home_win,0.555,0.249,0.196,home_win,True,Senegal,False,0.555
 2026-06-26,Norway,France,1,4,away_win,0.222,0.251,0.527,away_win,True,France,False,0.527
 2026-06-26,Uruguay,Spain,0,1,away_win,0.131,0.229,0.64,away_win,True,Spain,False,0.64
@@ -86,7 +86,7 @@ date,home,away,home_score,away_score,actual,p_home,p_draw,p_away,pick,correct,fa
 2026-07-02,Switzerland,Algeria,2,0,home_win,0.47,0.292,0.239,home_win,True,Switzerland,False,0.47
 2026-07-03,Australia,Egypt,1,1,draw,0.407,0.309,0.284,home_win,False,Australia,True,0.309
 2026-07-03,Argentina,Cape Verde,3,2,home_win,0.865,0.107,0.028,home_win,True,Argentina,False,0.865
-2026-07-03,Colombia,Ghana,1,0,home_win,0.76,0.191,0.048,home_win,True,Colombia,False,0.76
+2026-07-03,Colombia,Ghana,1,0,home_win,0.761,0.191,0.048,home_win,True,Colombia,False,0.761
 2026-07-04,Canada,Morocco,0,3,away_win,0.213,0.313,0.474,away_win,True,Morocco,False,0.474
 2026-07-04,Paraguay,France,0,1,away_win,0.125,0.214,0.661,away_win,True,France,False,0.661
 2026-07-05,Brazil,Norway,1,2,away_win,0.483,0.239,0.278,home_win,False,Brazil,True,0.278

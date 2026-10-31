@@ -263,14 +263,14 @@
       "home_score": 3,
       "away_score": 1,
       "actual": "home_win",
-      "p_home": 0.527,
+      "p_home": 0.528,
       "p_draw": 0.254,
       "p_away": 0.218,
       "pick": "home_win",
       "correct": true,
       "favorite": "Austria",
       "upset": false,
-      "p_actual": 0.527
+      "p_actual": 0.528
     },
     {
       "date": "2026-06-16",
@@ -953,7 +953,7 @@
       "actual": "draw",
       "p_home": 0.64,
       "p_draw": 0.233,
-      "p_away": 0.127,
+      "p_away": 0.128,
       "pick": "home_win",
       "correct": false,
       "favorite": "Japan",
@@ -1399,14 +1399,14 @@
       "home_score": 1,
       "away_score": 0,
       "actual": "home_win",
-      "p_home": 0.76,
+      "p_home": 0.761,
       "p_draw": 0.191,
       "p_away": 0.048,
       "pick": "home_win",
       "correct": true,
       "favorite": "Colombia",
       "upset": false,
-      "p_actual": 0.76
+      "p_actual": 0.761
     },
     {
       "date": "2026-07-04",
