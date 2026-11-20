@@ -153,7 +153,7 @@
       "actual": "home_win",
       "p_home": 0.465,
       "p_draw": 0.216,
-      "p_away": 0.319,
+      "p_away": 0.32,
       "pick": "home_win",
       "correct": true,
       "favorite": "Sweden",
@@ -311,14 +311,14 @@
       "home_score": 3,
       "away_score": 1,
       "actual": "home_win",
-      "p_home": 0.528,
+      "p_home": 0.527,
       "p_draw": 0.254,
       "p_away": 0.218,
       "pick": "home_win",
       "correct": true,
       "favorite": "Austria",
       "upset": false,
-      "p_actual": 0.528
+      "p_actual": 0.527
     },
     {
       "date": "2026-06-17",
@@ -376,7 +376,7 @@
       "away_score": 3,
       "actual": "away_win",
       "p_home": 0.161,
-      "p_draw": 0.228,
+      "p_draw": 0.229,
       "p_away": 0.61,
       "pick": "away_win",
       "correct": true,
@@ -407,14 +407,14 @@
       "home_score": 1,
       "away_score": 0,
       "actual": "home_win",
-      "p_home": 0.626,
+      "p_home": 0.625,
       "p_draw": 0.213,
       "p_away": 0.161,
       "pick": "home_win",
       "correct": true,
       "favorite": "Mexico",
       "upset": false,
-      "p_actual": 0.626
+      "p_actual": 0.625
     },
     {
       "date": "2026-06-18",
@@ -519,14 +519,14 @@
       "home_score": 0,
       "away_score": 4,
       "actual": "away_win",
-      "p_home": 0.104,
-      "p_draw": 0.227,
-      "p_away": 0.669,
+      "p_home": 0.103,
+      "p_draw": 0.225,
+      "p_away": 0.672,
       "pick": "away_win",
       "correct": true,
       "favorite": "Japan",
       "upset": false,
-      "p_actual": 0.669
+      "p_actual": 0.672
     },
     {
       "date": "2026-06-20",
@@ -615,14 +615,14 @@
       "home_score": 4,
       "away_score": 0,
       "actual": "home_win",
-      "p_home": 0.791,
+      "p_home": 0.79,
       "p_draw": 0.173,
       "p_away": 0.037,
       "pick": "home_win",
       "correct": true,
       "favorite": "Spain",
       "upset": false,
-      "p_actual": 0.791
+      "p_actual": 0.79
     },
     {
       "date": "2026-06-21",
@@ -743,14 +743,14 @@
       "home_score": 5,
       "away_score": 0,
       "actual": "home_win",
-      "p_home": 0.629,
+      "p_home": 0.628,
       "p_draw": 0.226,
       "p_away": 0.146,
       "pick": "home_win",
       "correct": true,
       "favorite": "Portugal",
       "upset": false,
-      "p_actual": 0.629
+      "p_actual": 0.628
     },
     {
       "date": "2026-06-23",
@@ -872,13 +872,13 @@
       "away_score": 1,
       "actual": "draw",
       "p_home": 0.64,
-      "p_draw": 0.233,
-      "p_away": 0.128,
+      "p_draw": 0.232,
+      "p_away": 0.127,
       "pick": "home_win",
       "correct": false,
       "favorite": "Japan",
       "upset": true,
-      "p_actual": 0.233
+      "p_actual": 0.232
     },
     {
       "date": "2026-06-25",
@@ -984,7 +984,7 @@
       "away_score": 5,
       "actual": "away_win",
       "p_home": 0.122,
-      "p_draw": 0.207,
+      "p_draw": 0.208,
       "p_away": 0.671,
       "pick": "away_win",
       "correct": true,
@@ -1176,7 +1176,7 @@
       "away_score": 1,
       "actual": "home_win",
       "p_home": 0.485,
-      "p_draw": 0.249,
+      "p_draw": 0.248,
       "p_away": 0.266,
       "pick": "home_win",
       "correct": true,
@@ -1529,7 +1529,7 @@
       "actual": "home_win",
       "p_home": 0.777,
       "p_draw": 0.156,
-      "p_away": 0.067,
+      "p_away": 0.068,
       "pick": "home_win",
       "correct": true,
       "favorite": "Argentina",
